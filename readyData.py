@@ -430,8 +430,17 @@ def xwhconvert(images,target=None,imageName=None,f=None,fc=None,train=True):
     #                                                                      np.array(imgesSlice_disc),np.array(ySlice_disc)
     # return imgesSlice_vertebra,ySlice_vertebra,imgesSlice_disc,ySlice_disc
 
-def dataStrange():
+def scanFeature(templete,img):
     pass
+
+def dealImg(image,y1,y2,x1,x2,sliceResize):
+    if y1<=0:
+        y1 = 0
+    if x1<=0:
+        x1 = 0
+    img = image[y1:y2,x1:x2]
+    nimg_x = cv2.resize(img, (sliceResize[0], sliceResize[1]))
+    return nimg_x[:, :, 1].reshape(sliceResize + [1])
 
 def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
     f = open(dataTxt,'r')
@@ -460,7 +469,7 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
 
         mean = np.mean(img)
         var = np.mean(np.square(img - mean))
-        img = (img - mean) / np.sqrt(var)
+        imgNorm = (img - mean) / np.sqrt(var)
 
         xy = np.array(list(map(lambda x:list(map(int,x.split(',')[2:])), d[1:]))) #从小到大
         xy = sorted(xy,key=lambda x:x[1])
@@ -494,9 +503,9 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
 
                 w1, h1 = m / 5, n / 20  # 椎间盘要求更长而不是更高  n控制高度
                 offset = 5
-                yoffset = 3
-                miny = y - deta
-                maxy = y + deta
+
+                miny = y - h1
+                maxy = y + h1
                 minx = x + offset - w1/2
                 maxx = x + offset + w1/2
                 if miny < 0:
@@ -509,41 +518,96 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                     maxx = n
                 if miny > m-10 or minx > n-10:
                     break
-                nimg_x = img[int(miny):int(maxy), int(minx):int(maxx)]
+
                 xlen2 = int(w1 / 2)
-                ylen2 = int(deta / 2)
 
-                # 截取上半部分
-                # nimg_x_u = nimg_x[:ylen2,:]
-                # nimg_x_u = cv2.resize(nimg_x_u, (sliceResize[0], sliceResize[1]))
-                # 截取下半部分
-                # nimg_x_d = nimg_x[ylen2:, :]
-                # nimg_x_d = cv2.resize(nimg_x_d, (sliceResize[0], sliceResize[1]))
-                # 截取右半部分
-                # nimg_x = np.where(nimg_x>0,1.0,0.0)
 
-                zero_left = np.zeros([nimg_x.shape[0],int(xlen2),3])
-                nimg_x_r = nimg_x[:, int(xlen2):]
+                # nimg_x_Norm = imgNorm[int(miny):int(maxy), int(minx):int(maxx)]
+                # nimg_x_r_Norm = nimg_x_Norm[:, int(xlen2):]
+                # nimg_x_r_Norm = np.where(nimg_x_r_Norm > imgNorm[y,x,0], nimg_x_r_Norm, 0)
+                # nimg_x_r_Norm = cv2.resize(nimg_x_r_Norm, (sliceResize[0], sliceResize[1]))
+
+                X = dealImg(img,
+                            int(miny), int(maxy), int(minx) + int(xlen2), int(maxx),
+                            sliceResize)
+
+                imgesSlice_disc.append(X)
+                ySlice_disc.append(v14)
+                v14count[v14] += 1
+
+                r = np.random.randint(0,10,1)[0]
+
+                if v14 == "v1":
+                    if r > 7:
+                        ry1 = np.random.randint(1,10,1)[0]
+                        ry2 = np.random.randint(1,10,1)[0]
+
+                        rx1 = np.random.randint(1,20,1)[0]
+                        rx2 = np.random.randint(1,20,1)[0]
+                        X = dealImg(img,
+                                    int(miny)-ry1, int(maxy)+ry2, int(minx)+ int(xlen2)-rx1, int(maxx) +rx2,
+                                    sliceResize)
+
+                        imgesSlice_disc.append(X)
+                        ySlice_disc.append(v14)
+                        v14count[v14] +=1
+                else:
+                    ry1 = np.random.randint(1, 10, 1)[0]
+                    ry2 = np.random.randint(1, 10, 1)[0]
+
+                    rx1 = np.random.randint(1, 20, 1)[0]
+                    rx2 = np.random.randint(1, 20, 1)[0]
+                    X = dealImg(img,
+                                int(miny) - ry1, int(maxy) + ry2, int(minx) + int(xlen2) - rx1, int(maxx) + rx2,
+                                sliceResize)
+
+                    imgesSlice_disc.append(X)
+                    ySlice_disc.append(v14)
+                    v14count[v14] += 1
+
+                #     plt.subplot(4, 5, int(i+5*1))
+                #     plt.title(v14)
+                #     plt.imshow(img[int(miny)-ry1: int(maxy)+ry2, int(minx)+ int(xlen2)-rx1:int(maxx)+rx2])
+                # plt.show()
 
                 # nimg_x_r_zero = np.concatenate([zero_left,nimg_x_r],axis=1)
-                nimg_x_r = cv2.resize(nimg_x_r, (sliceResize[0], sliceResize[1]))
 
+                # print("对右侧做数据增强")
+                # if v14 in ["v2","v3","v4"]:
+                #     for ii in range(10,40,20):
+                #         contrast = 1  # 对比度
+                #         brightness = ii  # 亮度
+                #         nimg_x_brightness = cv2.addWeighted(nimg_x_r, contrast, nimg_x_r, 0, brightness)
+                #         X = nimg_x_brightness[:, :, 1].reshape(sliceResize + [1])
+                #         imgesSlice_disc.append(X)
+                #         ySlice_disc.append(v14)
+                #         v14count[v14] += 1
+
+
+                # scanFeature(img[int(x-6):int(x+6), int(y-6):int(y+6)])
+                #
                 # plt.subplot(4, 5, int(1+5*1))
                 # plt.title(v14)
                 # plt.imshow(nimg_x)
                 #
+                # knn = cv2.createBackgroundSubtractorKNN(detectShadows = True)
+                # nimg_x_r1 = knn.apply(nimg_x_r.copy())
                 # plt.subplot(4, 5, int(2+5*1))
                 # plt.title(v14)
+                # plt.imshow(nimg_x_r1)
+                #
+                # plt.subplot(4, 5, int(3+5*1))
+                # plt.title(v14)
                 # plt.imshow(nimg_x_r)
+                #
+                # plt.subplot(4, 5, int(4+5*1))
+                # plt.title(v14)
+                # plt.imshow(nimg_x_r_Norm)
                 # plt.show()
 
                 #椎间盘要做一个三块的切片：保留 右半部，上半部，下半部
 
-                X = nimg_x_r[:,:,1].reshape(sliceResize + [1]) #以右侧来做判断
-                imgesSlice_disc.append(X)
-                ySlice_disc.append(v14)
-                v14count[v14] +=1
-
+                nimg_x = img[int(miny):int(maxy), int(minx):int(maxx)]
                 nimg_x = cv2.resize(nimg_x, (sliceResize[0], sliceResize[1]))
                 if v5 == "v5": #如果等于v5 做数据增强
 
@@ -607,10 +671,9 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 labels = target[0].split('_')
                 v12 = labels[0]
                 v5 = labels[1]
-                w1, h1 = m / 6, n / 8  # 识别框的宽度和高度 更大
-                offset = 5
-                miny = y - deta
-                maxy = y + deta
+                w1, h1 = m / 5, n / 10  # 识别框的宽度和高度 更大
+                miny = y - h1
+                maxy = y + h1
                 minx = x - w1 / 2
                 maxx = x + w1 / 2
 
@@ -619,9 +682,6 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 if minx < 0:
                     minx = 0
                 nimg_x = img[int(miny):int(maxy), int(minx):int(maxx)]
-
-
-                ylen2 = int((maxy - miny) / 2)
 
                 # nimg_x_u = nimg_x[:ylen2, :]
                 # nimg_x_u = cv2.resize(nimg_x_u, (sliceResize[0], sliceResize[1]))
@@ -632,9 +692,9 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 nimg_x = cv2.resize(nimg_x, (sliceResize[0], sliceResize[1]))
 
                 if v12 == "v1":
-                    # imgesSlice_vertebra.append(nimg_x[:, :, 1].reshape(sliceResize + [1]))
-                    # ySlice_vertebra.append(v12)  # 0:非椎体疝出 1：椎体疝出
-                    # vertebracount[v12] += 1
+                    imgesSlice_vertebra.append(nimg_x[:, :, 1].reshape(sliceResize + [1]))
+                    ySlice_vertebra.append(v12)  # 0:非椎体疝出 1：椎体疝出
+                    vertebracount[v12] += 1
 
                     nimg_x_flip = cv2.flip(nimg_x, 1)
                     X = nimg_x_flip[:, :, 1].reshape(sliceResize + [1])
@@ -672,16 +732,16 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
         imgesSlice_discv5_train.append(imgesSlice_discv5)
         ySlice_discv5_train.append(ySlice_discv5)
 
-    # plt.subplot(1,3,1)
-    # plt.title("vertebra")
-    # plt.bar(list(vertebracount.keys()),list(vertebracount.values()))
-    # plt.subplot(1,3,2)
-    # plt.title("v14count")
-    # plt.bar(list(v14count.keys()),list(v14count.values()))
-    # plt.subplot(1,3,3)
-    # plt.title("v1v5")
-    # plt.bar(list(v15count.keys()),list(v15count.values()))
-    # plt.show()
+    plt.subplot(1,3,1)
+    plt.title("vertebra")
+    plt.bar(list(vertebracount.keys()),list(vertebracount.values()))
+    plt.subplot(1,3,2)
+    plt.title("v14count")
+    plt.bar(list(v14count.keys()),list(v14count.values()))
+    plt.subplot(1,3,3)
+    plt.title("v1v5")
+    plt.bar(list(v15count.keys()),list(v15count.values()))
+    plt.show()
 
     np.save(r"data2class2/imgesSlice_vertebra_{}.npy".format(flag),np.array(imgesSlice_vertebra_train)) # v12
     np.save(r"data2class2/ySlice_vertebra_{}.npy".format(flag), np.array(ySlice_vertebra_train))

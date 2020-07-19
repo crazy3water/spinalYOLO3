@@ -145,6 +145,8 @@ class CNN(object):
         inputLayer = keras.layers.Input(shape=X.shape[-3:])
         # model = self.CNNmodel(inputLayer,classes=len(classes))
         model = self.denseNet(inputLayer, classes=len(self.disc_label), inputshape=X.shape[-3:])
+        # model = self.ResNet(inputLayer, classes=len(self.disc_label), inputshape=X.shape[-3:])
+
         model.compile(optimizer="adam",loss=['sparse_categorical_crossentropy'], metrics=['sparse_categorical_accuracy'])
         # model.summary()
         print("disc...model...over")
@@ -162,6 +164,7 @@ class CNN(object):
         if self.disc_model == None:
             inputLayer = keras.layers.Input(shape=self.resizeShape+[1])
             model = self.denseNet(inputLayer, classes=len(self.disc_label), inputshape=self.resizeShape+ [1])
+            # model = self.ResNet(inputLayer, classes=len(self.disc_label), inputshape=self.resizeShape+ [1])
             model.load_weights(r"logs/002/disc.h5")
             self.disc_model = model
             return model
@@ -264,8 +267,8 @@ class CNN(object):
 
 def _main():
     cnn = CNN(fileName=r"data2class2",sliceResize=[48, 32])
-    cnn.train_discv5()
-    cnn.train_vertebra()
+    # cnn.train_discv5()
+    # cnn.train_vertebra()
     cnn.train_disc() #v1-v4
 
 
@@ -319,9 +322,9 @@ def ReadySlice2class(dataTxt=r"resultStep2.txt",resultTxt=r"resultStep3.txt",sli
             if target[0] == 'disc':
                 w1, h1 = m / 5, n / 20  # 椎间盘要求更长而不是更高  n控制高度
                 offset = 5
-                yoffset = 3
-                miny = y - deta
-                maxy = y + deta
+
+                miny = y - h1
+                maxy = y + h1
                 minx = x + offset - w1 / 2
                 maxx = x + offset + w1 / 2
                 if miny < 0:
@@ -340,9 +343,9 @@ def ReadySlice2class(dataTxt=r"resultStep2.txt",resultTxt=r"resultStep3.txt",sli
                 xlen2 = int((maxx-minx)/2)
                 ylen2 = int((maxy - miny) / 2)
 
-                nimg_x_r = nimg_x[:, int(xlen2*2/3):]
+                nimg_x_r = nimg_x[:, int(xlen2):]
                 print(imgPath, "---", xlen2, "--img",img.shape, "--nimg_x",nimg_x.shape,"--nimg_x_r",nimg_x_r.shape,"--",deta,"--x",(int(minx),int(maxx)),"--",(int(miny),int(maxy)))
-                nimg_x_r = cv2.resize(nimg_x_r, (sliceResize[0], sliceResize[1]), interpolation=cv2.INTER_CUBIC)
+                nimg_x_r = cv2.resize(nimg_x_r, (sliceResize[0], sliceResize[1]))
 
                 # plt.figure(1)
                 # plt.imshow(nimg_x_r)
@@ -366,13 +369,11 @@ def ReadySlice2class(dataTxt=r"resultStep2.txt",resultTxt=r"resultStep3.txt",sli
                 prex = x
                 prey = y
             else:
-                w1, h1 = m / 6, n / 12  # 识别框的宽度和高度 更大
-                offset = 5
-                yoffset = 3
-                miny = y - deta
-                maxy = y + deta
-                minx = x + offset - w1 / 2
-                maxx = x + offset + w1 / 2
+                w1, h1 = m / 5, n / 10  # 识别框的宽度和高度 更大
+                miny = y - h1
+                maxy = y + h1
+                minx = x - w1 / 2
+                maxx = x + w1 / 2
                 if miny < 0:
                     miny = 0
                 if maxy > m:

@@ -159,16 +159,16 @@ if __name__ == "__main__":
         # readyData.ready(dataPath,jsonPath)
         # train._main()
         #     ------------------分类数据准备---------------------
-        # trainClf = r"trainClf1.txt"
-        # valClf = r"valClf1.txt"
-        # readyData.getTrinClf(trainClf, flag="train",sliceResize=[48, 32])
-        # readyData.getTrinClf(valClf, flag="val",sliceResize=[48, 32])
+        trainClf = r"trainClf1.txt"
+        valClf = r"valClf1.txt"
+        readyData.getTrinClf(trainClf, flag="train",sliceResize=[48, 32])
+        readyData.getTrinClf(valClf, flag="val",sliceResize=[48, 32])
         classifycation._main()
     else:
         #------------------测试---------------------
             #------------------测试数据准备---------------------
         # print("准备：jpg test.txt 在测试准备数据时还存在一个cnn网络分类t1 t2")
-        readyData.step1Test(dataPath=dataTestPath,Totxt=r"test.txt")
+        # readyData.step1Test(dataPath=dataTestPath,Totxt=r"test.txt")
 
         # print("检测")
         yolo.detect_imgs(yolo.YOLO(),testpath=r"test.txt")   #得到结果---->resultStep1.txt

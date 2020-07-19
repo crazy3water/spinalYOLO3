@@ -302,7 +302,7 @@ def step1(dataPath, jsondata, truejsonPath=None):
     study = os.listdir(dataPath)
     for studyI in study:
         Impath = os.listdir(os.path.join(dataPath, studyI))
-        print("study:", studyI)
+        # print("study:", studyI)
         for Impathi in Impath:
             try:
                 studyUid, seriesUid, instanceUid,desc,idex = dicom_metainfo(os.path.join(os.path.join(dataPath, studyI), Impathi),
@@ -342,7 +342,7 @@ def step1(dataPath, jsondata, truejsonPath=None):
 
                         for point in studyid["data"][0]["annotation"][0]["data"]["point"]:
                             x, y = point['coord']
-                            print("zIndex:",point["zIndex"] ," red")
+                            # print("zIndex:",point["zIndex"] ," red")
                             tag = point['tag']
                             loc = tag['identification']
 
@@ -430,11 +430,29 @@ def metricDetect(yolo,truejson,testFile):
     with open(truejson,"r",encoding="utf-8") as f:
         truejsonTarge = json.loads(f.read())
 
+    from classifycation import CNN
+
+    sliceResize = [48, 32]
+    cnn_disc = CNN(sliceResize)
+    model_disc = cnn_disc.loadTestdisc()
+    cnn_discv5 = CNN(sliceResize)
+    model_discv5 = cnn_discv5.loadTestdiscv5()
+    cnn_vertebra = CNN(sliceResize)
+    model_vertebra = cnn_vertebra.loadTestvertebra()
+
+    TruePointNum = 0
     TP = 0 #在目标内且 如果分类正确
     FP = 0 #在目标内且 分类错误 and 如果预测的点不落在任何标注点
     FN = 0 #标注点没有被任何预测点正确命中
+
+    vertebraTP = 0
+    vertebraFP = 0
+    discTP = 0
+    discFP = 0
+
+
+
     mm6c = 0
-    mm8c = 0
     mmc = 0
     count = 0
     study = os.listdir(testFile)
@@ -456,6 +474,15 @@ def metricDetect(yolo,truejson,testFile):
 
                         r_image, points = yolo.detect_image(image)
                         #判断检测点与真实点
+
+                        # mean = np.mean(image)
+                        # std = np.mean(np.square(image - mean))
+                        # image = (image - mean) / np.sqrt(std)
+
+                        image = np.asarray(image)
+                        m, n, _ = image.shape
+
+                        matchedIndex = []
                         for truepoint in truepoints:
                             mmc += 1
                             xt, yt = list(map(int, truepoint["coord"]))
@@ -470,13 +497,63 @@ def metricDetect(yolo,truejson,testFile):
                                 mm = 6
                                 mm8 = 8
                                 if x <= xt + mm and x >= xt - mm and y <= yt + mm and y >= yt - mm:  # 在标注点内
+                                    matchedIndex.append(index)
                                     mm6c += 1
-                                    TP += 1
+                                    TruePointNum += 1
+
+                                    w1, h1 = m / 5, n / 20  # 椎间盘要求更长而不是更高  n控制高度
+                                    offset = 5
+
+                                    miny = y - h1
+                                    maxy = y + h1
+                                    minx = x + offset - w1 / 2
+                                    maxx = x + offset + w1 / 2
+
+                                    nimg_x = image[int(miny):int(maxy), int(minx):int(maxx)]
+                                    xlen2 = int(w1 / 2)
+                                    nimg_x_r = nimg_x[:, int(xlen2):]
+                                    # nimg_x_r = np.where(nimg_x_r > 0, nimg_x_r, 0)
+
+                                    nimg_x_r = cv2.resize(nimg_x_r, (sliceResize[0], sliceResize[1]))
+                                    X = nimg_x_r[:, :, 1].reshape([1] + sliceResize + [1])
+
+                                    if "disc" in tag.keys():
+                                        p = model_disc.predict(X)
+                                        pre = np.argmax(p, axis=1)
+                                        pc = cnn_disc.disc_label[int(pre)]
+                                        if pc == ct:
+                                            TP += 1
+                                            discTP += 1
+                                        else:
+                                            FP += 1
+                                            discFP += 1
+                                    else:
+                                        w1, h1 = m / 5, n / 10  # 识别框的宽度和高度 更大
+                                        miny = y - h1
+                                        maxy = y + h1
+                                        minx = x - w1 / 2
+                                        maxx = x + w1 / 2
+
+                                        nimg_x = image[int(miny):int(maxy), int(minx):int(maxx)]
+                                        nimg_x = cv2.resize(nimg_x, (sliceResize[0], sliceResize[1]))[:, :, 1]
+
+                                        X = nimg_x.reshape([1] + sliceResize + [1])
+                                        p = model_vertebra.predict(X)
+                                        pre = np.argmax(p, axis=1)
+                                        pc = cnn_vertebra.vertebra_label[int(pre)]
+                                        if pc == ct:
+                                            TP += 1
+                                            vertebraTP += 1
+                                        else:
+                                            FP += 1
+                                            vertebraFP += 1
                                     break
+                        FP += len(points) - len(matchedIndex)
             except:
                 print("文件错误：", os.path.join(os.path.join(dataPath, studyI), Impathi))
     print("总共点数:",mmc)
-    print("TP/总定位:",TP/mmc)
+    print("TP/总定位:",TruePointNum/mmc,"TP/(TP+FP):",TP/(TP+FP+1e-2))
+    print("discTP/(TP+FP):",discTP/(discTP+discFP),"vertebraTP/(TP+FP):",vertebraTP/(vertebraTP+vertebraFP))
 
 
 if __name__ == "__main__":
