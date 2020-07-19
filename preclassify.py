@@ -176,7 +176,7 @@ def dicom2array1(dcm_path):
         try:
             description = image_file_reader.GetMetaData('0008|103e')
             inde = int(image_file_reader.GetMetaData('0020|0013'))
-            if inde >=2 and inde <=7:
+            if inde >=4 and inde <=7:
                 if re.match(r"(.*)[tT]2(.*)[sS][aA][gG](.*)",description,0) or\
                         re.match(r"(.*)[sS][aA][gG](.*)[tT]2(.*)",description,0):
                      #判断是否为T2
