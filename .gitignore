@@ -1,0 +1,11 @@
+.idea
+__pycache__
+data2class
+data2class1
+data2class2
+font
+logs
+model_data
+VOCdevkit
+image.npz
+target.npz

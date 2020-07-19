@@ -1,0 +1,885 @@
+VOCdevkit\Test\JPEGImages/study201_image11.jpg disc,218,135 disc,230,67 disc,202,246 disc,200,209 disc,224,102 disc,205,171 disc,201,247 disc,199,210 vertebra,229,87 vertebra,206,266 vertebra,220,119 vertebra,199,230 vertebra,210,151 vertebra,200,190
+VOCdevkit\Test\JPEGImages/study201_image12.jpg disc,217,283 disc,230,35 disc,200,170 disc,211,134 disc,210,283 disc,228,67 disc,221,101 disc,197,209 disc,199,247 vertebra,229,54 vertebra,220,96 vertebra,228,54 vertebra,205,266 vertebra,224,87 vertebra,218,119 vertebra,208,151 vertebra,197,230 vertebra,199,190
+VOCdevkit\Test\JPEGImages/study201_image13.jpg disc,216,283 disc,229,35 disc,226,67 disc,210,135 disc,200,170 disc,210,283 disc,200,247 disc,196,209 disc,225,67 disc,219,101 vertebra,228,54 vertebra,219,96 vertebra,223,87 vertebra,205,266 vertebra,218,120 vertebra,197,230 vertebra,223,87 vertebra,207,152 vertebra,198,190
+VOCdevkit\Test\JPEGImages/study201_image14.jpg disc,229,34 disc,225,67 disc,211,282 disc,200,170 disc,210,135 disc,199,246 disc,196,209 disc,218,101 disc,225,67 vertebra,218,96 vertebra,228,54 vertebra,206,265 vertebra,217,120 vertebra,222,86 vertebra,197,230 vertebra,207,151 vertebra,199,190
+VOCdevkit\Test\JPEGImages/study201_image15.jpg disc,212,282 disc,230,35 disc,211,282 disc,226,67 disc,212,135 disc,200,169 disc,200,246 disc,225,67 disc,197,209 disc,219,101 vertebra,220,97 vertebra,228,54 vertebra,206,264 vertebra,223,87 vertebra,209,151 vertebra,218,119 vertebra,198,229 vertebra,198,190
+VOCdevkit\Test\JPEGImages/study201_image16.jpg disc,211,282 disc,229,67 disc,210,282 disc,205,171 disc,212,134 disc,223,102 disc,198,209 disc,200,246 vertebra,225,86 vertebra,206,265 vertebra,219,120 vertebra,209,153 vertebra,199,190 vertebra,198,230
+VOCdevkit\Test\JPEGImages/study201_image32.jpg
+VOCdevkit\Test\JPEGImages/study201_image33.jpg
+VOCdevkit\Test\JPEGImages/study201_image34.jpg disc,163,198
+VOCdevkit\Test\JPEGImages/study201_image35.jpg
+VOCdevkit\Test\JPEGImages/study201_image36.jpg
+VOCdevkit\Test\JPEGImages/study201_image37.jpg
+VOCdevkit\Test\JPEGImages/study202_image10.jpg disc,251,149 disc,234,322 disc,234,204 disc,258,153 disc,234,264 vertebra,263,129 vertebra,248,178 vertebra,233,294 vertebra,233,234
+VOCdevkit\Test\JPEGImages/study202_image11.jpg disc,283,55 disc,236,322 disc,267,100 disc,234,204 disc,252,150 disc,236,323 disc,232,265 vertebra,278,81 vertebra,263,129 vertebra,246,178 vertebra,232,234 vertebra,233,294
+VOCdevkit\Test\JPEGImages/study202_image12.jpg disc,281,56 disc,241,321 disc,234,205 disc,266,102 disc,235,264 disc,250,150 vertebra,276,81 vertebra,261,129 vertebra,234,234 vertebra,233,293 vertebra,245,177
+VOCdevkit\Test\JPEGImages/study202_image13.jpg disc,278,56 disc,236,322 disc,234,204 disc,266,102 disc,234,263 disc,250,150 vertebra,275,80 vertebra,261,129 vertebra,233,292 vertebra,233,234 vertebra,245,177
+VOCdevkit\Test\JPEGImages/study202_image2.jpg disc,200,470 disc,234,275 disc,246,182 disc,261,137 vertebra,249,163 vertebra,265,115
+VOCdevkit\Test\JPEGImages/study202_image21.jpg disc,263,311 vertebra,261,340
+VOCdevkit\Test\JPEGImages/study202_image22.jpg disc,248,311 disc,244,209 disc,244,261 disc,275,101 disc,258,155 vertebra,244,291 vertebra,244,233 vertebra,262,131 vertebra,249,180
+VOCdevkit\Test\JPEGImages/study202_image23.jpg disc,234,204 disc,241,315 disc,259,156 disc,233,263 vertebra,277,130 vertebra,233,293 vertebra,232,234 vertebra,248,179
+VOCdevkit\Test\JPEGImages/study202_image24.jpg disc,283,58 disc,235,322 disc,235,322 disc,267,103 disc,234,204 disc,231,264 disc,257,155 vertebra,279,82 vertebra,233,293 vertebra,264,129 vertebra,232,234 vertebra,246,178
+VOCdevkit\Test\JPEGImages/study202_image25.jpg disc,280,59 disc,234,205 disc,241,315 disc,264,106 disc,234,263 disc,250,153 vertebra,243,343 vertebra,276,81 vertebra,233,293 vertebra,261,129 vertebra,234,235 vertebra,246,178
+VOCdevkit\Test\JPEGImages/study202_image26.jpg disc,279,59 disc,236,209 disc,242,315 disc,251,154 disc,233,262 disc,265,105 vertebra,243,342 vertebra,276,81 vertebra,232,292 vertebra,234,235 vertebra,262,129 vertebra,247,179
+VOCdevkit\Test\JPEGImages/study202_image34.jpg disc,251,163 disc,263,312 disc,236,211 vertebra,236,243
+VOCdevkit\Test\JPEGImages/study202_image35.jpg disc,259,311 disc,237,265 disc,236,209 disc,275,106 disc,243,262 disc,259,155 vertebra,236,233 vertebra,248,290 vertebra,263,131 vertebra,247,180
+VOCdevkit\Test\JPEGImages/study202_image36.jpg disc,276,105 disc,243,316 disc,236,209 disc,259,155 disc,235,263 vertebra,235,292 vertebra,266,130 vertebra,235,234 vertebra,234,292 vertebra,248,179
+VOCdevkit\Test\JPEGImages/study202_image37.jpg disc,281,58 disc,235,322 disc,267,102 disc,235,208 disc,252,153 disc,234,264 vertebra,278,82 vertebra,263,129 vertebra,234,235 vertebra,233,293 vertebra,246,179
+VOCdevkit\Test\JPEGImages/study202_image38.jpg disc,279,59 disc,242,321 disc,236,208 disc,264,105 disc,234,265 disc,250,153 vertebra,276,81 vertebra,261,129 vertebra,233,292 vertebra,234,235 vertebra,245,178
+VOCdevkit\Test\JPEGImages/study202_image39.jpg disc,323,310 disc,276,58 disc,242,321 disc,235,205 disc,266,105 disc,235,264 disc,249,154 vertebra,275,81 vertebra,235,235 vertebra,234,291 vertebra,261,129 vertebra,245,178
+VOCdevkit\Test\JPEGImages/study202_image47.jpg
+VOCdevkit\Test\JPEGImages/study202_image48.jpg
+VOCdevkit\Test\JPEGImages/study202_image49.jpg
+VOCdevkit\Test\JPEGImages/study202_image50.jpg
+VOCdevkit\Test\JPEGImages/study202_image51.jpg disc,276,341
+VOCdevkit\Test\JPEGImages/study202_image52.jpg
+VOCdevkit\Test\JPEGImages/study202_image8.jpg disc,243,264 disc,267,313 vertebra,263,344
+VOCdevkit\Test\JPEGImages/study202_image9.jpg disc,251,148 disc,252,313 disc,233,204 disc,276,102 disc,245,262 disc,259,153 vertebra,263,130 vertebra,248,179 vertebra,247,290 vertebra,235,234
+VOCdevkit\Test\JPEGImages/study203_image10.jpg disc,259,88 disc,241,331 disc,220,229 disc,225,281 disc,232,179 disc,245,131 vertebra,229,300 vertebra,242,161 vertebra,225,254 vertebra,251,113 vertebra,243,158 vertebra,219,257 vertebra,228,206 vertebra,230,305
+VOCdevkit\Test\JPEGImages/study203_image11.jpg disc,239,129 disc,253,85 disc,252,85 disc,242,331 disc,226,282 disc,219,230 disc,228,178 disc,242,130 vertebra,261,66 vertebra,248,110 vertebra,246,359 vertebra,218,257 vertebra,249,110 vertebra,235,157 vertebra,226,206 vertebra,231,307
+VOCdevkit\Test\JPEGImages/study203_image12.jpg disc,259,42 disc,252,85 disc,252,85 disc,242,331 disc,225,283 disc,241,130 disc,219,231 disc,226,178 vertebra,257,66 vertebra,246,109 vertebra,243,359 vertebra,248,110 vertebra,225,206 vertebra,218,257 vertebra,233,157 vertebra,229,308
+VOCdevkit\Test\JPEGImages/study203_image13.jpg disc,260,377 disc,248,377 disc,242,332 disc,257,86 disc,220,231 disc,226,284 disc,242,130 disc,228,179 vertebra,261,66 vertebra,248,358 vertebra,250,109 vertebra,246,359 vertebra,235,157 vertebra,219,257 vertebra,226,206 vertebra,229,310
+VOCdevkit\Test\JPEGImages/study203_image14.jpg disc,242,331 disc,262,86 disc,227,284 disc,250,131 disc,226,232 disc,234,179 vertebra,244,357 vertebra,243,357 vertebra,259,108 vertebra,230,311 vertebra,244,157 vertebra,225,257 vertebra,229,205
+VOCdevkit\Test\JPEGImages/study203_image15.jpg disc,221,231 disc,228,288 disc,246,337 disc,228,377 disc,235,181 disc,258,136 disc,228,233 vertebra,243,313 vertebra,246,357 vertebra,264,114 vertebra,247,161 vertebra,231,208 vertebra,227,260
+VOCdevkit\Test\JPEGImages/study203_image17.jpg disc,242,330 disc,259,92 disc,225,229 disc,231,180 disc,226,281 disc,248,134 vertebra,243,158 vertebra,251,113 vertebra,220,257 vertebra,230,307 vertebra,229,206
+VOCdevkit\Test\JPEGImages/study203_image18.jpg disc,244,329 disc,252,88 disc,220,230 disc,228,280 disc,228,179 disc,243,132 vertebra,262,67 vertebra,233,163 vertebra,248,114 vertebra,233,307 vertebra,226,257 vertebra,235,157 vertebra,226,206 vertebra,247,113
+VOCdevkit\Test\JPEGImages/study203_image19.jpg disc,251,86 disc,245,329 disc,221,231 disc,227,282 disc,229,179 disc,243,131 vertebra,260,67 vertebra,248,114 vertebra,235,158 vertebra,232,308 vertebra,250,109 vertebra,225,258 vertebra,227,205
+VOCdevkit\Test\JPEGImages/study203_image2.jpg disc,155,51 disc,141,100 vertebra,180,108
+VOCdevkit\Test\JPEGImages/study203_image24.jpg disc,84,114
+VOCdevkit\Test\JPEGImages/study203_image25.jpg
+VOCdevkit\Test\JPEGImages/study203_image26.jpg
+VOCdevkit\Test\JPEGImages/study203_image27.jpg
+VOCdevkit\Test\JPEGImages/study203_image28.jpg
+VOCdevkit\Test\JPEGImages/study203_image29.jpg
+VOCdevkit\Test\JPEGImages/study203_image3.jpg disc,145,100
+VOCdevkit\Test\JPEGImages/study203_image34.jpg disc,260,92 disc,242,330 disc,225,230 disc,226,281 disc,232,180 disc,247,134 vertebra,250,114 vertebra,243,157 vertebra,220,257 vertebra,230,308 vertebra,228,206
+VOCdevkit\Test\JPEGImages/study203_image35.jpg disc,244,329 disc,252,88 disc,219,230 disc,228,280 disc,228,179 disc,243,132 vertebra,233,163 vertebra,248,113 vertebra,233,308 vertebra,235,157 vertebra,226,257 vertebra,226,205 vertebra,247,113
+VOCdevkit\Test\JPEGImages/study203_image36.jpg disc,251,87 disc,245,329 disc,219,232 disc,226,282 disc,228,180 disc,243,132 vertebra,248,114 vertebra,235,157 vertebra,232,308 vertebra,250,109 vertebra,227,205 vertebra,225,257
+VOCdevkit\Test\JPEGImages/study204_image12.jpg disc,188,367 disc,184,280 disc,192,193 disc,205,116 disc,184,280 disc,187,322 disc,189,235 disc,200,155 vertebra,185,315 vertebra,190,346 vertebra,203,137 vertebra,188,347 vertebra,198,176 vertebra,191,214 vertebra,184,303 vertebra,186,257
+VOCdevkit\Test\JPEGImages/study204_image13.jpg disc,205,86 disc,190,367 disc,192,194 disc,184,280 disc,189,235 disc,204,118 disc,184,323 disc,199,155 vertebra,204,101 vertebra,188,345 vertebra,203,138 vertebra,191,214 vertebra,198,177 vertebra,187,346 vertebra,184,302 vertebra,186,256
+VOCdevkit\Test\JPEGImages/study204_image14.jpg disc,183,323 disc,206,86 disc,183,323 disc,189,366 disc,183,278 disc,191,194 disc,187,235 disc,197,155 disc,202,119 vertebra,203,102 vertebra,200,138 vertebra,183,299 vertebra,197,174 vertebra,190,213 vertebra,185,345 vertebra,185,255
+VOCdevkit\Test\JPEGImages/study204_image15.jpg disc,183,323 disc,190,365 disc,182,319 disc,204,85 disc,182,277 disc,190,194 disc,196,155 disc,186,235 disc,199,118 vertebra,204,75 vertebra,198,138 vertebra,185,344 vertebra,201,101 vertebra,192,175 vertebra,178,299 vertebra,184,255 vertebra,189,213
+VOCdevkit\Test\JPEGImages/study204_image16.jpg disc,211,22 disc,206,50 disc,180,322 disc,182,319 disc,188,366 disc,204,85 disc,182,278 disc,196,154 disc,191,194 disc,186,235 disc,199,117 vertebra,203,76 vertebra,185,345 vertebra,198,137 vertebra,201,100 vertebra,192,174 vertebra,177,299 vertebra,184,255 vertebra,189,214
+VOCdevkit\Test\JPEGImages/study204_image17.jpg disc,180,322 disc,194,155 disc,188,359 disc,205,85 disc,182,320 disc,182,278 disc,192,194 disc,196,155 disc,186,235 disc,200,117 vertebra,206,75 vertebra,203,101 vertebra,203,101 vertebra,185,343 vertebra,192,174 vertebra,198,137 vertebra,178,299 vertebra,184,254 vertebra,189,214
+VOCdevkit\Test\JPEGImages/study204_image2.jpg disc,245,295 disc,246,231 disc,261,119 disc,263,69 disc,258,151 disc,242,265 disc,250,196 disc,250,339 vertebra,246,231 vertebra,248,325 vertebra,274,437 vertebra,257,168 vertebra,248,215 vertebra,243,245 vertebra,246,312
+VOCdevkit\Test\JPEGImages/study204_image23.jpg disc,202,119 disc,201,130 disc,197,191 disc,185,281 disc,189,230 disc,188,323 disc,199,158 vertebra,187,244 vertebra,189,346 vertebra,191,215 vertebra,185,257 vertebra,199,144 vertebra,197,175 vertebra,185,301
+VOCdevkit\Test\JPEGImages/study204_image24.jpg disc,205,86 disc,198,193 disc,184,280 disc,184,323 disc,204,118 disc,190,234 disc,200,156 vertebra,193,175 vertebra,204,102 vertebra,192,213 vertebra,186,346 vertebra,202,137 vertebra,183,302 vertebra,199,176 vertebra,186,256
+VOCdevkit\Test\JPEGImages/study204_image25.jpg disc,204,86 disc,187,358 disc,182,323 disc,183,276 disc,191,193 disc,197,155 disc,186,234 disc,200,119 vertebra,186,242 vertebra,202,102 vertebra,192,175 vertebra,199,138 vertebra,184,344 vertebra,178,300 vertebra,189,213 vertebra,184,255
+VOCdevkit\Test\JPEGImages/study204_image26.jpg disc,188,359 disc,177,318 disc,202,85 disc,178,277 disc,190,193 disc,193,155 disc,184,234 disc,199,118 vertebra,184,344 vertebra,200,101 vertebra,197,138 vertebra,183,255 vertebra,191,176 vertebra,188,214 vertebra,176,300
+VOCdevkit\Test\JPEGImages/study204_image27.jpg disc,205,50 disc,187,356 disc,178,318 disc,198,155 disc,184,276 disc,203,85 disc,191,193 disc,187,235 disc,199,119 vertebra,203,77 vertebra,179,256 vertebra,184,342 vertebra,178,299 vertebra,198,173 vertebra,192,174 vertebra,185,255 vertebra,199,137 vertebra,189,215 vertebra,201,101
+VOCdevkit\Test\JPEGImages/study204_image28.jpg disc,177,318 disc,190,356 disc,204,86 disc,197,155 disc,178,277 disc,191,193 disc,185,234 disc,199,118 vertebra,184,243 vertebra,199,136 vertebra,186,341 vertebra,198,137 vertebra,201,101 vertebra,192,176 vertebra,177,299 vertebra,183,255 vertebra,188,214
+VOCdevkit\Test\JPEGImages/study204_image34.jpg disc,209,313 disc,232,132 disc,218,266 disc,213,370 disc,224,226 disc,227,178 vertebra,227,165 vertebra,212,296 vertebra,231,155 vertebra,220,248 vertebra,210,343 vertebra,225,200
+VOCdevkit\Test\JPEGImages/study204_image35.jpg disc,235,57 disc,226,422 disc,234,136 disc,224,225 disc,236,98 disc,210,321 disc,217,268 disc,210,369 disc,234,135 disc,228,178 vertebra,235,85 vertebra,234,116 vertebra,213,396 vertebra,218,247 vertebra,233,157 vertebra,227,203 vertebra,210,344 vertebra,214,294
+VOCdevkit\Test\JPEGImages/study204_image36.jpg disc,210,369 disc,235,55 disc,209,369 disc,215,421 disc,219,221 disc,234,97 disc,210,316 disc,214,268 disc,226,177 disc,231,134 vertebra,236,38 vertebra,214,276 vertebra,234,85 vertebra,214,452 vertebra,211,394 vertebra,209,341 vertebra,216,244 vertebra,213,291 vertebra,229,157 vertebra,232,115 vertebra,226,200
+VOCdevkit\Test\JPEGImages/study204_image37.jpg disc,236,22 disc,212,406 disc,223,177 disc,205,368 disc,235,56 disc,204,369 disc,232,98 disc,208,316 disc,217,419 disc,218,221 disc,214,267 disc,225,176 disc,227,133 vertebra,215,452 vertebra,213,277 vertebra,241,23 vertebra,237,38 vertebra,232,89 vertebra,234,73 vertebra,211,395 vertebra,225,199 vertebra,215,245 vertebra,211,290 vertebra,228,114 vertebra,226,157 vertebra,203,342
+VOCdevkit\Test\JPEGImages/study204_image38.jpg disc,236,23 disc,210,369 disc,235,56 disc,209,369 disc,230,98 disc,214,420 disc,209,316 disc,224,176 disc,218,221 disc,213,268 disc,226,132 vertebra,237,38 vertebra,231,88 vertebra,234,74 vertebra,211,396 vertebra,203,341 vertebra,227,114 vertebra,225,156 vertebra,219,198 vertebra,211,291 vertebra,215,244
+VOCdevkit\Test\JPEGImages/study204_image39.jpg disc,237,23 disc,214,422 disc,235,56 disc,203,315 disc,233,97 disc,209,365 disc,220,220 disc,225,177 disc,213,267 disc,228,133 vertebra,237,38 vertebra,241,23 vertebra,232,86 vertebra,235,75 vertebra,211,394 vertebra,224,197 vertebra,203,340 vertebra,210,291 vertebra,230,114 vertebra,217,244 vertebra,226,157
+VOCdevkit\Test\JPEGImages/study204_image45.jpg vertebra,163,173
+VOCdevkit\Test\JPEGImages/study204_image46.jpg vertebra,162,173
+VOCdevkit\Test\JPEGImages/study204_image47.jpg
+VOCdevkit\Test\JPEGImages/study204_image48.jpg
+VOCdevkit\Test\JPEGImages/study204_image49.jpg
+VOCdevkit\Test\JPEGImages/study204_image50.jpg
+VOCdevkit\Test\JPEGImages/study205_image11.jpg disc,278,43 disc,271,386 disc,275,89 disc,233,325 disc,221,223 disc,256,133 disc,221,266 disc,234,175 vertebra,279,68 vertebra,277,361 vertebra,265,105 vertebra,248,150 vertebra,259,116 vertebra,229,297 vertebra,242,160 vertebra,219,250 vertebra,231,196
+VOCdevkit\Test\JPEGImages/study205_image12.jpg disc,277,328 disc,276,46 disc,288,167 disc,235,165 disc,226,218 disc,227,267 disc,257,128 disc,221,270 disc,273,87 disc,229,325 vertebra,220,248 vertebra,290,150 vertebra,227,240 vertebra,275,67 vertebra,264,107 vertebra,246,149 vertebra,227,297 vertebra,228,194
+VOCdevkit\Test\JPEGImages/study205_image13.jpg disc,272,45 disc,243,168 disc,251,126 disc,221,218 disc,264,83 disc,227,323 disc,220,270 vertebra,266,67 vertebra,221,297 vertebra,220,242 vertebra,260,106 vertebra,232,193 vertebra,247,148 vertebra,221,297
+VOCdevkit\Test\JPEGImages/study205_image14.jpg disc,227,322 disc,272,44 disc,248,123 disc,234,168 disc,264,82 disc,226,322 disc,220,217 disc,218,269 vertebra,221,193 vertebra,236,145 vertebra,265,68 vertebra,221,295 vertebra,218,242 vertebra,259,106 vertebra,244,147 vertebra,229,193 vertebra,220,295
+VOCdevkit\Test\JPEGImages/study205_image15.jpg disc,273,44 disc,263,82 disc,247,123 disc,227,323 disc,232,168 disc,220,217 disc,218,269 vertebra,250,104 vertebra,264,70 vertebra,236,144 vertebra,220,295 vertebra,258,104 vertebra,218,243 vertebra,244,145 vertebra,228,194 vertebra,220,296
+VOCdevkit\Test\JPEGImages/study205_image16.jpg disc,243,361 disc,247,411 disc,274,42 disc,248,123 disc,228,322 disc,263,82 disc,220,217 disc,233,168 disc,218,270 vertebra,264,71 vertebra,248,391 vertebra,237,144 vertebra,250,103 vertebra,222,192 vertebra,220,295 vertebra,258,104 vertebra,218,243 vertebra,228,192 vertebra,244,145 vertebra,220,296
+VOCdevkit\Test\JPEGImages/study205_image22.jpg disc,275,88 disc,233,325 disc,231,192 disc,251,134 disc,221,238 disc,271,390 disc,233,177 vertebra,231,192 vertebra,233,310 vertebra,265,104 vertebra,221,221 vertebra,227,208 vertebra,242,163 vertebra,274,369 vertebra,260,116
+VOCdevkit\Test\JPEGImages/study205_image23.jpg disc,232,313 disc,222,269 disc,278,45 disc,234,174 disc,222,219 disc,230,326 disc,257,128 disc,228,267 disc,272,88 vertebra,220,249 vertebra,227,240 vertebra,246,150 vertebra,276,68 vertebra,264,107 vertebra,229,193 vertebra,228,297
+VOCdevkit\Test\JPEGImages/study205_image24.jpg disc,273,45 disc,242,171 disc,222,218 disc,251,127 disc,265,84 disc,226,324 disc,221,270 vertebra,267,68 vertebra,221,297 vertebra,226,242 vertebra,261,107 vertebra,232,193 vertebra,221,297 vertebra,248,149
+VOCdevkit\Test\JPEGImages/study205_image25.jpg disc,272,45 disc,236,171 disc,262,82 disc,250,126 disc,227,317 disc,220,217 disc,218,268 vertebra,265,69 vertebra,221,295 vertebra,259,105 vertebra,218,242 vertebra,245,149 vertebra,230,193 vertebra,220,296
+VOCdevkit\Test\JPEGImages/study205_image26.jpg disc,272,44 disc,250,127 disc,235,168 disc,262,82 disc,226,317 disc,221,218 disc,218,270 vertebra,264,70 vertebra,221,194 vertebra,219,243 vertebra,259,105 vertebra,245,147 vertebra,219,296 vertebra,230,194
+VOCdevkit\Test\JPEGImages/study205_image27.jpg disc,290,249 disc,301,206 disc,243,361 disc,289,313 disc,275,42 disc,236,171 disc,249,123 disc,222,217 disc,263,82 disc,227,316 disc,218,270 vertebra,295,226 vertebra,288,298 vertebra,251,104 vertebra,221,193 vertebra,230,339 vertebra,220,242 vertebra,219,295 vertebra,259,105 vertebra,245,147 vertebra,230,193
+VOCdevkit\Test\JPEGImages/study205_image33.jpg disc,273,387 disc,243,311 disc,233,298 disc,220,250 vertebra,220,270 vertebra,230,209 vertebra,277,361 vertebra,227,280
+VOCdevkit\Test\JPEGImages/study205_image34.jpg disc,228,255 disc,231,193 disc,279,173 disc,260,121 disc,280,46 disc,294,128 disc,275,87 vertebra,227,236 vertebra,290,150 vertebra,259,147 vertebra,274,107 vertebra,277,68
+VOCdevkit\Test\JPEGImages/study205_image35.jpg disc,259,119 disc,256,129 disc,275,15 disc,220,268 disc,276,47 disc,233,323 disc,266,86 vertebra,276,29 vertebra,228,295 vertebra,277,30 vertebra,273,69 vertebra,262,105 vertebra,227,296
+VOCdevkit\Test\JPEGImages/study205_image36.jpg disc,273,15 disc,235,166 disc,250,121 disc,222,221 disc,264,84 disc,227,317 disc,221,269 vertebra,219,251 vertebra,221,240 vertebra,246,145 vertebra,231,193 vertebra,220,295 vertebra,261,105
+VOCdevkit\Test\JPEGImages/study205_image37.jpg disc,274,15 disc,234,177 disc,274,47 disc,221,221 disc,220,269 disc,249,129 disc,231,316 disc,263,83 vertebra,275,29 vertebra,229,194 vertebra,219,253 vertebra,220,239 vertebra,244,148 vertebra,227,297 vertebra,259,104
+VOCdevkit\Test\JPEGImages/study205_image38.jpg disc,219,279 disc,234,174 disc,220,221 disc,229,316 disc,249,121 disc,275,47 disc,264,83 vertebra,277,29 vertebra,270,69 vertebra,218,252 vertebra,229,193 vertebra,245,147 vertebra,219,298 vertebra,261,105
+VOCdevkit\Test\JPEGImages/study205_image44.jpg
+VOCdevkit\Test\JPEGImages/study205_image45.jpg disc,426,322
+VOCdevkit\Test\JPEGImages/study205_image46.jpg vertebra,221,307
+VOCdevkit\Test\JPEGImages/study205_image47.jpg vertebra,140,322
+VOCdevkit\Test\JPEGImages/study205_image48.jpg
+VOCdevkit\Test\JPEGImages/study205_image49.jpg
+VOCdevkit\Test\JPEGImages/study206_image10.jpg disc,509,319 disc,463,516 vertebra,464,561
+VOCdevkit\Test\JPEGImages/study206_image11.jpg disc,482,376 disc,458,487 vertebra,467,440 vertebra,448,538
+VOCdevkit\Test\JPEGImages/study206_image12.jpg disc,491,632 disc,463,578 disc,451,482 disc,482,376 disc,517,182 disc,498,275 vertebra,482,425 vertebra,486,611 vertebra,460,531 vertebra,512,228 vertebra,488,320
+VOCdevkit\Test\JPEGImages/study206_image13.jpg disc,537,17 disc,451,480 disc,466,666 disc,536,92 disc,472,376 disc,498,271 disc,446,578 disc,521,178 vertebra,535,51 vertebra,446,532 vertebra,487,321 vertebra,448,628 vertebra,532,136 vertebra,464,426 vertebra,513,223
+VOCdevkit\Test\JPEGImages/study206_image14.jpg disc,532,18 disc,523,92 disc,452,476 disc,461,667 disc,446,577 disc,471,377 disc,493,272 disc,514,180 vertebra,530,50 vertebra,449,626 vertebra,446,531 vertebra,447,627 vertebra,463,425 vertebra,484,321 vertebra,506,225 vertebra,519,135
+VOCdevkit\Test\JPEGImages/study206_image15.jpg disc,520,16 disc,451,476 disc,520,90 disc,445,577 disc,462,666 disc,469,377 disc,510,179 disc,491,272 vertebra,522,34 vertebra,520,52 vertebra,448,626 vertebra,449,522 vertebra,506,224 vertebra,462,425 vertebra,483,321 vertebra,516,135
+VOCdevkit\Test\JPEGImages/study206_image2.jpg disc,244,387 disc,186,422 disc,290,132 disc,260,282 disc,279,180 disc,274,231 vertebra,250,314 vertebra,275,210 vertebra,265,260
+VOCdevkit\Test\JPEGImages/study206_image3.jpg disc,247,342 disc,281,182 disc,258,282 disc,290,135 vertebra,291,116 vertebra,282,164 vertebra,262,259 vertebra,251,312
+VOCdevkit\Test\JPEGImages/study206_image36.jpg
+VOCdevkit\Test\JPEGImages/study206_image37.jpg disc,314,259 disc,299,390 disc,306,325 vertebra,300,359 vertebra,311,295
+VOCdevkit\Test\JPEGImages/study206_image38.jpg disc,306,386 disc,344,122 disc,316,247 disc,309,321 disc,337,183 vertebra,310,346 vertebra,312,282 vertebra,306,357 vertebra,342,152 vertebra,326,212
+VOCdevkit\Test\JPEGImages/study206_image39.jpg disc,310,449 disc,356,65 disc,305,321 disc,315,251 disc,331,181 disc,298,385 disc,347,119 vertebra,357,35 vertebra,311,284 vertebra,299,355 vertebra,305,419 vertebra,355,90 vertebra,325,215 vertebra,341,149
+VOCdevkit\Test\JPEGImages/study206_image40.jpg disc,356,15 disc,356,12 disc,347,61 disc,308,449 disc,301,320 disc,313,251 disc,298,385 disc,328,182 disc,341,120 vertebra,354,34 vertebra,298,353 vertebra,309,284 vertebra,298,418 vertebra,323,214 vertebra,337,150 vertebra,345,91
+VOCdevkit\Test\JPEGImages/study206_image41.jpg disc,300,317 disc,346,61 disc,312,444 disc,312,252 disc,297,384 disc,339,120 disc,327,182 vertebra,348,36 vertebra,299,417 vertebra,297,353 vertebra,309,284 vertebra,337,150 vertebra,322,214 vertebra,343,91
+VOCdevkit\Test\JPEGImages/study206_image49.jpg
+VOCdevkit\Test\JPEGImages/study206_image50.jpg disc,212,410 disc,414,248
+VOCdevkit\Test\JPEGImages/study206_image51.jpg disc,291,392 disc,212,268 disc,51,405 disc,352,393
+VOCdevkit\Test\JPEGImages/study206_image52.jpg disc,52,405 disc,208,264
+VOCdevkit\Test\JPEGImages/study206_image53.jpg disc,167,450 disc,207,265
+VOCdevkit\Test\JPEGImages/study206_image54.jpg
+VOCdevkit\Test\JPEGImages/study207_image11.jpg disc,205,22 disc,203,56 disc,192,278 disc,202,55 disc,193,162 disc,186,198 disc,195,126 disc,199,90 disc,183,237 vertebra,205,42 vertebra,185,191 vertebra,204,42 vertebra,185,258 vertebra,188,181 vertebra,201,75 vertebra,194,146 vertebra,184,219 vertebra,184,258 vertebra,198,110
+VOCdevkit\Test\JPEGImages/study207_image12.jpg disc,205,21 disc,202,55 disc,192,278 disc,192,162 disc,201,55 disc,184,198 disc,195,126 disc,182,238 disc,198,90 vertebra,201,42 vertebra,184,191 vertebra,200,75 vertebra,184,258 vertebra,186,182 vertebra,183,219 vertebra,200,75 vertebra,194,147 vertebra,184,258 vertebra,197,110
+VOCdevkit\Test\JPEGImages/study207_image13.jpg disc,206,21 disc,183,192 disc,202,55 disc,193,277 disc,189,162 disc,202,54 disc,185,197 disc,194,126 disc,182,238 disc,199,90 vertebra,198,84 vertebra,194,119 vertebra,200,74 vertebra,184,258 vertebra,200,75 vertebra,183,219 vertebra,186,181 vertebra,194,147 vertebra,183,259 vertebra,197,110
+VOCdevkit\Test\JPEGImages/study207_image14.jpg disc,188,278 disc,205,54 disc,192,161 disc,183,198 disc,200,90 disc,195,125 disc,182,238 vertebra,206,44 vertebra,208,37 vertebra,195,120 vertebra,201,73 vertebra,184,258 vertebra,201,74 vertebra,183,219 vertebra,194,147 vertebra,186,181 vertebra,198,110 vertebra,184,259
+VOCdevkit\Test\JPEGImages/study207_image15.jpg disc,193,156 disc,201,90 disc,208,55 disc,193,162 disc,189,278 disc,197,125 disc,184,197 disc,181,237 vertebra,193,156 vertebra,206,74 vertebra,184,258 vertebra,199,109 vertebra,196,146 vertebra,187,179 vertebra,183,218 vertebra,184,259
+VOCdevkit\Test\JPEGImages/study207_image16.jpg disc,199,91 disc,194,161 disc,192,277 disc,199,126 disc,186,198 disc,183,237 vertebra,186,258 vertebra,200,109 vertebra,188,180 vertebra,197,145 vertebra,185,218 vertebra,185,258
+VOCdevkit\Test\JPEGImages/study207_image32.jpg disc,43,186
+VOCdevkit\Test\JPEGImages/study207_image33.jpg disc,52,184
+VOCdevkit\Test\JPEGImages/study207_image34.jpg
+VOCdevkit\Test\JPEGImages/study207_image35.jpg
+VOCdevkit\Test\JPEGImages/study207_image36.jpg
+VOCdevkit\Test\JPEGImages/study207_image37.jpg
+VOCdevkit\Test\JPEGImages/study208_image17.jpg disc,132,193 disc,122,142 disc,137,65 disc,130,89 disc,124,116 disc,121,172 vertebra,139,52 vertebra,125,102 vertebra,132,76 vertebra,123,129 vertebra,117,158
+VOCdevkit\Test\JPEGImages/study208_image18.jpg disc,146,220 disc,121,121 disc,139,40 disc,145,220 disc,116,144 disc,134,64 disc,129,89 disc,123,118 disc,122,172 vertebra,138,53 vertebra,126,104 vertebra,117,131 vertebra,117,158 vertebra,132,76
+VOCdevkit\Test\JPEGImages/study208_image19.jpg disc,137,40 disc,126,88 disc,117,144 disc,122,172 disc,121,117 disc,132,65 vertebra,139,27 vertebra,121,158 vertebra,133,54 vertebra,124,102 vertebra,117,132 vertebra,130,76
+VOCdevkit\Test\JPEGImages/study208_image2.jpg
+VOCdevkit\Test\JPEGImages/study208_image20.jpg disc,136,18 disc,134,40 disc,126,88 disc,117,144 disc,131,65 disc,121,117 disc,122,173 vertebra,137,28 vertebra,120,158 vertebra,124,102 vertebra,117,130 vertebra,132,54 vertebra,129,76
+VOCdevkit\Test\JPEGImages/study208_image21.jpg disc,137,18 disc,126,88 disc,117,144 disc,134,40 disc,131,65 disc,121,115 disc,122,173 vertebra,121,105 vertebra,134,29 vertebra,120,161 vertebra,132,55 vertebra,123,102 vertebra,117,129 vertebra,129,76
+VOCdevkit\Test\JPEGImages/study208_image22.jpg disc,128,173 disc,118,114 disc,137,18 disc,120,145 disc,120,144 disc,126,88 disc,134,41 disc,123,174 disc,131,65 disc,122,116 vertebra,137,11 vertebra,134,29 vertebra,121,160 vertebra,133,54 vertebra,120,160 vertebra,120,129 vertebra,124,102 vertebra,130,76
+VOCdevkit\Test\JPEGImages/study208_image3.jpg
+VOCdevkit\Test\JPEGImages/study208_image35.jpg disc,133,67 disc,120,142 disc,139,41 disc,125,91 disc,121,172 disc,121,116 vertebra,130,80 vertebra,138,54 vertebra,123,105 vertebra,121,130 vertebra,117,157
+VOCdevkit\Test\JPEGImages/study208_image36.jpg disc,140,41 disc,144,219 disc,116,144 disc,121,121 disc,133,68 disc,124,89 disc,121,173 vertebra,131,75 vertebra,117,131 vertebra,117,157 vertebra,123,105
+VOCdevkit\Test\JPEGImages/study208_image37.jpg disc,142,218 disc,123,117 disc,122,173 disc,128,90 disc,116,145 disc,134,41 disc,133,67 vertebra,138,29 vertebra,129,84 vertebra,117,157 vertebra,125,105 vertebra,134,55 vertebra,116,132 vertebra,131,77
+VOCdevkit\Test\JPEGImages/study208_image38.jpg disc,137,19 disc,117,145 disc,125,88 disc,117,116 disc,134,41 disc,122,172 disc,131,66 vertebra,120,158 vertebra,133,54 vertebra,129,77 vertebra,117,130 vertebra,123,102
+VOCdevkit\Test\JPEGImages/study208_image39.jpg disc,133,19 disc,124,88 disc,134,42 disc,118,116 disc,116,145 disc,122,174 disc,131,66 vertebra,118,160 vertebra,132,57 vertebra,120,160 vertebra,129,77 vertebra,123,101 vertebra,117,130
+VOCdevkit\Test\JPEGImages/study208_image4.jpg
+VOCdevkit\Test\JPEGImages/study208_image40.jpg disc,137,18 disc,117,145 disc,126,89 disc,122,174 disc,134,42 disc,122,117 disc,132,66 vertebra,136,30 vertebra,136,56 vertebra,118,160 vertebra,121,131 vertebra,133,57 vertebra,120,161 vertebra,125,104 vertebra,130,78
+VOCdevkit\Test\JPEGImages/study208_image44.jpg
+VOCdevkit\Test\JPEGImages/study208_image45.jpg
+VOCdevkit\Test\JPEGImages/study208_image46.jpg disc,36,157
+VOCdevkit\Test\JPEGImages/study208_image47.jpg
+VOCdevkit\Test\JPEGImages/study208_image48.jpg disc,93,124 disc,33,124 disc,37,156
+VOCdevkit\Test\JPEGImages/study208_image49.jpg disc,92,130
+VOCdevkit\Test\JPEGImages/study208_image5.jpg
+VOCdevkit\Test\JPEGImages/study209_image13.jpg disc,160,293 disc,170,182 disc,181,150 disc,187,114 disc,160,294 disc,158,221 disc,157,257 vertebra,175,166 vertebra,163,201 vertebra,174,166 vertebra,159,276 vertebra,184,133 vertebra,163,201 vertebra,158,277 vertebra,157,240
+VOCdevkit\Test\JPEGImages/study209_image14.jpg disc,154,257 disc,186,110 disc,158,219 disc,181,147 disc,156,257 disc,169,182 disc,157,293 vertebra,193,94 vertebra,153,276 vertebra,185,128 vertebra,174,163 vertebra,156,277 vertebra,157,239 vertebra,163,200
+VOCdevkit\Test\JPEGImages/study209_image15.jpg disc,195,73 disc,153,257 disc,186,111 disc,157,294 disc,158,219 disc,169,181 disc,176,144 vertebra,193,94 vertebra,153,275 vertebra,183,127 vertebra,156,276 vertebra,172,162 vertebra,157,239 vertebra,163,199
+VOCdevkit\Test\JPEGImages/study209_image16.jpg disc,157,294 disc,154,257 disc,157,294 disc,153,257 disc,157,219 disc,184,110 disc,165,180 disc,175,144 vertebra,188,92 vertebra,153,275 vertebra,181,126 vertebra,156,276 vertebra,156,238 vertebra,171,162 vertebra,162,199
+VOCdevkit\Test\JPEGImages/study209_image17.jpg disc,157,294 disc,154,257 disc,157,294 disc,153,257 disc,157,218 disc,184,110 disc,164,180 disc,174,143 vertebra,153,276 vertebra,188,93 vertebra,153,237 vertebra,181,126 vertebra,170,162 vertebra,153,277 vertebra,153,238 vertebra,161,198
+VOCdevkit\Test\JPEGImages/study209_image18.jpg disc,157,293 disc,154,257 disc,157,293 disc,187,110 disc,153,257 disc,157,219 disc,165,180 disc,176,144 vertebra,193,93 vertebra,153,276 vertebra,183,127 vertebra,171,162 vertebra,157,276 vertebra,157,238 vertebra,161,199
+VOCdevkit\Test\JPEGImages/study209_image35.jpg disc,195,175 disc,193,283 disc,186,247 disc,186,212 vertebra,189,192 vertebra,185,228 vertebra,188,265
+VOCdevkit\Test\JPEGImages/study209_image36.jpg disc,186,284 disc,206,139 disc,188,210 disc,197,173 disc,187,210 disc,184,247 disc,186,284 vertebra,210,122 vertebra,199,155 vertebra,194,191 vertebra,194,192 vertebra,186,229 vertebra,185,266
+VOCdevkit\Test\JPEGImages/study209_image37.jpg disc,212,101 disc,188,209 disc,207,137 disc,196,173 disc,187,210 disc,185,284 disc,182,247 vertebra,188,203 vertebra,211,119 vertebra,205,154 vertebra,205,156 vertebra,211,120 vertebra,182,266 vertebra,193,192 vertebra,185,230
+VOCdevkit\Test\JPEGImages/study209_image38.jpg disc,187,210 disc,204,137 disc,210,101 disc,193,173 disc,181,247 disc,184,286 disc,186,210 vertebra,187,203 vertebra,208,119 vertebra,189,192 vertebra,198,154 vertebra,182,269 vertebra,208,120 vertebra,189,193 vertebra,199,154 vertebra,184,230
+VOCdevkit\Test\JPEGImages/study209_image39.jpg disc,103,186 disc,185,210 disc,201,138 disc,212,103 disc,192,173 disc,180,248 disc,184,286 disc,184,210 vertebra,197,154 vertebra,188,191 vertebra,208,119 vertebra,181,269 vertebra,197,155 vertebra,182,230 vertebra,188,191
+VOCdevkit\Test\JPEGImages/study209_image40.jpg disc,185,209 disc,204,137 disc,212,103 disc,192,173 disc,180,247 disc,185,285 disc,184,209 vertebra,185,205 vertebra,187,298 vertebra,205,132 vertebra,188,191 vertebra,197,154 vertebra,209,120 vertebra,181,270 vertebra,198,154 vertebra,188,192 vertebra,182,229
+VOCdevkit\Test\JPEGImages/study209_image47.jpg
+VOCdevkit\Test\JPEGImages/study209_image48.jpg
+VOCdevkit\Test\JPEGImages/study209_image49.jpg disc,225,205
+VOCdevkit\Test\JPEGImages/study209_image50.jpg
+VOCdevkit\Test\JPEGImages/study209_image51.jpg
+VOCdevkit\Test\JPEGImages/study209_image52.jpg
+VOCdevkit\Test\JPEGImages/study211_image2.jpg disc,169,214 disc,181,93 disc,169,174 disc,165,215 disc,175,131 vertebra,165,193 vertebra,175,114 vertebra,164,237 vertebra,171,236 vertebra,165,194 vertebra,171,153
+VOCdevkit\Test\JPEGImages/study211_image24.jpg
+VOCdevkit\Test\JPEGImages/study211_image25.jpg
+VOCdevkit\Test\JPEGImages/study211_image26.jpg
+VOCdevkit\Test\JPEGImages/study211_image27.jpg
+VOCdevkit\Test\JPEGImages/study211_image28.jpg
+VOCdevkit\Test\JPEGImages/study211_image29.jpg
+VOCdevkit\Test\JPEGImages/study211_image3.jpg disc,168,214 disc,169,258 disc,194,56 disc,168,174 disc,184,93 disc,173,132 disc,162,215 vertebra,187,78 vertebra,176,114 vertebra,163,236 vertebra,164,195 vertebra,171,153
+VOCdevkit\Test\JPEGImages/study211_image4.jpg disc,196,19 disc,168,173 disc,169,254 disc,164,173 disc,189,55 disc,182,93 disc,173,132 disc,162,216 vertebra,194,37 vertebra,175,114 vertebra,175,114 vertebra,163,236 vertebra,186,76 vertebra,163,194 vertebra,163,237 vertebra,170,153
+VOCdevkit\Test\JPEGImages/study211_image5.jpg disc,195,19 disc,169,254 disc,165,173 disc,164,173 disc,188,55 disc,181,93 disc,171,133 disc,161,216 vertebra,193,37 vertebra,193,39 vertebra,184,78 vertebra,175,114 vertebra,163,236 vertebra,175,114 vertebra,185,75 vertebra,162,194 vertebra,162,236 vertebra,169,153
+VOCdevkit\Test\JPEGImages/study211_image6.jpg disc,169,258 disc,193,19 disc,188,55 disc,169,258 disc,164,173 disc,163,173 disc,180,92 disc,186,55 disc,161,216 disc,170,133 vertebra,183,78 vertebra,188,38 vertebra,175,114 vertebra,162,236 vertebra,174,114 vertebra,184,76 vertebra,168,153 vertebra,161,194 vertebra,162,237
+VOCdevkit\Test\JPEGImages/study211_image7.jpg disc,193,20 disc,188,55 disc,169,254 disc,165,173 disc,164,174 disc,180,93 disc,159,216 disc,187,55 disc,172,133 vertebra,183,78 vertebra,188,38 vertebra,175,114 vertebra,162,236 vertebra,175,114 vertebra,184,76 vertebra,161,194 vertebra,162,236 vertebra,169,154
+VOCdevkit\Test\JPEGImages/study212_image10.jpg
+VOCdevkit\Test\JPEGImages/study212_image25.jpg disc,160,69 disc,160,177 disc,159,107 disc,158,143 vertebra,160,162 vertebra,160,90 vertebra,158,162 vertebra,159,126
+VOCdevkit\Test\JPEGImages/study212_image26.jpg disc,172,36 disc,170,210 disc,154,106 disc,163,69 disc,157,141 disc,158,108 disc,158,176 vertebra,157,162 vertebra,162,194 vertebra,161,89 vertebra,158,126
+VOCdevkit\Test\JPEGImages/study212_image27.jpg disc,168,212 disc,164,35 disc,165,213 disc,153,141 disc,156,108 disc,157,175 disc,159,70 vertebra,153,162 vertebra,163,54 vertebra,162,54 vertebra,157,160 vertebra,152,126 vertebra,157,89 vertebra,161,195
+VOCdevkit\Test\JPEGImages/study212_image28.jpg disc,168,212 disc,164,34 disc,165,212 disc,157,108 disc,158,175 disc,153,141 disc,160,71 vertebra,163,54 vertebra,152,158 vertebra,162,54 vertebra,152,126 vertebra,161,194 vertebra,157,90
+VOCdevkit\Test\JPEGImages/study212_image29.jpg disc,168,203 disc,168,35 disc,165,213 disc,152,108 disc,161,175 disc,152,141 disc,159,71 vertebra,162,54 vertebra,153,158 vertebra,152,126 vertebra,163,194 vertebra,157,90
+VOCdevkit\Test\JPEGImages/study212_image30.jpg disc,169,211 disc,168,35 disc,151,140 disc,159,174 disc,152,108 disc,158,71 vertebra,163,54 vertebra,161,54 vertebra,156,159 vertebra,150,126 vertebra,163,193 vertebra,157,90
+VOCdevkit\Test\JPEGImages/study212_image48.jpg disc,171,32 disc,171,210 disc,165,67 disc,160,175 disc,158,137 disc,159,104 vertebra,164,192 vertebra,162,86 vertebra,159,123 vertebra,159,158
+VOCdevkit\Test\JPEGImages/study212_image49.jpg disc,163,30 disc,164,211 disc,153,137 disc,157,173 disc,156,104 disc,158,67 vertebra,162,50 vertebra,152,122 vertebra,152,158 vertebra,157,87 vertebra,159,193
+VOCdevkit\Test\JPEGImages/study212_image5.jpg
+VOCdevkit\Test\JPEGImages/study212_image50.jpg disc,164,31 disc,162,210 disc,156,173 disc,152,138 disc,153,104 disc,160,67 vertebra,163,54 vertebra,157,89 vertebra,161,54 vertebra,152,123 vertebra,151,158 vertebra,158,87 vertebra,158,193
+VOCdevkit\Test\JPEGImages/study212_image51.jpg disc,169,205 disc,164,30 disc,157,173 disc,152,138 disc,156,103 disc,157,66 vertebra,162,49 vertebra,162,50 vertebra,152,122 vertebra,160,192 vertebra,152,157 vertebra,157,87
+VOCdevkit\Test\JPEGImages/study212_image52.jpg disc,164,212 disc,154,103 disc,157,173 disc,151,138 disc,153,103 disc,158,66 vertebra,163,48 vertebra,163,48 vertebra,152,122 vertebra,157,86 vertebra,151,157 vertebra,160,192
+VOCdevkit\Test\JPEGImages/study212_image6.jpg
+VOCdevkit\Test\JPEGImages/study212_image7.jpg
+VOCdevkit\Test\JPEGImages/study212_image8.jpg
+VOCdevkit\Test\JPEGImages/study212_image9.jpg disc,129,172
+VOCdevkit\Test\JPEGImages/study213_image10.jpg disc,175,158 disc,163,187 disc,147,258 disc,158,224 vertebra,151,241 vertebra,171,173 vertebra,157,242 vertebra,162,205
+VOCdevkit\Test\JPEGImages/study213_image11.jpg disc,153,220 disc,176,157 disc,164,187 disc,152,255 disc,170,190 disc,151,255 disc,159,222 vertebra,158,236 vertebra,151,241 vertebra,164,205 vertebra,174,172
+VOCdevkit\Test\JPEGImages/study213_image12.jpg disc,158,319 disc,157,290 disc,185,98 disc,150,291 disc,182,125 disc,173,156 disc,150,253 disc,157,219 disc,163,186 vertebra,152,242 vertebra,157,304 vertebra,151,308 vertebra,184,111 vertebra,176,141 vertebra,161,205 vertebra,152,238 vertebra,159,205 vertebra,150,272 vertebra,170,170
+VOCdevkit\Test\JPEGImages/study213_image13.jpg disc,188,74 disc,158,320 disc,147,288 disc,182,98 disc,170,156 disc,176,125 disc,157,217 disc,148,252 disc,146,288 disc,161,186 vertebra,146,283 vertebra,147,247 vertebra,149,307 vertebra,175,141 vertebra,185,86 vertebra,159,205 vertebra,181,112 vertebra,160,202 vertebra,147,271 vertebra,149,307 vertebra,150,237 vertebra,175,141 vertebra,169,170 vertebra,148,272
+VOCdevkit\Test\JPEGImages/study213_image14.jpg disc,149,317 disc,157,321 disc,146,288 disc,183,66 disc,170,156 disc,151,217 disc,147,252 disc,145,288 disc,181,98 disc,175,127 disc,161,185 vertebra,177,112 vertebra,158,205 vertebra,147,307 vertebra,181,85 vertebra,174,141 vertebra,159,202 vertebra,147,270 vertebra,177,113 vertebra,149,235 vertebra,168,169 vertebra,147,307 vertebra,146,271
+VOCdevkit\Test\JPEGImages/study213_image15.jpg disc,178,125 disc,186,50 disc,146,288 disc,150,318 disc,163,184 disc,157,217 disc,185,74 disc,146,252 disc,145,288 disc,181,98 disc,172,156 disc,177,126 disc,162,184 vertebra,176,141 vertebra,186,62 vertebra,160,201 vertebra,147,306 vertebra,160,202 vertebra,183,87 vertebra,181,112 vertebra,176,142 vertebra,149,235 vertebra,147,307 vertebra,169,170 vertebra,145,271
+VOCdevkit\Test\JPEGImages/study213_image28.jpg disc,157,321 disc,146,288 disc,183,66 disc,170,157 disc,152,217 disc,147,252 disc,145,288 disc,181,98 disc,175,127 disc,161,185 vertebra,177,112 vertebra,158,205 vertebra,147,306 vertebra,174,141 vertebra,159,202 vertebra,181,85 vertebra,146,270 vertebra,177,113 vertebra,168,170 vertebra,147,307 vertebra,150,235 vertebra,146,271
+VOCdevkit\Test\JPEGImages/study213_image30.jpg
+VOCdevkit\Test\JPEGImages/study213_image31.jpg
+VOCdevkit\Test\JPEGImages/study213_image32.jpg
+VOCdevkit\Test\JPEGImages/study213_image33.jpg
+VOCdevkit\Test\JPEGImages/study213_image34.jpg
+VOCdevkit\Test\JPEGImages/study213_image35.jpg disc,133,113
+VOCdevkit\Test\JPEGImages/study213_image45.jpg
+VOCdevkit\Test\JPEGImages/study213_image46.jpg disc,101,162 disc,123,78 disc,111,118 disc,119,98 disc,108,140 vertebra,104,152 vertebra,117,108 vertebra,110,128
+VOCdevkit\Test\JPEGImages/study213_image47.jpg disc,112,117 disc,105,138 disc,120,98 disc,124,78 disc,117,118 disc,109,139 disc,102,161 vertebra,102,173 vertebra,104,150 vertebra,125,69 vertebra,123,88 vertebra,103,150 vertebra,112,128 vertebra,119,108
+VOCdevkit\Test\JPEGImages/study213_image48.jpg disc,102,203 disc,123,78 disc,104,181 disc,125,61 disc,120,78 disc,116,97 disc,108,137 disc,103,158 disc,110,116 vertebra,120,69 vertebra,108,190 vertebra,127,53 vertebra,104,192 vertebra,109,128 vertebra,104,170 vertebra,119,88 vertebra,124,70 vertebra,105,149 vertebra,109,128 vertebra,103,170 vertebra,119,88 vertebra,115,107
+VOCdevkit\Test\JPEGImages/study213_image49.jpg disc,101,204 disc,101,180 disc,125,46 disc,113,96 disc,120,61 disc,100,180 disc,104,135 disc,118,78 disc,102,158 disc,109,116 vertebra,97,196 vertebra,101,154 vertebra,102,192 vertebra,123,54 vertebra,108,126 vertebra,120,70 vertebra,111,106 vertebra,117,88 vertebra,101,193 vertebra,101,170 vertebra,103,148
+VOCdevkit\Test\JPEGImages/study213_image50.jpg disc,108,200 disc,124,42 disc,115,96 disc,101,180 disc,121,61 disc,101,158 disc,104,136 disc,118,79 disc,109,116 vertebra,104,128 vertebra,120,70 vertebra,112,106 vertebra,123,53 vertebra,108,126 vertebra,117,87 vertebra,101,192 vertebra,102,147 vertebra,120,70 vertebra,112,106 vertebra,101,170
+VOCdevkit\Test\JPEGImages/study214_image12.jpg disc,216,136 disc,191,346 disc,184,295 disc,187,239 disc,201,185 vertebra,205,161 vertebra,198,213 vertebra,186,324 vertebra,185,268
+VOCdevkit\Test\JPEGImages/study214_image13.jpg disc,240,43 disc,179,294 disc,186,351 disc,185,239 disc,198,185 disc,226,88 disc,212,136 vertebra,243,20 vertebra,232,66 vertebra,184,324 vertebra,190,212 vertebra,216,113 vertebra,184,267 vertebra,204,159
+VOCdevkit\Test\JPEGImages/study214_image14.jpg disc,242,8 disc,189,351 disc,233,43 disc,183,294 disc,183,294 disc,225,87 disc,207,132 disc,197,185 disc,185,239 vertebra,240,20 vertebra,185,324 vertebra,216,110 vertebra,229,66 vertebra,183,268 vertebra,189,213 vertebra,202,158
+VOCdevkit\Test\JPEGImages/study214_image15.jpg disc,179,294 disc,197,345 disc,231,43 disc,183,295 disc,193,184 disc,185,239 disc,206,132 disc,219,85 vertebra,221,67 vertebra,233,21 vertebra,185,324 vertebra,227,66 vertebra,214,110 vertebra,184,268 vertebra,189,213 vertebra,200,159
+VOCdevkit\Test\JPEGImages/study214_image16.jpg disc,179,295 disc,196,185 disc,198,345 disc,221,85 disc,229,43 disc,185,295 disc,193,184 disc,185,239 disc,206,133 disc,220,85 vertebra,232,21 vertebra,227,66 vertebra,215,109 vertebra,187,324 vertebra,226,67 vertebra,184,269 vertebra,215,110 vertebra,189,213 vertebra,201,159
+VOCdevkit\Test\JPEGImages/study214_image17.jpg disc,197,344 disc,233,43 disc,185,295 disc,185,239 disc,210,135 disc,224,86 disc,197,185 vertebra,240,21 vertebra,229,67 vertebra,186,325 vertebra,217,110 vertebra,184,269 vertebra,190,213 vertebra,203,159
+VOCdevkit\Test\JPEGImages/study214_image2.jpg disc,106,211 disc,244,41 disc,216,179 disc,228,131 disc,234,86 vertebra,213,200 vertebra,233,108 vertebra,227,152
+VOCdevkit\Test\JPEGImages/study214_image3.jpg disc,236,85 disc,225,131 vertebra,228,119 vertebra,233,108
+VOCdevkit\Test\JPEGImages/study214_image34.jpg disc,230,377 disc,219,261 disc,215,306 disc,230,213 vertebra,233,197 vertebra,217,278
+VOCdevkit\Test\JPEGImages/study214_image35.jpg disc,230,450 disc,291,150 disc,245,152 disc,225,389 disc,214,337 disc,217,274 disc,229,211 vertebra,245,178 vertebra,225,242 vertebra,228,420 vertebra,216,364 vertebra,214,307
+VOCdevkit\Test\JPEGImages/study214_image36.jpg disc,275,41 disc,225,395 disc,213,333 disc,212,274 disc,226,209 disc,257,98 disc,242,152 vertebra,231,427 vertebra,276,23 vertebra,212,370 vertebra,263,75 vertebra,218,243 vertebra,211,306 vertebra,250,125 vertebra,233,180
+VOCdevkit\Test\JPEGImages/study214_image37.jpg disc,257,97 disc,264,43 disc,226,396 disc,211,332 disc,224,211 disc,235,150 disc,213,274 disc,252,97 vertebra,233,426 vertebra,264,23 vertebra,212,370 vertebra,258,74 vertebra,228,180 vertebra,211,306 vertebra,216,243 vertebra,246,124
+VOCdevkit\Test\JPEGImages/study214_image38.jpg disc,229,454 disc,260,44 disc,251,97 disc,226,397 disc,211,337 disc,213,273 disc,220,210 disc,250,97 disc,235,150 vertebra,262,23 vertebra,245,123 vertebra,257,74 vertebra,214,370 vertebra,230,427 vertebra,212,306 vertebra,216,243 vertebra,244,125 vertebra,228,180
+VOCdevkit\Test\JPEGImages/study214_image39.jpg disc,252,97 disc,260,49 disc,212,337 disc,212,275 disc,228,396 disc,224,210 disc,251,97 disc,236,150 vertebra,258,72 vertebra,265,25 vertebra,217,363 vertebra,246,124 vertebra,257,74 vertebra,231,424 vertebra,211,307 vertebra,216,244 vertebra,245,125 vertebra,230,180
+VOCdevkit\Test\JPEGImages/study214_image45.jpg
+VOCdevkit\Test\JPEGImages/study214_image46.jpg disc,192,145
+VOCdevkit\Test\JPEGImages/study214_image47.jpg disc,186,226 disc,132,225 disc,115,134 vertebra,184,214
+VOCdevkit\Test\JPEGImages/study214_image48.jpg disc,123,74 disc,154,264 disc,183,82 disc,113,132 vertebra,112,115
+VOCdevkit\Test\JPEGImages/study214_image49.jpg disc,155,264 disc,107,133 disc,181,81
+VOCdevkit\Test\JPEGImages/study214_image50.jpg disc,91,154 disc,214,245
+VOCdevkit\Test\JPEGImages/study215_image22.jpg
+VOCdevkit\Test\JPEGImages/study215_image23.jpg
+VOCdevkit\Test\JPEGImages/study215_image24.jpg disc,256,289
+VOCdevkit\Test\JPEGImages/study215_image25.jpg disc,346,115
+VOCdevkit\Test\JPEGImages/study215_image26.jpg disc,118,207 disc,50,275
+VOCdevkit\Test\JPEGImages/study215_image27.jpg disc,50,276
+VOCdevkit\Test\JPEGImages/study215_image31.jpg disc,230,204 disc,236,159 disc,230,293 disc,249,115 disc,226,245 disc,262,70 vertebra,264,56 vertebra,220,222 vertebra,259,95 vertebra,244,138 vertebra,233,183 vertebra,228,268 vertebra,228,221 vertebra,228,269
+VOCdevkit\Test\JPEGImages/study215_image32.jpg disc,227,200 disc,237,159 disc,259,70 disc,231,294 disc,225,245 disc,248,114 vertebra,263,56 vertebra,250,94 vertebra,227,268 vertebra,231,180 vertebra,245,138 vertebra,226,222 vertebra,227,269
+VOCdevkit\Test\JPEGImages/study215_image33.jpg disc,222,248 disc,259,69 disc,226,204 disc,235,158 disc,228,294 disc,221,248 disc,246,114 vertebra,222,271 vertebra,250,92 vertebra,243,138 vertebra,231,181 vertebra,226,271 vertebra,220,225
+VOCdevkit\Test\JPEGImages/study215_image34.jpg disc,222,248 disc,261,68 disc,228,296 disc,227,203 disc,221,248 disc,235,158 disc,246,113 vertebra,222,272 vertebra,256,92 vertebra,226,273 vertebra,220,226 vertebra,231,182 vertebra,242,137
+VOCdevkit\Test\JPEGImages/study215_image35.jpg disc,263,69 disc,222,249 disc,248,111 disc,235,158 disc,226,298 disc,226,203 disc,221,249 vertebra,252,89 vertebra,221,273 vertebra,259,90 vertebra,220,273 vertebra,220,228 vertebra,243,136 vertebra,230,183
+VOCdevkit\Test\JPEGImages/study215_image36.jpg disc,264,69 disc,250,110 disc,241,159 disc,226,300 disc,226,250 disc,228,203 vertebra,227,273 vertebra,227,274 vertebra,261,90 vertebra,227,230 vertebra,246,135 vertebra,232,182
+VOCdevkit\Test\JPEGImages/study215_image51.jpg disc,226,203 disc,259,69 disc,246,113 disc,221,248 disc,235,158 disc,229,294 vertebra,222,270 vertebra,249,92 vertebra,242,137 vertebra,231,182 vertebra,226,271 vertebra,219,224
+VOCdevkit\Test\JPEGImages/study216_image2.jpg
+VOCdevkit\Test\JPEGImages/study216_image23.jpg disc,218,59 disc,189,173 disc,198,134 disc,181,255 disc,193,294 disc,188,174 disc,208,96 disc,182,214 vertebra,218,78 vertebra,189,153 vertebra,185,276 vertebra,205,115 vertebra,195,154 vertebra,185,194 vertebra,181,234 vertebra,185,277
+VOCdevkit\Test\JPEGImages/study216_image24.jpg disc,194,294 disc,183,257 disc,202,93 disc,218,61 disc,182,257 disc,196,134 disc,193,295 disc,187,174 disc,181,214 disc,206,97 vertebra,221,42 vertebra,186,276 vertebra,206,114 vertebra,211,78 vertebra,193,155 vertebra,184,195 vertebra,181,235 vertebra,186,277
+VOCdevkit\Test\JPEGImages/study216_image25.jpg disc,219,21 disc,213,59 disc,182,255 disc,194,295 disc,205,95 disc,195,134 disc,181,214 disc,185,174 vertebra,217,42 vertebra,186,276 vertebra,209,78 vertebra,199,114 vertebra,192,155 vertebra,181,235 vertebra,183,195 vertebra,185,276
+VOCdevkit\Test\JPEGImages/study216_image26.jpg disc,218,22 disc,186,173 disc,182,255 disc,194,294 disc,212,59 disc,195,134 disc,205,94 disc,181,214 disc,185,173 vertebra,217,42 vertebra,199,114 vertebra,186,276 vertebra,206,78 vertebra,199,114 vertebra,189,153 vertebra,181,235 vertebra,183,195 vertebra,186,276
+VOCdevkit\Test\JPEGImages/study216_image27.jpg disc,182,257 disc,219,22 disc,188,173 disc,193,294 disc,182,257 disc,216,60 disc,196,134 disc,187,174 disc,181,215 disc,205,95 vertebra,210,78 vertebra,217,42 vertebra,186,275 vertebra,200,114 vertebra,209,78 vertebra,200,115 vertebra,184,195 vertebra,193,155 vertebra,181,235 vertebra,185,276
+VOCdevkit\Test\JPEGImages/study216_image28.jpg disc,221,20 disc,184,257 disc,189,174 disc,194,294 disc,197,134 disc,183,257 disc,217,60 disc,188,174 disc,182,214 disc,208,96 vertebra,219,42 vertebra,212,78 vertebra,186,276 vertebra,211,78 vertebra,205,115 vertebra,186,195 vertebra,194,156 vertebra,181,235 vertebra,186,276
+VOCdevkit\Test\JPEGImages/study216_image3.jpg
+VOCdevkit\Test\JPEGImages/study216_image4.jpg
+VOCdevkit\Test\JPEGImages/study216_image41.jpg disc,183,257 disc,189,296 disc,199,131 disc,210,92 disc,189,174 disc,193,296 disc,182,254 disc,182,213 vertebra,212,80 vertebra,208,108 vertebra,185,276 vertebra,196,154 vertebra,187,193 vertebra,187,193 vertebra,182,234 vertebra,184,276
+VOCdevkit\Test\JPEGImages/study216_image42.jpg disc,150,92 disc,217,57 disc,187,173 disc,207,92 disc,182,257 disc,198,132 disc,194,295 disc,182,213 vertebra,192,285 vertebra,197,310 vertebra,210,79 vertebra,204,113 vertebra,186,276 vertebra,194,153 vertebra,185,193 vertebra,181,235 vertebra,185,276
+VOCdevkit\Test\JPEGImages/study216_image43.jpg disc,212,55 disc,181,254 disc,193,295 disc,186,173 disc,206,92 disc,181,214 disc,197,132 vertebra,192,285 vertebra,200,114 vertebra,200,114 vertebra,211,74 vertebra,193,152 vertebra,185,276 vertebra,180,234 vertebra,183,194
+VOCdevkit\Test\JPEGImages/study216_image44.jpg disc,213,58 disc,195,294 disc,182,254 disc,205,93 disc,185,173 disc,181,213 disc,196,133 vertebra,207,78 vertebra,199,114 vertebra,199,114 vertebra,186,275 vertebra,192,152 vertebra,181,234 vertebra,185,276 vertebra,183,194
+VOCdevkit\Test\JPEGImages/study216_image45.jpg disc,217,56 disc,189,173 disc,193,294 disc,182,254 disc,188,173 disc,205,91 disc,181,214 disc,197,132 vertebra,200,114 vertebra,212,74 vertebra,200,114 vertebra,184,275 vertebra,181,235 vertebra,193,153 vertebra,185,194
+VOCdevkit\Test\JPEGImages/study216_image46.jpg disc,195,294 disc,184,253 disc,218,57 disc,189,173 disc,195,293 disc,183,214 disc,198,132 disc,208,93 vertebra,211,78 vertebra,187,274 vertebra,182,234 vertebra,204,113 vertebra,187,193 vertebra,187,274 vertebra,195,153
+VOCdevkit\Test\JPEGImages/study216_image5.jpg
+VOCdevkit\Test\JPEGImages/study216_image6.jpg
+VOCdevkit\Test\JPEGImages/study216_image7.jpg
+VOCdevkit\Test\JPEGImages/study217_image13.jpg disc,213,179 disc,210,155 disc,220,54 disc,216,190 disc,221,260 disc,216,85 disc,217,228 disc,212,117 vertebra,216,96 vertebra,212,166 vertebra,220,245 vertebra,219,68 vertebra,217,210 vertebra,212,103 vertebra,210,140 vertebra,218,69 vertebra,218,246
+VOCdevkit\Test\JPEGImages/study217_image14.jpg disc,212,152 disc,217,51 disc,212,82 disc,216,228 disc,210,117 disc,213,191 disc,218,261 disc,213,152 vertebra,217,33 vertebra,210,134 vertebra,213,210 vertebra,219,278 vertebra,210,102 vertebra,218,245 vertebra,212,66 vertebra,211,99 vertebra,212,170 vertebra,210,134 vertebra,217,245 vertebra,213,210
+VOCdevkit\Test\JPEGImages/study217_image15.jpg disc,219,19 disc,229,293 disc,213,50 disc,217,227 disc,217,262 disc,211,191 disc,209,152 disc,212,81 disc,211,115 vertebra,233,310 vertebra,218,35 vertebra,212,66 vertebra,211,102 vertebra,219,278 vertebra,210,138 vertebra,210,174 vertebra,216,245 vertebra,212,66 vertebra,212,210 vertebra,208,174 vertebra,210,135 vertebra,211,99
+VOCdevkit\Test\JPEGImages/study217_image16.jpg disc,229,293 disc,213,50 disc,217,229 disc,217,263 disc,211,193 disc,208,153 disc,211,80 disc,210,116 vertebra,212,66 vertebra,231,310 vertebra,217,34 vertebra,211,102 vertebra,219,282 vertebra,209,138 vertebra,210,174 vertebra,211,66 vertebra,216,246 vertebra,211,210 vertebra,209,135 vertebra,208,174 vertebra,211,99
+VOCdevkit\Test\JPEGImages/study217_image17.jpg disc,209,85 disc,219,19 disc,229,294 disc,213,49 disc,212,230 disc,216,265 disc,209,193 disc,208,153 disc,208,115 disc,210,80 vertebra,217,34 vertebra,218,282 vertebra,211,66 vertebra,212,247 vertebra,207,174 vertebra,209,135 vertebra,210,212 vertebra,209,99
+VOCdevkit\Test\JPEGImages/study217_image18.jpg disc,228,296 disc,217,48 disc,212,79 disc,213,230 disc,217,266 disc,209,193 disc,212,79 disc,207,153 disc,208,114 vertebra,213,66 vertebra,218,283 vertebra,213,248 vertebra,207,174 vertebra,208,135 vertebra,210,99 vertebra,210,212
+VOCdevkit\Test\JPEGImages/study217_image35.jpg disc,217,82 disc,213,119 disc,209,155 disc,216,192 disc,217,226 disc,219,259 vertebra,217,103 vertebra,220,278 vertebra,212,176 vertebra,211,140 vertebra,217,210 vertebra,217,245
+VOCdevkit\Test\JPEGImages/study217_image37.jpg disc,223,296 disc,214,78 disc,214,113 disc,217,47 disc,213,149 disc,216,227 disc,213,113 disc,214,78 disc,217,262 disc,212,150 disc,212,190 vertebra,212,173 vertebra,217,63 vertebra,213,97 vertebra,218,282 vertebra,216,245 vertebra,211,210 vertebra,211,170 vertebra,213,98 vertebra,212,133
+VOCdevkit\Test\JPEGImages/study217_image38.jpg disc,228,295 disc,213,48 disc,213,228 disc,213,78 disc,216,263 disc,211,113 disc,210,150 disc,211,191 vertebra,211,97 vertebra,219,281 vertebra,212,67 vertebra,212,246 vertebra,211,210 vertebra,210,170 vertebra,210,134 vertebra,212,97
+VOCdevkit\Test\JPEGImages/study217_image39.jpg disc,213,78 disc,222,297 disc,216,46 disc,217,264 disc,212,229 disc,209,192 disc,210,114 disc,212,78 disc,209,151 vertebra,210,200 vertebra,217,282 vertebra,214,62 vertebra,212,247 vertebra,209,170 vertebra,210,211 vertebra,211,98 vertebra,210,133
+VOCdevkit\Test\JPEGImages/study217_image40.jpg disc,214,78 disc,223,298 disc,217,44 disc,211,113 disc,212,229 disc,216,264 disc,208,192 disc,213,78 disc,209,113 disc,209,151 vertebra,211,97 vertebra,217,283 vertebra,217,62 vertebra,210,133 vertebra,212,247 vertebra,209,170 vertebra,210,211 vertebra,210,133 vertebra,211,98
+VOCdevkit\Test\JPEGImages/study217_image50.jpg
+VOCdevkit\Test\JPEGImages/study217_image51.jpg
+VOCdevkit\Test\JPEGImages/study217_image52.jpg
+VOCdevkit\Test\JPEGImages/study217_image53.jpg
+VOCdevkit\Test\JPEGImages/study217_image54.jpg
+VOCdevkit\Test\JPEGImages/study217_image55.jpg
+VOCdevkit\Test\JPEGImages/study218_image11.jpg disc,206,66 disc,205,97 disc,199,130 disc,194,167 disc,181,236 disc,185,201 vertebra,183,218 vertebra,198,150 vertebra,200,114 vertebra,206,82 vertebra,187,186 vertebra,196,150 vertebra,183,219
+VOCdevkit\Test\JPEGImages/study218_image12.jpg disc,204,61 disc,190,165 disc,205,95 disc,189,165 disc,181,237 disc,199,130 disc,184,201 vertebra,183,218 vertebra,200,114 vertebra,187,186 vertebra,205,78 vertebra,200,114 vertebra,186,186 vertebra,194,149 vertebra,183,219
+VOCdevkit\Test\JPEGImages/study218_image13.jpg disc,200,62 disc,189,165 disc,200,94 disc,181,238 disc,188,165 disc,196,130 disc,183,200 vertebra,200,78 vertebra,182,221 vertebra,186,186 vertebra,198,114 vertebra,200,78 vertebra,193,150 vertebra,197,114 vertebra,186,183 vertebra,182,219
+VOCdevkit\Test\JPEGImages/study218_image14.jpg disc,201,62 disc,181,237 disc,200,95 disc,188,165 disc,182,200 disc,195,130 vertebra,199,46 vertebra,200,78 vertebra,182,221 vertebra,185,185 vertebra,197,114 vertebra,193,149 vertebra,200,78 vertebra,181,220 vertebra,186,183 vertebra,196,114
+VOCdevkit\Test\JPEGImages/study218_image15.jpg disc,179,238 disc,173,283 disc,200,62 disc,189,165 disc,188,165 disc,199,95 disc,181,237 disc,195,130 disc,182,202 vertebra,200,46 vertebra,199,78 vertebra,182,221 vertebra,197,114 vertebra,185,185 vertebra,192,149 vertebra,181,221 vertebra,184,186 vertebra,196,114 vertebra,200,78
+VOCdevkit\Test\JPEGImages/study218_image16.jpg disc,176,284 disc,201,95 disc,201,61 disc,189,166 disc,201,95 disc,182,237 disc,197,130 disc,184,201 vertebra,200,44 vertebra,201,78 vertebra,183,221 vertebra,199,114 vertebra,186,186 vertebra,204,78 vertebra,185,185 vertebra,193,149 vertebra,183,219 vertebra,198,114
+VOCdevkit\Test\JPEGImages/study219_image13.jpg disc,164,180
+VOCdevkit\Test\JPEGImages/study219_image14.jpg disc,168,217 disc,173,143 disc,165,177 disc,164,216 vertebra,171,162 vertebra,164,198 vertebra,170,235 vertebra,169,162 vertebra,165,236 vertebra,163,198
+VOCdevkit\Test\JPEGImages/study219_image15.jpg disc,194,80 disc,185,111 disc,170,253 disc,173,142 disc,165,177 disc,163,216 vertebra,194,95 vertebra,188,96 vertebra,177,126 vertebra,165,235 vertebra,182,126 vertebra,163,198 vertebra,169,162 vertebra,164,235 vertebra,162,198
+VOCdevkit\Test\JPEGImages/study219_image16.jpg disc,198,50 disc,170,252 disc,183,111 disc,193,79 disc,162,217 disc,172,142 disc,164,178 vertebra,164,235 vertebra,195,66 vertebra,162,198 vertebra,180,126 vertebra,169,161 vertebra,188,96 vertebra,163,236 vertebra,161,198
+VOCdevkit\Test\JPEGImages/study219_image17.jpg disc,198,51 disc,172,251 disc,181,111 disc,193,79 disc,162,217 disc,170,143 disc,163,179 vertebra,165,162 vertebra,187,96 vertebra,164,236 vertebra,175,126 vertebra,161,198 vertebra,168,162 vertebra,194,66 vertebra,175,126 vertebra,163,236 vertebra,187,97 vertebra,161,198
+VOCdevkit\Test\JPEGImages/study219_image18.jpg disc,167,142 disc,190,79 disc,195,276 disc,172,250 disc,197,51 disc,181,111 disc,190,78 disc,170,143 disc,162,217 disc,163,179 vertebra,198,37 vertebra,194,66 vertebra,196,58 vertebra,164,235 vertebra,165,162 vertebra,186,95 vertebra,175,126 vertebra,161,198 vertebra,193,66 vertebra,168,161 vertebra,163,236 vertebra,174,126 vertebra,186,96 vertebra,161,198
+VOCdevkit\Test\JPEGImages/study219_image35.jpg disc,175,308
+VOCdevkit\Test\JPEGImages/study219_image36.jpg disc,183,116 disc,165,223 disc,169,185 disc,174,258 disc,173,144 vertebra,165,204 vertebra,171,239 vertebra,171,166
+VOCdevkit\Test\JPEGImages/study219_image37.jpg disc,181,114 disc,194,80 disc,171,258 disc,164,218 disc,174,145 disc,165,181 vertebra,164,200 vertebra,176,130 vertebra,169,236 vertebra,170,163 vertebra,169,237 vertebra,164,201
+VOCdevkit\Test\JPEGImages/study219_image38.jpg disc,193,80 disc,182,113 disc,169,259 disc,171,145 disc,164,182 disc,163,220 vertebra,168,250 vertebra,168,239 vertebra,176,128 vertebra,176,129 vertebra,188,95 vertebra,163,202 vertebra,169,162 vertebra,164,240 vertebra,163,202
+VOCdevkit\Test\JPEGImages/study219_image47.jpg
+VOCdevkit\Test\JPEGImages/study219_image48.jpg
+VOCdevkit\Test\JPEGImages/study219_image49.jpg
+VOCdevkit\Test\JPEGImages/study219_image50.jpg
+VOCdevkit\Test\JPEGImages/study219_image51.jpg
+VOCdevkit\Test\JPEGImages/study219_image52.jpg
+VOCdevkit\Test\JPEGImages/study219_image58.jpg disc,174,308
+VOCdevkit\Test\JPEGImages/study219_image59.jpg disc,171,188 disc,172,150 disc,173,261 disc,170,215 vertebra,171,129 vertebra,172,168 vertebra,172,239
+VOCdevkit\Test\JPEGImages/study219_image60.jpg disc,173,143 disc,170,258 disc,165,180 disc,163,217 vertebra,163,199 vertebra,170,163 vertebra,164,238 vertebra,164,200
+VOCdevkit\Test\JPEGImages/study219_image61.jpg disc,187,80 disc,172,142 disc,163,218 disc,163,180 vertebra,174,129 vertebra,185,95 vertebra,162,200 vertebra,168,162 vertebra,164,239 vertebra,163,201
+VOCdevkit\Test\JPEGImages/study220_image11.jpg disc,234,174 disc,243,262 disc,243,309 disc,233,217 vertebra,243,296 vertebra,236,147 vertebra,234,194 vertebra,234,241 vertebra,245,285
+VOCdevkit\Test\JPEGImages/study220_image12.jpg disc,241,262 disc,242,217 disc,236,262 disc,251,73 disc,233,166 disc,243,310 disc,241,119 vertebra,235,144 vertebra,246,97 vertebra,240,135 vertebra,242,286 vertebra,234,240 vertebra,241,236 vertebra,233,192 vertebra,235,144 vertebra,242,287 vertebra,245,97
+VOCdevkit\Test\JPEGImages/study220_image13.jpg disc,256,30 disc,238,115 disc,240,262 disc,232,216 disc,251,73 disc,245,310 disc,232,167 disc,235,262 disc,245,119 vertebra,256,52 vertebra,249,97 vertebra,247,97 vertebra,243,142 vertebra,241,287 vertebra,231,192 vertebra,233,240
+VOCdevkit\Test\JPEGImages/study220_image14.jpg disc,245,311 disc,230,216 disc,235,262 disc,241,118 disc,247,74 disc,231,168 vertebra,250,53 vertebra,245,97 vertebra,235,142 vertebra,243,97 vertebra,241,288 vertebra,234,143 vertebra,232,241 vertebra,229,192
+VOCdevkit\Test\JPEGImages/study220_image15.jpg disc,250,28 disc,244,311 disc,236,262 disc,229,216 disc,235,116 disc,230,168 disc,245,73 vertebra,248,52 vertebra,241,288 vertebra,242,97 vertebra,233,142 vertebra,231,241 vertebra,229,193
+VOCdevkit\Test\JPEGImages/study220_image16.jpg disc,251,28 disc,245,311 disc,230,216 disc,236,263 disc,229,168 disc,236,117 disc,245,73 vertebra,248,52 vertebra,241,288 vertebra,233,142 vertebra,241,96 vertebra,233,142 vertebra,232,242 vertebra,228,194
+VOCdevkit\Test\JPEGImages/study220_image22.jpg disc,243,310 disc,234,177 disc,245,262 disc,233,217 vertebra,233,208 vertebra,235,241 vertebra,245,284
+VOCdevkit\Test\JPEGImages/study220_image23.jpg disc,241,262 disc,250,73 disc,244,211 disc,233,165 disc,235,263 disc,243,309 disc,241,119 vertebra,241,133 vertebra,242,193 vertebra,242,286 vertebra,234,240 vertebra,235,146 vertebra,241,287 vertebra,242,237 vertebra,244,97
+VOCdevkit\Test\JPEGImages/study220_image24.jpg disc,240,262 disc,233,213 disc,244,311 disc,256,77 disc,233,166 disc,235,262 disc,246,120 vertebra,258,52 vertebra,250,97 vertebra,243,142 vertebra,241,287 vertebra,233,191 vertebra,233,240
+VOCdevkit\Test\JPEGImages/study220_image25.jpg disc,243,312 disc,231,216 disc,241,119 disc,234,263 disc,248,73 disc,231,167 vertebra,245,326 vertebra,250,52 vertebra,241,288 vertebra,245,97 vertebra,234,143 vertebra,232,241 vertebra,229,192
+VOCdevkit\Test\JPEGImages/study220_image26.jpg disc,250,28 disc,244,312 disc,241,119 disc,236,263 disc,230,168 disc,229,216 disc,245,72 vertebra,248,53 vertebra,242,287 vertebra,242,97 vertebra,233,142 vertebra,231,242 vertebra,229,194
+VOCdevkit\Test\JPEGImages/study220_image27.jpg disc,244,311 disc,240,119 disc,231,168 disc,236,263 disc,233,217 disc,246,72 vertebra,245,327 vertebra,249,52 vertebra,243,288 vertebra,243,97 vertebra,234,142 vertebra,233,242 vertebra,230,193
+VOCdevkit\Test\JPEGImages/study220_image33.jpg
+VOCdevkit\Test\JPEGImages/study220_image34.jpg disc,242,166 disc,256,30 disc,244,211 disc,246,308 disc,243,258 disc,244,122 disc,255,77 vertebra,236,148 vertebra,249,327 vertebra,249,99 vertebra,256,55 vertebra,243,191 vertebra,242,235 vertebra,243,283 vertebra,248,99
+VOCdevkit\Test\JPEGImages/study220_image35.jpg disc,257,354 disc,256,31 disc,235,256 disc,246,308 disc,234,218 disc,235,167 disc,249,76 disc,242,121 vertebra,256,54 vertebra,249,331 vertebra,242,286 vertebra,233,239 vertebra,246,97 vertebra,241,143 vertebra,245,98 vertebra,233,192
+VOCdevkit\Test\JPEGImages/study220_image36.jpg disc,252,28 disc,237,264 disc,248,309 disc,232,218 disc,233,167 disc,242,120 disc,247,74 vertebra,243,286 vertebra,249,330 vertebra,250,53 vertebra,234,240 vertebra,235,144 vertebra,244,98 vertebra,232,194
+VOCdevkit\Test\JPEGImages/study220_image37.jpg disc,251,30 disc,247,357 disc,237,264 disc,232,218 disc,249,310 disc,232,168 disc,241,120 disc,247,75 vertebra,249,54 vertebra,243,287 vertebra,250,331 vertebra,235,241 vertebra,249,54 vertebra,235,144 vertebra,243,98 vertebra,231,194
+VOCdevkit\Test\JPEGImages/study220_image38.jpg disc,259,354 disc,252,30 disc,241,264 disc,248,309 disc,231,168 disc,232,218 disc,240,119 disc,248,75 vertebra,249,331 vertebra,243,287 vertebra,234,144 vertebra,251,54 vertebra,233,241 vertebra,234,145 vertebra,243,97 vertebra,231,194
+VOCdevkit\Test\JPEGImages/study220_image44.jpg disc,251,352 disc,140,292
+VOCdevkit\Test\JPEGImages/study220_image45.jpg disc,139,274 disc,250,352 disc,28,367
+VOCdevkit\Test\JPEGImages/study220_image46.jpg disc,443,367
+VOCdevkit\Test\JPEGImages/study220_image47.jpg disc,443,363
+VOCdevkit\Test\JPEGImages/study220_image48.jpg
+VOCdevkit\Test\JPEGImages/study220_image49.jpg
+VOCdevkit\Test\JPEGImages/study221_image10.jpg disc,252,410 disc,268,82 disc,267,124 disc,242,353 disc,253,177 disc,237,290 disc,246,232 vertebra,274,104 vertebra,245,385 vertebra,249,202 vertebra,242,322 vertebra,263,152 vertebra,243,261
+VOCdevkit\Test\JPEGImages/study221_image11.jpg disc,250,409 disc,237,353 disc,264,83 disc,261,125 disc,252,177 disc,236,291 disc,243,235 vertebra,245,380 vertebra,263,107 vertebra,235,323 vertebra,247,204 vertebra,241,262 vertebra,258,153
+VOCdevkit\Test\JPEGImages/study221_image12.jpg disc,245,39 disc,250,410 disc,236,353 disc,257,125 disc,249,177 disc,259,83 disc,234,293 disc,242,233 vertebra,244,381 vertebra,259,106 vertebra,235,262 vertebra,233,324 vertebra,245,203 vertebra,257,152
+VOCdevkit\Test\JPEGImages/study221_image13.jpg disc,245,38 disc,251,409 disc,241,353 disc,258,83 disc,257,125 disc,241,353 disc,237,232 disc,248,176 disc,235,292 vertebra,257,105 vertebra,242,386 vertebra,233,324 vertebra,233,263 vertebra,244,205 vertebra,251,150
+VOCdevkit\Test\JPEGImages/study221_image14.jpg disc,247,410 disc,241,354 disc,258,83 disc,257,125 disc,241,354 disc,248,176 disc,233,294 disc,241,233 vertebra,236,202 vertebra,258,105 vertebra,235,388 vertebra,233,325 vertebra,241,263 vertebra,251,150 vertebra,244,203
+VOCdevkit\Test\JPEGImages/study221_image2.jpg disc,100,115
+VOCdevkit\Test\JPEGImages/study221_image24.jpg disc,242,353 disc,265,130 disc,252,177 disc,234,292 disc,243,233 vertebra,261,152 vertebra,249,204 vertebra,235,324 vertebra,244,386 vertebra,260,153 vertebra,248,205 vertebra,241,262
+VOCdevkit\Test\JPEGImages/study221_image25.jpg disc,267,82 disc,264,125 disc,250,410 disc,236,353 disc,241,291 disc,257,177 disc,244,232 vertebra,268,105 vertebra,245,380 vertebra,234,323 vertebra,247,204 vertebra,242,260 vertebra,261,152
+VOCdevkit\Test\JPEGImages/study221_image26.jpg disc,259,38 disc,267,83 disc,263,125 disc,249,410 disc,236,353 disc,257,177 disc,236,291 disc,244,234 vertebra,266,105 vertebra,242,386 vertebra,234,323 vertebra,250,204 vertebra,241,262 vertebra,260,152
+VOCdevkit\Test\JPEGImages/study221_image27.jpg disc,236,230 disc,258,39 disc,251,410 disc,262,125 disc,264,84 disc,257,177 disc,235,353 disc,236,292 disc,244,234 vertebra,249,20 vertebra,262,65 vertebra,241,386 vertebra,263,106 vertebra,249,204 vertebra,241,262 vertebra,232,323 vertebra,259,152
+VOCdevkit\Test\JPEGImages/study221_image28.jpg disc,249,38 disc,257,407 disc,258,125 disc,236,353 disc,260,83 disc,252,176 disc,236,292 disc,243,234 vertebra,258,60 vertebra,242,386 vertebra,259,106 vertebra,233,324 vertebra,241,263 vertebra,257,152 vertebra,247,204
+VOCdevkit\Test\JPEGImages/study221_image29.jpg disc,257,408 disc,250,38 disc,260,82 disc,258,125 disc,236,354 disc,252,176 disc,236,292 disc,243,234 vertebra,258,59 vertebra,235,387 vertebra,260,105 vertebra,233,325 vertebra,241,263 vertebra,257,151 vertebra,247,204
+VOCdevkit\Test\JPEGImages/study221_image3.jpg disc,155,211 disc,125,82 disc,122,138 disc,129,156 disc,123,106 vertebra,124,91 vertebra,121,115 vertebra,123,146
+VOCdevkit\Test\JPEGImages/study221_image4.jpg disc,123,107 disc,121,130 vertebra,122,146 vertebra,121,116
+VOCdevkit\Test\JPEGImages/study221_image54.jpg
+VOCdevkit\Test\JPEGImages/study221_image55.jpg
+VOCdevkit\Test\JPEGImages/study221_image56.jpg
+VOCdevkit\Test\JPEGImages/study221_image57.jpg
+VOCdevkit\Test\JPEGImages/study221_image58.jpg vertebra,232,239
+VOCdevkit\Test\JPEGImages/study221_image59.jpg
+VOCdevkit\Test\JPEGImages/study221_image9.jpg disc,242,353 disc,266,130 disc,251,178 disc,245,227 disc,234,293 vertebra,260,154 vertebra,236,324 vertebra,242,387 vertebra,248,201 vertebra,242,262 vertebra,234,324
+VOCdevkit\Test\JPEGImages/study222_image16.jpg disc,275,247 disc,261,295 disc,242,326 disc,275,215 disc,387,152 vertebra,246,312 vertebra,387,136
+VOCdevkit\Test\JPEGImages/study222_image17.jpg disc,153,313 disc,148,343 disc,151,328 vertebra,151,328
+VOCdevkit\Test\JPEGImages/study222_image18.jpg disc,164,344 disc,247,313 disc,261,264 disc,153,313 disc,261,280 disc,260,295 vertebra,261,280
+VOCdevkit\Test\JPEGImages/study222_image19.jpg
+VOCdevkit\Test\JPEGImages/study222_image20.jpg
+VOCdevkit\Test\JPEGImages/study222_image21.jpg
+VOCdevkit\Test\JPEGImages/study222_image26.jpg disc,311,277 disc,332,148 disc,310,344 disc,330,184 vertebra,312,246 vertebra,332,165
+VOCdevkit\Test\JPEGImages/study222_image27.jpg
+VOCdevkit\Test\JPEGImages/study222_image3.jpg
+VOCdevkit\Test\JPEGImages/study222_image32.jpg
+VOCdevkit\Test\JPEGImages/study222_image33.jpg disc,312,394 disc,315,228 disc,306,313 disc,307,354 disc,306,273 vertebra,306,340 vertebra,312,250 vertebra,309,376 vertebra,306,293
+VOCdevkit\Test\JPEGImages/study222_image34.jpg disc,337,146 disc,306,353 disc,326,187 disc,306,311 disc,315,226 disc,310,394 disc,308,269 vertebra,306,345 vertebra,330,169 vertebra,321,209 vertebra,307,331 vertebra,308,373 vertebra,306,290 vertebra,312,249
+VOCdevkit\Test\JPEGImages/study222_image35.jpg disc,307,355 disc,339,119 disc,338,149 disc,314,393 disc,315,226 disc,309,268 disc,306,312 disc,325,186 vertebra,316,212 vertebra,340,101 vertebra,306,330 vertebra,330,168 vertebra,305,343 vertebra,338,136 vertebra,329,169 vertebra,322,205 vertebra,309,371 vertebra,307,289 vertebra,312,248
+VOCdevkit\Test\JPEGImages/study222_image36.jpg disc,337,85 disc,308,355 disc,337,119 disc,332,147 disc,313,394 disc,306,269 disc,306,315 disc,315,225 disc,322,186 vertebra,320,209 vertebra,337,102 vertebra,333,135 vertebra,306,342 vertebra,321,206 vertebra,309,371 vertebra,328,167 vertebra,311,248 vertebra,306,291
+VOCdevkit\Test\JPEGImages/study222_image37.jpg disc,330,51 disc,307,355 disc,333,85 disc,332,120 disc,308,269 disc,314,393 disc,306,316 disc,330,147 disc,322,187 disc,314,226 vertebra,331,70 vertebra,315,210 vertebra,306,328 vertebra,306,342 vertebra,332,135 vertebra,332,105 vertebra,321,204 vertebra,308,371 vertebra,327,168 vertebra,312,249 vertebra,306,292
+VOCdevkit\Test\JPEGImages/study222_image4.jpg disc,322,138 disc,308,182 vertebra,327,119 vertebra,312,162
+VOCdevkit\Test\JPEGImages/study222_image45.jpg
+VOCdevkit\Test\JPEGImages/study222_image46.jpg disc,309,266
+VOCdevkit\Test\JPEGImages/study222_image49.jpg disc,331,153 disc,338,118 disc,307,355 disc,306,314 disc,308,274 disc,312,393 disc,323,185 disc,313,232 vertebra,305,340 vertebra,328,166 vertebra,311,251 vertebra,316,212 vertebra,307,295 vertebra,309,374
+VOCdevkit\Test\JPEGImages/study222_image5.jpg disc,331,98 disc,324,137 disc,307,226 disc,311,305 disc,313,178 disc,306,263 vertebra,315,162 vertebra,328,117 vertebra,306,245 vertebra,310,204 vertebra,308,285
+VOCdevkit\Test\JPEGImages/study222_image50.jpg disc,312,393 disc,306,353 disc,308,275 disc,331,85 disc,305,309 disc,332,119 disc,328,153 disc,315,230 disc,324,184 vertebra,332,104 vertebra,306,292 vertebra,321,210 vertebra,327,167 vertebra,306,331 vertebra,308,372 vertebra,312,251 vertebra,331,138
+VOCdevkit\Test\JPEGImages/study222_image6.jpg disc,341,51 disc,306,263 disc,312,305 disc,307,225 disc,329,97 disc,321,138 disc,312,179 vertebra,305,247 vertebra,314,162 vertebra,309,282 vertebra,310,204 vertebra,325,118
+VOCdevkit\Test\JPEGImages/study222_image7.jpg disc,337,51 disc,314,299 disc,308,261 disc,308,226 disc,321,137 disc,328,97 disc,312,178 vertebra,331,75 vertebra,306,217 vertebra,331,76 vertebra,308,245 vertebra,316,156 vertebra,310,281 vertebra,324,118 vertebra,310,204
+VOCdevkit\Test\JPEGImages/study222_image8.jpg disc,314,177 disc,312,304 disc,307,260 disc,332,53 disc,307,226 disc,326,97 disc,320,136 disc,313,177 vertebra,338,23 vertebra,316,154 vertebra,313,168 vertebra,327,88 vertebra,331,76 vertebra,307,246 vertebra,316,155 vertebra,309,281 vertebra,323,117 vertebra,310,204
+VOCdevkit\Test\JPEGImages/study223_image11.jpg disc,166,244 disc,163,307 disc,173,134 disc,168,92 vertebra,168,113
+VOCdevkit\Test\JPEGImages/study223_image14.jpg disc,164,256 disc,162,56 disc,168,209 disc,168,169 disc,166,130 disc,164,92 vertebra,166,232 vertebra,168,189 vertebra,167,152 vertebra,163,75 vertebra,166,112
+VOCdevkit\Test\JPEGImages/study223_image22.jpg
+VOCdevkit\Test\JPEGImages/study223_image23.jpg
+VOCdevkit\Test\JPEGImages/study223_image24.jpg
+VOCdevkit\Test\JPEGImages/study223_image25.jpg disc,186,221
+VOCdevkit\Test\JPEGImages/study223_image26.jpg
+VOCdevkit\Test\JPEGImages/study223_image27.jpg
+VOCdevkit\Test\JPEGImages/study223_image31.jpg disc,217,191 disc,216,238 disc,228,147 disc,218,288 vertebra,220,177 vertebra,217,264 vertebra,217,213 vertebra,233,123 vertebra,215,264
+VOCdevkit\Test\JPEGImages/study223_image32.jpg disc,242,50 disc,234,96 disc,217,192 disc,218,289 disc,230,145 disc,214,238 vertebra,227,170 vertebra,241,75 vertebra,227,171 vertebra,215,264 vertebra,215,214 vertebra,214,264 vertebra,233,121
+VOCdevkit\Test\JPEGImages/study223_image33.jpg disc,235,49 disc,232,99 disc,218,289 disc,226,145 disc,218,191 disc,213,239 vertebra,240,73 vertebra,226,135 vertebra,221,174 vertebra,215,219 vertebra,215,264 vertebra,229,121 vertebra,235,74 vertebra,220,171 vertebra,216,216 vertebra,213,265 vertebra,228,122
+VOCdevkit\Test\JPEGImages/study223_image34.jpg disc,235,48 disc,225,144 disc,219,289 disc,230,96 disc,222,144 disc,214,191 disc,212,240 vertebra,225,134 vertebra,234,72 vertebra,218,174 vertebra,214,219 vertebra,228,120 vertebra,215,265 vertebra,214,216 vertebra,234,72 vertebra,219,171 vertebra,214,265 vertebra,228,121
+VOCdevkit\Test\JPEGImages/study223_image35.jpg disc,235,47 disc,219,290 disc,232,96 disc,217,191 disc,225,144 disc,212,240 vertebra,235,71 vertebra,214,265 vertebra,214,215 vertebra,229,120 vertebra,235,72 vertebra,219,170 vertebra,214,266 vertebra,228,122
+VOCdevkit\Test\JPEGImages/study223_image36.jpg disc,242,47 disc,227,144 disc,218,290 disc,234,95 disc,217,192 disc,226,144 disc,213,241 vertebra,241,71 vertebra,214,218 vertebra,220,170 vertebra,213,266 vertebra,216,216 vertebra,231,120 vertebra,213,267 vertebra,231,121
+VOCdevkit\Test\JPEGImages/study223_image53.jpg disc,218,372 disc,235,45 disc,225,143 disc,217,289 disc,222,143 disc,217,190 disc,231,94 disc,212,239 vertebra,235,69 vertebra,235,70 vertebra,214,215 vertebra,212,265 vertebra,219,170 vertebra,227,119
+VOCdevkit\Test\JPEGImages/study224_image28.jpg
+VOCdevkit\Test\JPEGImages/study224_image29.jpg
+VOCdevkit\Test\JPEGImages/study224_image30.jpg disc,176,154 vertebra,183,249
+VOCdevkit\Test\JPEGImages/study224_image31.jpg disc,181,272 disc,177,272 disc,186,110 disc,171,233 disc,181,151 disc,174,193 vertebra,194,93 vertebra,175,174 vertebra,184,131 vertebra,172,212 vertebra,174,253
+VOCdevkit\Test\JPEGImages/study224_image32.jpg disc,207,42 disc,176,272 disc,184,111 disc,195,75 disc,169,233 disc,170,194 disc,175,151 disc,176,272 vertebra,200,57 vertebra,177,131 vertebra,171,253 vertebra,171,174 vertebra,188,92 vertebra,181,131 vertebra,169,212 vertebra,171,253
+VOCdevkit\Test\JPEGImages/study224_image33.jpg disc,200,42 disc,175,273 disc,193,75 disc,170,233 disc,181,113 disc,170,194 disc,175,274 disc,174,151 vertebra,197,58 vertebra,176,132 vertebra,171,174 vertebra,169,212 vertebra,176,132 vertebra,172,254 vertebra,186,92
+VOCdevkit\Test\JPEGImages/study224_image40.jpg disc,155,256
+VOCdevkit\Test\JPEGImages/study224_image41.jpg
+VOCdevkit\Test\JPEGImages/study224_image42.jpg
+VOCdevkit\Test\JPEGImages/study224_image43.jpg
+VOCdevkit\Test\JPEGImages/study224_image44.jpg
+VOCdevkit\Test\JPEGImages/study224_image45.jpg vertebra,285,175
+VOCdevkit\Test\JPEGImages/study225_image11.jpg disc,185,269 disc,194,266 disc,183,111 disc,188,73 disc,174,150 disc,174,230 disc,170,189 vertebra,177,250 vertebra,193,56 vertebra,181,131 vertebra,176,250 vertebra,186,91 vertebra,171,210 vertebra,172,170
+VOCdevkit\Test\JPEGImages/study225_image12.jpg disc,193,271 disc,186,270 disc,195,38 disc,181,111 disc,187,74 disc,174,149 disc,173,230 disc,169,190 vertebra,176,250 vertebra,194,54 vertebra,175,250 vertebra,181,129 vertebra,185,91 vertebra,172,171 vertebra,170,210
+VOCdevkit\Test\JPEGImages/study225_image13.jpg disc,193,38 disc,186,270 disc,177,109 disc,172,230 disc,172,150 disc,185,74 disc,169,189 vertebra,188,55 vertebra,181,251 vertebra,170,210 vertebra,170,170 vertebra,174,129 vertebra,183,91
+VOCdevkit\Test\JPEGImages/study225_image14.jpg disc,193,38 disc,186,270 disc,173,230 disc,176,110 disc,169,190 disc,183,74 disc,170,149 vertebra,187,55 vertebra,181,251 vertebra,169,170 vertebra,170,211 vertebra,181,91 vertebra,174,129
+VOCdevkit\Test\JPEGImages/study225_image15.jpg disc,186,270 disc,193,38 disc,177,110 disc,173,230 disc,170,149 disc,169,190 disc,183,74 vertebra,181,250 vertebra,187,55 vertebra,169,210 vertebra,169,170 vertebra,181,91 vertebra,174,129
+VOCdevkit\Test\JPEGImages/study225_image16.jpg disc,194,267 disc,194,38 disc,173,149 disc,181,111 disc,173,230 disc,186,74 disc,172,149 disc,169,191 vertebra,193,55 vertebra,189,55 vertebra,181,249 vertebra,170,210 vertebra,170,170 vertebra,183,92 vertebra,176,129
+VOCdevkit\Test\JPEGImages/study225_image38.jpg disc,169,182
+VOCdevkit\Test\JPEGImages/study225_image39.jpg
+VOCdevkit\Test\JPEGImages/study225_image40.jpg
+VOCdevkit\Test\JPEGImages/study225_image41.jpg
+VOCdevkit\Test\JPEGImages/study225_image42.jpg
+VOCdevkit\Test\JPEGImages/study225_image43.jpg
+VOCdevkit\Test\JPEGImages/study225_image50.jpg disc,187,266 disc,195,34 disc,172,149 disc,188,71 disc,169,187 disc,183,109 disc,172,229 vertebra,165,168 vertebra,193,54 vertebra,175,249 vertebra,177,127 vertebra,186,89 vertebra,169,209 vertebra,174,249 vertebra,171,168
+VOCdevkit\Test\JPEGImages/study225_image51.jpg disc,186,269 disc,185,269 disc,197,35 disc,172,149 disc,188,70 disc,182,109 disc,169,187 disc,171,229 vertebra,194,53 vertebra,176,248 vertebra,184,90 vertebra,174,248 vertebra,176,127 vertebra,169,209 vertebra,171,169
+VOCdevkit\Test\JPEGImages/study226_image33.jpg disc,362,329
+VOCdevkit\Test\JPEGImages/study226_image48.jpg disc,125,35 disc,123,210 disc,129,80 disc,126,57 disc,126,104 disc,122,181 disc,121,157 disc,124,130 vertebra,125,48 vertebra,129,69 vertebra,122,142 vertebra,125,118 vertebra,128,92 vertebra,121,169 vertebra,122,196
+VOCdevkit\Test\JPEGImages/study226_image49.jpg disc,125,36 disc,123,209 disc,126,80 disc,128,57 disc,121,182 disc,125,104 disc,120,157 disc,122,130 vertebra,125,49 vertebra,128,69 vertebra,122,142 vertebra,121,144 vertebra,128,70 vertebra,125,92 vertebra,121,169 vertebra,124,118 vertebra,122,195
+VOCdevkit\Test\JPEGImages/study227_image13.jpg disc,205,80 disc,182,226 disc,200,115 disc,189,150 disc,182,259 disc,182,191 vertebra,196,135 vertebra,181,210 vertebra,182,242 vertebra,185,170
+VOCdevkit\Test\JPEGImages/study227_image14.jpg disc,201,78 disc,199,114 disc,189,150 disc,181,225 disc,183,262 disc,182,189 vertebra,205,96 vertebra,200,98 vertebra,177,209 vertebra,196,133 vertebra,181,243 vertebra,186,170
+VOCdevkit\Test\JPEGImages/study227_image15.jpg disc,201,78 disc,200,78 disc,183,262 disc,178,224 disc,189,150 disc,196,114 disc,182,187 vertebra,199,98 vertebra,182,245 vertebra,181,243 vertebra,182,207 vertebra,199,98 vertebra,194,134 vertebra,185,170
+VOCdevkit\Test\JPEGImages/study227_image16.jpg disc,205,44 disc,200,78 disc,184,262 disc,181,225 disc,200,78 disc,186,150 disc,182,188 disc,195,114 vertebra,201,62 vertebra,187,142 vertebra,198,98 vertebra,182,245 vertebra,193,134 vertebra,181,246 vertebra,182,207 vertebra,193,135 vertebra,184,170 vertebra,198,99
+VOCdevkit\Test\JPEGImages/study227_image17.jpg disc,201,44 disc,200,78 disc,183,263 disc,177,187 disc,177,225 disc,199,78 disc,185,150 disc,194,114 vertebra,186,142 vertebra,201,62 vertebra,197,98 vertebra,189,133 vertebra,181,245 vertebra,181,246 vertebra,176,210 vertebra,183,171 vertebra,192,135 vertebra,198,98
+VOCdevkit\Test\JPEGImages/study227_image18.jpg disc,201,44 disc,200,78 disc,183,265 disc,177,187 disc,186,150 disc,180,225 disc,200,78 disc,195,114 vertebra,180,207 vertebra,201,62 vertebra,198,98 vertebra,182,245 vertebra,176,209 vertebra,193,134 vertebra,181,246 vertebra,193,135 vertebra,183,171 vertebra,198,98
+VOCdevkit\Test\JPEGImages/study227_image35.jpg disc,184,273 disc,184,225 disc,199,118 disc,187,151 disc,184,261 disc,182,190 vertebra,188,140 vertebra,205,103 vertebra,182,211 vertebra,183,239 vertebra,186,169
+VOCdevkit\Test\JPEGImages/study227_image36.jpg disc,209,78 disc,200,115 disc,188,151 disc,182,262 disc,182,188 disc,182,224 vertebra,205,104 vertebra,194,140 vertebra,198,132 vertebra,208,95 vertebra,182,241 vertebra,183,204 vertebra,186,169
+VOCdevkit\Test\JPEGImages/study227_image37.jpg disc,201,78 disc,194,150 disc,197,114 disc,183,262 disc,183,186 disc,181,223 vertebra,199,96 vertebra,205,59 vertebra,184,175 vertebra,195,133 vertebra,200,97 vertebra,188,169 vertebra,182,242 vertebra,182,206
+VOCdevkit\Test\JPEGImages/study227_image38.jpg disc,201,42 disc,184,262 disc,194,113 disc,187,149 disc,199,78 disc,182,224 disc,181,187 vertebra,200,60 vertebra,182,243 vertebra,182,207 vertebra,193,132 vertebra,197,97 vertebra,185,169
+VOCdevkit\Test\JPEGImages/study227_image39.jpg disc,199,77 disc,184,262 disc,181,187 disc,180,224 disc,185,149 disc,194,113 disc,198,77 vertebra,194,106 vertebra,197,96 vertebra,177,209 vertebra,181,242 vertebra,200,59 vertebra,183,169 vertebra,192,132 vertebra,197,97
+VOCdevkit\Test\JPEGImages/study227_image40.jpg disc,205,42 disc,177,187 disc,199,77 disc,181,225 disc,187,150 disc,184,263 disc,196,113 vertebra,195,107 vertebra,201,59 vertebra,198,96 vertebra,176,209 vertebra,181,245 vertebra,184,169 vertebra,193,133 vertebra,198,96
+VOCdevkit\Test\JPEGImages/study227_image47.jpg
+VOCdevkit\Test\JPEGImages/study227_image48.jpg
+VOCdevkit\Test\JPEGImages/study227_image49.jpg
+VOCdevkit\Test\JPEGImages/study227_image50.jpg
+VOCdevkit\Test\JPEGImages/study227_image51.jpg
+VOCdevkit\Test\JPEGImages/study227_image52.jpg
+VOCdevkit\Test\JPEGImages/study227_image58.jpg disc,167,232 disc,164,269 vertebra,166,245 vertebra,163,296
+VOCdevkit\Test\JPEGImages/study227_image59.jpg disc,164,280
+VOCdevkit\Test\JPEGImages/study227_image60.jpg
+VOCdevkit\Test\JPEGImages/study227_image61.jpg disc,181,185 disc,177,232 vertebra,187,161
+VOCdevkit\Test\JPEGImages/study227_image62.jpg
+VOCdevkit\Test\JPEGImages/study227_image63.jpg disc,166,110 disc,165,145 vertebra,166,126
+VOCdevkit\Test\JPEGImages/study228_image35.jpg disc,260,327 vertebra,264,293
+VOCdevkit\Test\JPEGImages/study228_image36.jpg disc,261,325
+VOCdevkit\Test\JPEGImages/study228_image37.jpg
+VOCdevkit\Test\JPEGImages/study228_image38.jpg disc,261,311
+VOCdevkit\Test\JPEGImages/study228_image47.jpg disc,139,90 disc,124,187 disc,154,220 disc,133,107 disc,128,132 disc,124,157 vertebra,145,76 vertebra,124,145 vertebra,124,171 vertebra,130,121
+VOCdevkit\Test\JPEGImages/study228_image48.jpg disc,156,218 disc,146,40 disc,144,62 disc,124,182 disc,126,132 disc,133,107 disc,123,158 disc,139,84 vertebra,146,53 vertebra,123,170 vertebra,137,96 vertebra,124,144 vertebra,141,73 vertebra,129,120 vertebra,124,145 vertebra,123,171
+VOCdevkit\Test\JPEGImages/study228_image49.jpg disc,146,18 disc,145,63 disc,124,182 disc,146,41 disc,126,132 disc,138,85 disc,133,108 disc,123,158 vertebra,145,33 vertebra,136,96 vertebra,124,145 vertebra,123,170 vertebra,141,73 vertebra,130,121 vertebra,146,53 vertebra,124,144 vertebra,123,171
+VOCdevkit\Test\JPEGImages/study228_image52.jpg disc,144,64 disc,146,40 disc,123,182 disc,128,132 disc,139,86 disc,133,108 disc,123,158 vertebra,122,170 vertebra,124,145 vertebra,145,54 vertebra,130,120 vertebra,137,96 vertebra,141,74 vertebra,124,144 vertebra,122,170
+VOCdevkit\Test\JPEGImages/study229_image13.jpg disc,200,149 disc,188,282 disc,189,233 disc,195,193 vertebra,188,258 vertebra,194,213 vertebra,198,172
+VOCdevkit\Test\JPEGImages/study229_image14.jpg disc,243,343
+VOCdevkit\Test\JPEGImages/study229_image15.jpg disc,192,232 disc,193,192 disc,188,236 disc,206,105 disc,210,64 disc,199,147 vertebra,188,257 vertebra,187,257 vertebra,194,211 vertebra,196,169 vertebra,206,127 vertebra,208,86 vertebra,205,128 vertebra,195,170
+VOCdevkit\Test\JPEGImages/study229_image16.jpg disc,188,277 disc,184,337 disc,188,278 disc,188,190 disc,201,106 disc,209,26 disc,195,147 disc,206,63 disc,185,233 vertebra,209,16 vertebra,186,254 vertebra,208,45 vertebra,193,169 vertebra,205,85 vertebra,185,255 vertebra,199,128 vertebra,186,213
+VOCdevkit\Test\JPEGImages/study229_image2.jpg disc,290,72 disc,284,105 disc,292,55 disc,312,375 disc,273,216 disc,230,440 disc,180,341 disc,284,116 disc,269,227 disc,273,297 disc,267,264 disc,277,184 disc,281,151 vertebra,284,105 vertebra,273,216 vertebra,268,279 vertebra,281,169 vertebra,283,134 vertebra,274,202 vertebra,268,246
+VOCdevkit\Test\JPEGImages/study229_image21.jpg disc,208,111 disc,193,235 disc,199,150 disc,194,193 vertebra,193,186 vertebra,196,258 vertebra,206,128 vertebra,193,212 vertebra,195,174
+VOCdevkit\Test\JPEGImages/study229_image22.jpg disc,196,270 disc,192,192 disc,213,26 disc,189,192 disc,205,106 disc,209,63 disc,187,233 disc,197,147 vertebra,212,15 vertebra,211,44 vertebra,186,255 vertebra,206,85 vertebra,200,127 vertebra,188,213 vertebra,194,170
+VOCdevkit\Test\JPEGImages/study229_image42.jpg disc,158,182 vertebra,163,164
+VOCdevkit\Test\JPEGImages/study229_image43.jpg disc,157,195 disc,162,164 vertebra,157,182 vertebra,165,145
+VOCdevkit\Test\JPEGImages/study229_image44.jpg disc,157,234 disc,163,144 disc,165,135 disc,156,195 disc,174,93 disc,167,125 disc,162,163 vertebra,165,135 vertebra,163,144 vertebra,163,215 vertebra,171,112 vertebra,157,185 vertebra,161,174 vertebra,162,152
+VOCdevkit\Test\JPEGImages/study229_image45.jpg disc,173,216 disc,164,153 vertebra,164,145 vertebra,162,165 vertebra,166,134
+VOCdevkit\Test\JPEGImages/study229_image47.jpg disc,162,186 disc,171,92 disc,167,124 disc,162,163 vertebra,174,13 vertebra,171,74 vertebra,171,106 vertebra,162,175
+VOCdevkit\Test\JPEGImages/study229_image48.jpg disc,176,55 disc,176,21 disc,173,86 disc,157,197 disc,161,160 disc,166,122 vertebra,157,215 vertebra,171,106 vertebra,161,176 vertebra,163,142
+VOCdevkit\Test\JPEGImages/study229_image50.jpg disc,157,235 disc,177,22 disc,157,160 disc,171,90 disc,174,53 disc,155,195 disc,164,123 vertebra,176,36 vertebra,182,12 vertebra,155,213 vertebra,156,177 vertebra,172,72 vertebra,166,107 vertebra,161,142
+VOCdevkit\Test\JPEGImages/study229_image51.jpg disc,176,24 disc,157,196 disc,161,162 disc,166,125 disc,171,91 disc,176,54 vertebra,174,66 vertebra,175,42 vertebra,164,134 vertebra,175,13 vertebra,154,213 vertebra,161,177 vertebra,170,107 vertebra,163,143 vertebra,173,73
+VOCdevkit\Test\JPEGImages/study229_image52.jpg disc,175,22 disc,167,87 disc,157,234 disc,156,160 disc,172,53 disc,163,123 disc,153,195 vertebra,182,13 vertebra,174,37 vertebra,170,105 vertebra,171,72 vertebra,161,142 vertebra,166,106 vertebra,155,177 vertebra,153,213
+VOCdevkit\Test\JPEGImages/study229_image53.jpg disc,157,225 disc,156,196 disc,170,91 disc,156,161 disc,174,23 disc,164,124 disc,171,55 vertebra,175,12 vertebra,173,37 vertebra,156,177 vertebra,156,213 vertebra,161,142 vertebra,166,107 vertebra,171,72
+VOCdevkit\Test\JPEGImages/study229_image60.jpg
+VOCdevkit\Test\JPEGImages/study229_image61.jpg disc,153,265
+VOCdevkit\Test\JPEGImages/study229_image7.jpg disc,267,307 disc,262,388 disc,283,152 disc,273,296 disc,182,339 disc,269,217 disc,268,265 disc,273,228 disc,289,117 disc,278,183 disc,261,353 vertebra,263,374 vertebra,273,280 vertebra,263,330 vertebra,273,217 vertebra,284,136 vertebra,280,167 vertebra,268,246 vertebra,275,200 vertebra,263,331
+VOCdevkit\Test\JPEGImages/study229_image72.jpg
+VOCdevkit\Test\JPEGImages/study229_image74.jpg disc,153,92
+VOCdevkit\Test\JPEGImages/study229_image79.jpg disc,94,135 disc,153,83
+VOCdevkit\Test\JPEGImages/study229_image80.jpg disc,103,154 disc,203,144 disc,106,134
+VOCdevkit\Test\JPEGImages/study229_image84.jpg disc,206,155 disc,101,153
+VOCdevkit\Test\JPEGImages/study229_image85.jpg disc,108,136 disc,203,155 disc,106,144
+VOCdevkit\Test\JPEGImages/study230_image2.jpg disc,176,152 disc,175,192 disc,183,115 vertebra,176,175
+VOCdevkit\Test\JPEGImages/study230_image3.jpg disc,176,225 disc,197,51 disc,176,150 disc,182,225 disc,193,82 disc,182,114 disc,170,190 disc,176,150 vertebra,174,170 vertebra,183,239 vertebra,186,98 vertebra,196,66 vertebra,181,133 vertebra,172,210 vertebra,176,134 vertebra,173,171
+VOCdevkit\Test\JPEGImages/study230_image35.jpg disc,165,198
+VOCdevkit\Test\JPEGImages/study230_image36.jpg
+VOCdevkit\Test\JPEGImages/study230_image37.jpg
+VOCdevkit\Test\JPEGImages/study230_image38.jpg
+VOCdevkit\Test\JPEGImages/study230_image39.jpg
+VOCdevkit\Test\JPEGImages/study230_image4.jpg disc,194,49 disc,178,113 disc,184,259 disc,173,224 disc,173,188 disc,173,149 disc,184,79 vertebra,176,241 vertebra,186,66 vertebra,187,66 vertebra,180,243 vertebra,172,207 vertebra,183,98 vertebra,173,170 vertebra,174,132
+VOCdevkit\Test\JPEGImages/study230_image40.jpg
+VOCdevkit\Test\JPEGImages/study230_image5.jpg disc,190,48 disc,172,149 disc,189,49 disc,184,259 disc,176,114 disc,170,149 disc,172,223 disc,183,79 disc,169,187 vertebra,186,66 vertebra,176,242 vertebra,185,66 vertebra,173,131 vertebra,170,207 vertebra,181,98 vertebra,170,170 vertebra,173,131
+VOCdevkit\Test\JPEGImages/study230_image6.jpg disc,189,48 disc,189,48 disc,171,149 disc,183,261 disc,175,113 disc,170,149 disc,172,224 disc,169,186 disc,183,78 vertebra,176,245 vertebra,186,67 vertebra,166,169 vertebra,178,97 vertebra,180,243 vertebra,185,66 vertebra,172,131 vertebra,169,207 vertebra,181,98 vertebra,169,170 vertebra,173,132
+VOCdevkit\Test\JPEGImages/study230_image7.jpg disc,193,50 disc,184,261 disc,177,113 disc,170,149 disc,168,186 disc,185,79 disc,172,224 vertebra,180,109 vertebra,188,66 vertebra,168,176 vertebra,167,168 vertebra,180,246 vertebra,187,66 vertebra,174,130 vertebra,170,207 vertebra,183,98 vertebra,170,169 vertebra,174,131
+VOCdevkit\Test\JPEGImages/study231_image13.jpg disc,222,86 disc,190,188 disc,193,254 disc,189,189 disc,187,223 disc,210,120 disc,194,153 vertebra,211,103 vertebra,199,138 vertebra,188,207 vertebra,193,174 vertebra,218,103 vertebra,187,241
+VOCdevkit\Test\JPEGImages/study231_image14.jpg disc,185,249 disc,225,56 disc,188,259 disc,222,87 disc,186,222 disc,188,187 disc,209,119 disc,196,152 vertebra,206,138 vertebra,223,72 vertebra,194,170 vertebra,219,103 vertebra,186,206 vertebra,186,242
+VOCdevkit\Test\JPEGImages/study231_image15.jpg disc,188,259 disc,219,87 disc,224,56 disc,185,222 disc,208,118 disc,195,151 disc,187,186 vertebra,185,178 vertebra,200,135 vertebra,222,74 vertebra,212,102 vertebra,188,170 vertebra,186,242 vertebra,185,206
+VOCdevkit\Test\JPEGImages/study231_image16.jpg disc,193,258 disc,218,87 disc,224,56 disc,207,118 disc,186,222 disc,195,151 disc,186,186 vertebra,185,178 vertebra,200,135 vertebra,212,103 vertebra,222,74 vertebra,188,170 vertebra,186,242 vertebra,184,206
+VOCdevkit\Test\JPEGImages/study231_image17.jpg disc,193,259 disc,224,55 disc,218,87 disc,195,151 disc,207,118 disc,186,186 disc,186,223 vertebra,200,135 vertebra,199,139 vertebra,222,74 vertebra,216,103 vertebra,188,170 vertebra,187,241 vertebra,185,207
+VOCdevkit\Test\JPEGImages/study231_image18.jpg disc,225,56 disc,189,260 disc,220,87 disc,209,117 disc,196,151 disc,187,187 disc,185,223 vertebra,198,141 vertebra,223,74 vertebra,206,134 vertebra,217,102 vertebra,193,169 vertebra,187,242 vertebra,185,206
+VOCdevkit\Test\JPEGImages/study231_image39.jpg
+VOCdevkit\Test\JPEGImages/study231_image40.jpg
+VOCdevkit\Test\JPEGImages/study231_image41.jpg
+VOCdevkit\Test\JPEGImages/study231_image42.jpg
+VOCdevkit\Test\JPEGImages/study231_image43.jpg
+VOCdevkit\Test\JPEGImages/study231_image44.jpg
+VOCdevkit\Test\JPEGImages/study232_image20.jpg disc,202,114 disc,222,48 disc,193,230 disc,212,80 disc,204,114 disc,197,275 disc,192,189 disc,194,150 vertebra,194,142 vertebra,208,97 vertebra,193,170 vertebra,196,253 vertebra,193,171 vertebra,208,98 vertebra,193,211 vertebra,198,133 vertebra,195,254
+VOCdevkit\Test\JPEGImages/study232_image21.jpg disc,202,114 disc,221,46 disc,197,273 disc,189,189 disc,213,79 disc,193,230 disc,195,150 vertebra,205,106 vertebra,195,142 vertebra,219,63 vertebra,196,252 vertebra,192,210 vertebra,194,170 vertebra,208,97 vertebra,198,133 vertebra,195,252
+VOCdevkit\Test\JPEGImages/study232_image22.jpg disc,217,46 disc,192,230 disc,198,272 disc,200,113 disc,193,150 disc,209,78 disc,188,189 vertebra,221,30 vertebra,217,62 vertebra,213,63 vertebra,188,210 vertebra,189,170 vertebra,188,211 vertebra,206,98 vertebra,194,253 vertebra,197,134
+VOCdevkit\Test\JPEGImages/study232_image23.jpg disc,201,114 disc,217,45 disc,193,230 disc,198,272 disc,193,150 disc,188,189 disc,200,114 disc,207,78 vertebra,218,31 vertebra,195,253 vertebra,212,64 vertebra,188,210 vertebra,189,171 vertebra,188,211 vertebra,205,98 vertebra,195,253 vertebra,197,134
+VOCdevkit\Test\JPEGImages/study232_image24.jpg disc,218,44 disc,201,113 disc,192,230 disc,195,272 disc,192,150 disc,188,188 disc,200,113 disc,208,78 vertebra,213,62 vertebra,202,97 vertebra,212,63 vertebra,188,210 vertebra,188,171 vertebra,188,210 vertebra,193,253 vertebra,205,98 vertebra,196,134
+VOCdevkit\Test\JPEGImages/study232_image25.jpg disc,218,45 disc,201,113 disc,198,272 disc,189,188 disc,192,230 disc,192,150 disc,200,113 disc,209,78 disc,188,188 vertebra,189,174 vertebra,217,62 vertebra,212,63 vertebra,188,210 vertebra,195,251 vertebra,197,133 vertebra,188,171 vertebra,188,210 vertebra,206,98 vertebra,194,252 vertebra,197,135
+VOCdevkit\Test\JPEGImages/study232_image41.jpg disc,136,209
+VOCdevkit\Test\JPEGImages/study232_image42.jpg
+VOCdevkit\Test\JPEGImages/study232_image43.jpg
+VOCdevkit\Test\JPEGImages/study232_image44.jpg
+VOCdevkit\Test\JPEGImages/study232_image45.jpg disc,113,257
+VOCdevkit\Test\JPEGImages/study232_image46.jpg
+VOCdevkit\Test\JPEGImages/study233_image16.jpg
+VOCdevkit\Test\JPEGImages/study233_image19.jpg
+VOCdevkit\Test\JPEGImages/study233_image26.jpg disc,212,355 disc,205,360 disc,210,309 disc,256,129 disc,237,217 disc,246,172 disc,220,262 disc,205,310 vertebra,247,161 vertebra,207,288 vertebra,250,152 vertebra,202,338 vertebra,244,195 vertebra,214,287 vertebra,230,240
+VOCdevkit\Test\JPEGImages/study233_image27.jpg disc,257,90 disc,260,130 disc,205,311 disc,236,217 disc,220,263 disc,247,173 disc,202,360 disc,204,311 vertebra,261,112 vertebra,258,151 vertebra,201,337 vertebra,206,287 vertebra,213,287 vertebra,244,196 vertebra,230,241 vertebra,200,337
+VOCdevkit\Test\JPEGImages/study233_image28.jpg disc,246,52 disc,256,89 disc,259,130 disc,204,311 disc,248,172 disc,235,217 disc,219,262 disc,200,362 disc,203,311 vertebra,249,69 vertebra,259,112 vertebra,200,337 vertebra,257,152 vertebra,206,288 vertebra,243,196 vertebra,213,287 vertebra,229,241 vertebra,199,337
+VOCdevkit\Test\JPEGImages/study233_image29.jpg disc,241,52 disc,202,310 disc,251,130 disc,234,217 disc,214,262 disc,246,172 disc,247,91 disc,200,362 disc,202,311 vertebra,219,241 vertebra,249,111 vertebra,248,112 vertebra,244,70 vertebra,249,153 vertebra,227,240 vertebra,242,197 vertebra,205,287 vertebra,199,337
+VOCdevkit\Test\JPEGImages/study233_image30.jpg disc,241,53 disc,203,311 disc,232,217 disc,214,262 disc,244,172 disc,200,362 disc,249,130 disc,245,90 disc,202,312 vertebra,232,208 vertebra,249,111 vertebra,242,69 vertebra,206,287 vertebra,247,108 vertebra,242,198 vertebra,227,240 vertebra,205,288 vertebra,247,153 vertebra,199,338
+VOCdevkit\Test\JPEGImages/study233_image31.jpg disc,241,53 disc,202,310 disc,244,173 disc,232,217 disc,214,263 disc,200,362 disc,246,89 disc,249,129 disc,201,311 vertebra,201,387 vertebra,232,209 vertebra,215,254 vertebra,243,68 vertebra,249,112 vertebra,242,69 vertebra,205,287 vertebra,248,108 vertebra,242,196 vertebra,227,240 vertebra,247,153 vertebra,205,287 vertebra,199,338
+VOCdevkit\Test\JPEGImages/study233_image37.jpg disc,248,56 disc,214,342 disc,256,130 disc,205,311 disc,211,310 disc,245,172 disc,236,217 disc,220,263 vertebra,249,149 vertebra,213,331 vertebra,215,287 vertebra,243,195 vertebra,231,241
+VOCdevkit\Test\JPEGImages/study233_image38.jpg disc,210,311 disc,257,90 disc,236,217 disc,261,130 disc,248,172 disc,219,263 disc,202,359 disc,204,312 vertebra,206,288 vertebra,202,337 vertebra,258,152 vertebra,261,112 vertebra,214,287 vertebra,245,196 vertebra,230,241 vertebra,200,337
+VOCdevkit\Test\JPEGImages/study233_image39.jpg disc,247,51 disc,251,129 disc,256,89 disc,258,130 disc,247,172 disc,234,217 disc,217,263 disc,200,361 disc,202,312 vertebra,250,68 vertebra,200,337 vertebra,258,112 vertebra,257,152 vertebra,206,288 vertebra,212,287 vertebra,243,197 vertebra,229,241 vertebra,199,337
+VOCdevkit\Test\JPEGImages/study233_image40.jpg disc,241,52 disc,233,217 disc,214,263 disc,245,173 disc,250,130 disc,246,91 disc,200,361 disc,200,313 vertebra,250,111 vertebra,243,70 vertebra,248,112 vertebra,249,153 vertebra,227,241 vertebra,243,197 vertebra,205,288 vertebra,198,338
+VOCdevkit\Test\JPEGImages/study233_image41.jpg disc,241,53 disc,214,263 disc,231,218 disc,243,172 disc,201,360 disc,201,312 disc,244,90 disc,248,130 vertebra,219,252 vertebra,243,68 vertebra,233,206 vertebra,246,158 vertebra,248,112 vertebra,211,286 vertebra,242,70 vertebra,242,198 vertebra,227,240 vertebra,205,288 vertebra,246,112 vertebra,247,154 vertebra,199,338
+VOCdevkit\Test\JPEGImages/study233_image42.jpg disc,244,173 disc,246,89 disc,231,218 disc,200,361 disc,213,263 disc,248,130 disc,201,312 vertebra,233,208 vertebra,249,112 vertebra,243,68 vertebra,215,252 vertebra,248,108 vertebra,242,196 vertebra,227,241 vertebra,247,154 vertebra,204,288 vertebra,199,338
+VOCdevkit\Test\JPEGImages/study233_image48.jpg disc,206,360 disc,206,310 disc,237,217 disc,257,129 disc,248,172 disc,218,262 disc,205,310 vertebra,241,206 vertebra,256,115 vertebra,248,159 vertebra,256,153 vertebra,203,338 vertebra,213,286 vertebra,244,196 vertebra,230,241 vertebra,212,288
+VOCdevkit\Test\JPEGImages/study233_image49.jpg disc,246,52 disc,251,91 disc,236,217 disc,258,131 disc,219,263 disc,249,173 disc,203,359 disc,203,312 vertebra,249,72 vertebra,257,152 vertebra,201,337 vertebra,206,288 vertebra,257,112 vertebra,213,287 vertebra,230,242 vertebra,245,196 vertebra,200,337
+VOCdevkit\Test\JPEGImages/study233_image50.jpg disc,246,52 disc,252,90 disc,205,311 disc,258,130 disc,235,217 disc,247,173 disc,218,263 disc,202,359 disc,204,311 vertebra,235,208 vertebra,202,337 vertebra,249,70 vertebra,258,112 vertebra,257,153 vertebra,206,288 vertebra,212,287 vertebra,229,242 vertebra,243,197 vertebra,200,337
+VOCdevkit\Test\JPEGImages/study233_image51.jpg disc,241,52 disc,250,131 disc,234,217 disc,246,91 disc,202,362 disc,246,173 disc,214,263 disc,202,312 vertebra,218,253 vertebra,220,241 vertebra,249,112 vertebra,201,338 vertebra,248,111 vertebra,244,71 vertebra,248,154 vertebra,206,288 vertebra,242,196 vertebra,228,241 vertebra,200,338
+VOCdevkit\Test\JPEGImages/study233_image52.jpg disc,235,45 disc,241,54 disc,202,362 disc,233,218 disc,245,173 disc,249,131 disc,245,90 disc,215,263 disc,203,312 vertebra,232,208 vertebra,217,254 vertebra,249,112 vertebra,242,70 vertebra,202,338 vertebra,247,153 vertebra,247,112 vertebra,211,288 vertebra,242,196 vertebra,227,240 vertebra,201,338
+VOCdevkit\Test\JPEGImages/study233_image53.jpg disc,241,53 disc,204,311 disc,232,217 disc,216,263 disc,247,173 disc,200,362 disc,247,89 disc,249,130 disc,203,311 vertebra,220,242 vertebra,235,197 vertebra,250,112 vertebra,201,338 vertebra,243,69 vertebra,206,288 vertebra,248,108 vertebra,248,154 vertebra,243,196 vertebra,228,242 vertebra,200,338
+VOCdevkit\Test\JPEGImages/study233_image63.jpg
+VOCdevkit\Test\JPEGImages/study233_image64.jpg disc,234,323
+VOCdevkit\Test\JPEGImages/study233_image65.jpg
+VOCdevkit\Test\JPEGImages/study233_image66.jpg
+VOCdevkit\Test\JPEGImages/study233_image67.jpg disc,220,337 disc,221,323 disc,217,351 vertebra,220,337
+VOCdevkit\Test\JPEGImages/study233_image68.jpg
+VOCdevkit\Test\JPEGImages/study234_image10.jpg disc,153,94 disc,157,76 disc,162,57 disc,136,183 disc,136,136 disc,144,115 disc,133,159 vertebra,157,67 vertebra,162,49 vertebra,137,131 vertebra,155,85 vertebra,161,67 vertebra,133,170 vertebra,148,104 vertebra,140,126 vertebra,134,147 vertebra,133,171
+VOCdevkit\Test\JPEGImages/study234_image29.jpg disc,161,37 disc,134,161 disc,158,58 disc,150,97 disc,145,118 disc,156,78 disc,138,137 vertebra,137,172 vertebra,140,129 vertebra,158,49 vertebra,138,148 vertebra,148,108 vertebra,139,129 vertebra,153,89 vertebra,137,149 vertebra,157,67 vertebra,148,109
+VOCdevkit\Test\JPEGImages/study234_image30.jpg disc,157,37 disc,150,97 disc,136,158 disc,137,183 disc,157,57 disc,155,78 disc,138,136 disc,145,117 vertebra,144,126 vertebra,156,68 vertebra,152,91 vertebra,134,171 vertebra,157,49 vertebra,154,85 vertebra,140,129 vertebra,148,106 vertebra,136,171 vertebra,137,148 vertebra,157,69 vertebra,148,106
+VOCdevkit\Test\JPEGImages/study234_image31.jpg disc,158,41 disc,149,94 disc,134,158 disc,137,182 disc,154,78 disc,142,115 disc,158,57 disc,138,136 vertebra,152,91 vertebra,156,68 vertebra,153,83 vertebra,134,171 vertebra,157,49 vertebra,138,131 vertebra,141,126 vertebra,136,148 vertebra,146,105 vertebra,157,69 vertebra,136,171
+VOCdevkit\Test\JPEGImages/study234_image32.jpg disc,157,18 disc,158,41 disc,142,114 disc,133,159 disc,137,136 disc,137,182 disc,149,94 disc,157,58 disc,154,76 disc,142,114 vertebra,158,29 vertebra,137,132 vertebra,134,171 vertebra,157,50 vertebra,153,86 vertebra,140,126 vertebra,145,104 vertebra,134,147 vertebra,156,67 vertebra,133,171
+VOCdevkit\Test\JPEGImages/study234_image33.jpg disc,84,74 disc,133,158 disc,160,58 disc,137,182 disc,137,137 disc,149,93 disc,156,76 disc,142,114 vertebra,160,49 vertebra,137,132 vertebra,134,171 vertebra,153,85 vertebra,157,68 vertebra,140,127 vertebra,145,104 vertebra,134,147 vertebra,133,172
+VOCdevkit\Test\JPEGImages/study234_image34.jpg disc,163,57 disc,158,76 disc,155,94 disc,133,158 disc,137,182 disc,144,115 disc,137,136 vertebra,162,66 vertebra,157,84 vertebra,137,131 vertebra,147,105 vertebra,133,171 vertebra,140,126 vertebra,134,147 vertebra,133,171
+VOCdevkit\Test\JPEGImages/study234_image41.jpg disc,129,177 vertebra,157,189 vertebra,129,188
+VOCdevkit\Test\JPEGImages/study234_image42.jpg
+VOCdevkit\Test\JPEGImages/study234_image43.jpg
+VOCdevkit\Test\JPEGImages/study234_image44.jpg disc,132,177 vertebra,131,189
+VOCdevkit\Test\JPEGImages/study234_image45.jpg
+VOCdevkit\Test\JPEGImages/study234_image46.jpg
+VOCdevkit\Test\JPEGImages/study234_image5.jpg disc,160,37 disc,140,181 disc,141,117 disc,138,137 disc,140,161 disc,158,57 disc,153,97 disc,141,117 disc,155,78 vertebra,160,49 vertebra,140,126 vertebra,147,107 vertebra,140,170 vertebra,140,148 vertebra,153,89 vertebra,147,108 vertebra,157,68
+VOCdevkit\Test\JPEGImages/study234_image6.jpg disc,134,160 disc,158,57 disc,157,36 disc,134,160 disc,153,96 disc,137,183 disc,139,137 disc,145,117 disc,158,57 disc,156,78 vertebra,157,67 vertebra,157,48 vertebra,141,127 vertebra,136,170 vertebra,153,89 vertebra,134,148 vertebra,137,147 vertebra,147,106 vertebra,157,68 vertebra,134,172
+VOCdevkit\Test\JPEGImages/study234_image7.jpg disc,157,57 disc,156,36 disc,148,97 disc,142,115 disc,133,159 disc,154,78 disc,137,136 disc,142,115 disc,137,183 disc,157,57 vertebra,153,83 vertebra,152,90 vertebra,156,68 vertebra,156,48 vertebra,133,170 vertebra,141,127 vertebra,134,147 vertebra,146,105 vertebra,156,69 vertebra,133,171
+VOCdevkit\Test\JPEGImages/study234_image8.jpg disc,147,100 disc,156,19 disc,157,37 disc,136,182 disc,148,94 disc,137,136 disc,133,159 disc,157,57 disc,154,77 disc,142,114 vertebra,152,85 vertebra,157,49 vertebra,134,171 vertebra,140,127 vertebra,133,148 vertebra,145,105 vertebra,156,68 vertebra,133,171
+VOCdevkit\Test\JPEGImages/study234_image9.jpg disc,160,42 disc,156,20 disc,158,57 disc,136,136 disc,137,182 disc,142,114 disc,149,94 disc,133,159 disc,156,76 disc,142,114 vertebra,160,49 vertebra,153,85 vertebra,157,67 vertebra,133,170 vertebra,139,127 vertebra,145,104 vertebra,133,147 vertebra,133,171
+VOCdevkit\Test\JPEGImages/study235_image10.jpg disc,150,57 disc,153,36 disc,137,198 disc,149,75 disc,144,122 disc,136,173 disc,148,98 disc,140,147 vertebra,153,46 vertebra,148,88 vertebra,141,137 vertebra,141,135 vertebra,149,86 vertebra,149,65 vertebra,147,111 vertebra,137,160 vertebra,136,185
+VOCdevkit\Test\JPEGImages/study235_image33.jpg disc,149,77 disc,147,196 disc,144,147 disc,140,176 disc,144,122 disc,141,149 disc,147,98 vertebra,144,186 vertebra,153,69 vertebra,144,134 vertebra,148,90 vertebra,146,110 vertebra,139,164
+VOCdevkit\Test\JPEGImages/study235_image34.jpg disc,153,37 disc,136,202 disc,138,174 disc,153,57 disc,152,77 disc,145,122 disc,148,98 disc,141,148 vertebra,140,155 vertebra,149,89 vertebra,137,188 vertebra,153,50 vertebra,141,137 vertebra,149,89 vertebra,141,137 vertebra,137,188 vertebra,153,67 vertebra,147,110 vertebra,139,162
+VOCdevkit\Test\JPEGImages/study235_image35.jpg disc,150,76 disc,150,35 disc,150,57 disc,137,201 disc,137,174 disc,145,122 disc,150,76 disc,140,148 disc,148,98 vertebra,152,52 vertebra,149,88 vertebra,150,45 vertebra,142,134 vertebra,150,66 vertebra,147,111 vertebra,149,86 vertebra,138,161 vertebra,137,188
+VOCdevkit\Test\JPEGImages/study235_image36.jpg disc,149,34 disc,146,100 disc,134,201 disc,149,53 disc,142,122 disc,134,201 disc,136,174 disc,142,122 disc,149,76 disc,139,147 disc,147,98 vertebra,150,44 vertebra,134,187 vertebra,148,65 vertebra,148,86 vertebra,141,134 vertebra,146,110 vertebra,138,161 vertebra,137,188
+VOCdevkit\Test\JPEGImages/study235_image37.jpg disc,150,58 disc,149,35 disc,137,201 disc,136,173 disc,141,122 disc,148,75 disc,138,147 disc,146,98 vertebra,150,46 vertebra,149,65 vertebra,145,110 vertebra,147,89 vertebra,140,134 vertebra,137,161 vertebra,136,187
+VOCdevkit\Test\JPEGImages/study235_image38.jpg disc,137,198 disc,153,37 disc,150,57 disc,137,172 disc,144,123 disc,139,148 disc,149,76 disc,147,98 vertebra,152,51 vertebra,146,112 vertebra,140,137 vertebra,146,111 vertebra,137,160 vertebra,140,137 vertebra,149,66 vertebra,149,86 vertebra,136,186
+VOCdevkit\Test\JPEGImages/study235_image47.jpg
+VOCdevkit\Test\JPEGImages/study235_image48.jpg
+VOCdevkit\Test\JPEGImages/study235_image49.jpg disc,85,114
+VOCdevkit\Test\JPEGImages/study235_image5.jpg disc,147,197 disc,156,57 disc,140,174 disc,153,77 disc,150,98 disc,152,99 disc,141,148 disc,148,122 vertebra,161,49 vertebra,155,66 vertebra,154,88 vertebra,144,187 vertebra,149,112 vertebra,141,161 vertebra,146,134 vertebra,140,161
+VOCdevkit\Test\JPEGImages/study235_image50.jpg
+VOCdevkit\Test\JPEGImages/study235_image51.jpg
+VOCdevkit\Test\JPEGImages/study235_image52.jpg
+VOCdevkit\Test\JPEGImages/study235_image6.jpg disc,155,34 disc,154,56 disc,137,201 disc,152,97 disc,153,76 disc,138,174 disc,146,121 disc,141,147 vertebra,154,45 vertebra,153,86 vertebra,145,134 vertebra,148,110 vertebra,154,65 vertebra,139,161 vertebra,138,188 vertebra,139,161 vertebra,138,188
+VOCdevkit\Test\JPEGImages/study235_image7.jpg disc,143,121 disc,152,36 disc,152,57 disc,137,201 disc,152,76 disc,146,121 disc,138,174 disc,141,148 disc,149,97 vertebra,150,89 vertebra,152,46 vertebra,144,134 vertebra,150,86 vertebra,152,65 vertebra,148,111 vertebra,137,186 vertebra,139,160 vertebra,137,187
+VOCdevkit\Test\JPEGImages/study235_image8.jpg disc,149,17 disc,137,200 disc,150,36 disc,150,75 disc,149,54 disc,136,201 disc,149,98 disc,137,173 disc,144,121 disc,150,75 disc,139,147 disc,148,98 vertebra,149,27 vertebra,149,88 vertebra,146,112 vertebra,140,136 vertebra,150,45 vertebra,149,64 vertebra,149,87 vertebra,141,135 vertebra,137,160 vertebra,146,111 vertebra,137,187
+VOCdevkit\Test\JPEGImages/study235_image9.jpg disc,149,17 disc,150,36 disc,149,54 disc,149,75 disc,137,199 disc,144,122 disc,137,174 disc,149,75 disc,139,147 disc,147,98 vertebra,136,178 vertebra,149,27 vertebra,148,88 vertebra,145,112 vertebra,150,45 vertebra,140,137 vertebra,148,87 vertebra,149,65 vertebra,141,135 vertebra,146,111 vertebra,137,160 vertebra,136,186
+VOCdevkit\Test\JPEGImages/study236_image13.jpg disc,198,258 disc,197,152 disc,193,187 disc,201,115 disc,193,223 disc,197,152 vertebra,194,240 vertebra,195,175 vertebra,200,135 vertebra,193,205 vertebra,194,242
+VOCdevkit\Test\JPEGImages/study236_image14.jpg disc,188,221 disc,211,82 disc,195,257 disc,205,116 disc,188,186 disc,196,151 disc,188,222 vertebra,200,139 vertebra,210,99 vertebra,189,241 vertebra,200,135 vertebra,194,170 vertebra,194,171 vertebra,188,241 vertebra,187,206
+VOCdevkit\Test\JPEGImages/study236_image15.jpg disc,212,54 disc,188,221 disc,189,185 disc,202,114 disc,195,257 disc,208,84 disc,201,114 disc,187,221 disc,193,150 disc,187,186 vertebra,206,102 vertebra,189,169 vertebra,211,68 vertebra,206,99 vertebra,188,241 vertebra,189,170 vertebra,198,135 vertebra,186,206
+VOCdevkit\Test\JPEGImages/study236_image16.jpg disc,212,54 disc,189,185 disc,188,221 disc,194,258 disc,206,84 disc,193,150 disc,199,114 disc,187,186 disc,187,222 vertebra,201,98 vertebra,189,242 vertebra,189,170 vertebra,205,100 vertebra,196,134 vertebra,209,68 vertebra,188,242 vertebra,189,170 vertebra,196,135 vertebra,186,206
+VOCdevkit\Test\JPEGImages/study236_image17.jpg disc,213,54 disc,194,259 disc,192,150 disc,206,84 disc,187,186 disc,186,222 disc,199,115 vertebra,205,98 vertebra,186,180 vertebra,210,69 vertebra,205,99 vertebra,210,69 vertebra,188,242 vertebra,188,170 vertebra,196,135 vertebra,185,206
+VOCdevkit\Test\JPEGImages/study236_image18.jpg disc,212,54 disc,201,114 disc,189,186 disc,194,259 disc,193,150 disc,207,83 disc,188,186 disc,200,114 disc,186,222 vertebra,205,98 vertebra,189,169 vertebra,197,134 vertebra,210,68 vertebra,205,99 vertebra,188,242 vertebra,189,169 vertebra,186,206 vertebra,197,135
+VOCdevkit\Test\JPEGImages/study236_image36.jpg
+VOCdevkit\Test\JPEGImages/study236_image37.jpg
+VOCdevkit\Test\JPEGImages/study236_image38.jpg
+VOCdevkit\Test\JPEGImages/study236_image39.jpg
+VOCdevkit\Test\JPEGImages/study236_image40.jpg
+VOCdevkit\Test\JPEGImages/study236_image41.jpg
+VOCdevkit\Test\JPEGImages/study237_image2.jpg disc,198,205 disc,206,238 disc,198,142 disc,196,175 vertebra,197,164 vertebra,205,226 vertebra,197,192
+VOCdevkit\Test\JPEGImages/study237_image3.jpg disc,201,109 disc,205,237 disc,211,78 disc,197,209 disc,200,109 disc,194,173 disc,198,139 vertebra,213,66 vertebra,194,167 vertebra,199,224 vertebra,199,126 vertebra,207,96 vertebra,198,225 vertebra,196,158 vertebra,195,192
+VOCdevkit\Test\JPEGImages/study237_image35.jpg
+VOCdevkit\Test\JPEGImages/study237_image36.jpg
+VOCdevkit\Test\JPEGImages/study237_image37.jpg
+VOCdevkit\Test\JPEGImages/study237_image38.jpg
+VOCdevkit\Test\JPEGImages/study237_image39.jpg
+VOCdevkit\Test\JPEGImages/study237_image4.jpg disc,199,247 disc,217,50 disc,204,240 disc,194,207 disc,193,173 disc,199,107 disc,209,78 disc,196,138 vertebra,193,169 vertebra,198,126 vertebra,211,67 vertebra,211,67 vertebra,197,225 vertebra,198,123 vertebra,206,93 vertebra,197,226 vertebra,194,158 vertebra,194,191
+VOCdevkit\Test\JPEGImages/study237_image40.jpg
+VOCdevkit\Test\JPEGImages/study237_image5.jpg disc,217,50 disc,199,241 disc,193,207 disc,192,173 disc,198,107 disc,209,78 disc,194,139 vertebra,211,68 vertebra,197,224 vertebra,196,123 vertebra,205,93 vertebra,194,158 vertebra,193,191 vertebra,196,224
+VOCdevkit\Test\JPEGImages/study237_image6.jpg disc,199,239 disc,217,49 disc,192,173 disc,193,207 disc,199,108 disc,208,78 disc,194,139 vertebra,192,168 vertebra,213,63 vertebra,210,70 vertebra,198,122 vertebra,196,224 vertebra,205,93 vertebra,193,157 vertebra,193,191
+VOCdevkit\Test\JPEGImages/study237_image7.jpg disc,195,142 disc,194,173 disc,201,107 disc,198,240 disc,218,49 disc,193,207 disc,210,78 disc,201,108 disc,193,173 disc,195,138 vertebra,190,190 vertebra,198,127 vertebra,216,63 vertebra,211,71 vertebra,196,224 vertebra,200,123 vertebra,195,224 vertebra,206,93 vertebra,193,190 vertebra,194,158
+VOCdevkit\Test\JPEGImages/study238_image11.jpg disc,247,117 disc,249,105 disc,213,327 disc,220,239 disc,241,146 disc,212,286 disc,229,190 disc,219,239 vertebra,251,89 vertebra,235,167 vertebra,247,117 vertebra,212,297 vertebra,214,263 vertebra,243,129 vertebra,212,310 vertebra,236,167 vertebra,227,214 vertebra,213,263
+VOCdevkit\Test\JPEGImages/study238_image12.jpg disc,249,58 disc,217,328 disc,221,236 disc,247,104 disc,241,146 disc,213,283 disc,220,236 disc,231,190 vertebra,215,300 vertebra,256,83 vertebra,233,172 vertebra,248,83 vertebra,214,308 vertebra,236,168 vertebra,228,214 vertebra,242,127 vertebra,214,262
+VOCdevkit\Test\JPEGImages/study238_image13.jpg disc,248,23 disc,248,67 disc,237,145 disc,236,145 disc,213,282 disc,213,328 disc,245,104 disc,229,189 disc,218,235 vertebra,213,357 vertebra,249,45 vertebra,221,218 vertebra,243,127 vertebra,214,307 vertebra,226,214 vertebra,243,123 vertebra,216,259 vertebra,234,168 vertebra,212,307 vertebra,246,83
+VOCdevkit\Test\JPEGImages/study238_image14.jpg disc,236,144 disc,243,24 disc,245,66 disc,211,282 disc,241,105 disc,226,189 disc,212,329 disc,216,235 disc,236,144 vertebra,215,355 vertebra,219,217 vertebra,244,47 vertebra,240,123 vertebra,213,259 vertebra,221,214 vertebra,211,307 vertebra,233,169 vertebra,243,83
+VOCdevkit\Test\JPEGImages/study238_image15.jpg disc,235,145 disc,243,24 disc,245,66 disc,241,104 disc,225,190 disc,206,281 disc,212,329 disc,235,145 disc,214,235 vertebra,206,307 vertebra,212,262 vertebra,243,46 vertebra,237,123 vertebra,212,259 vertebra,211,307 vertebra,231,169 vertebra,220,213 vertebra,243,83
+VOCdevkit\Test\JPEGImages/study238_image16.jpg disc,230,368 disc,247,24 disc,236,145 disc,247,66 disc,210,281 disc,211,329 disc,242,105 disc,226,191 disc,214,234 disc,235,145 vertebra,214,345 vertebra,221,212 vertebra,244,83 vertebra,246,46 vertebra,211,307 vertebra,210,307 vertebra,241,123 vertebra,221,213 vertebra,212,259 vertebra,232,169 vertebra,243,83
+VOCdevkit\Test\JPEGImages/study238_image22.jpg disc,248,103 disc,212,298 disc,212,311 disc,247,116 disc,219,239 disc,242,147 disc,213,285 disc,219,239 disc,230,190 vertebra,247,116 vertebra,212,311 vertebra,235,166 vertebra,248,103 vertebra,250,90 vertebra,212,298 vertebra,212,326 vertebra,244,130 vertebra,236,167 vertebra,227,213 vertebra,213,264
+VOCdevkit\Test\JPEGImages/study238_image23.jpg disc,248,58 disc,220,324 disc,215,282 disc,246,103 disc,220,236 disc,241,146 disc,231,190 vertebra,218,309 vertebra,218,257 vertebra,234,173 vertebra,247,83 vertebra,215,263 vertebra,228,214 vertebra,244,123 vertebra,236,168
+VOCdevkit\Test\JPEGImages/study238_image24.jpg disc,248,23 disc,249,63 disc,236,145 disc,214,326 disc,213,282 disc,236,145 disc,228,190 disc,245,103 disc,218,235 vertebra,249,45 vertebra,226,213 vertebra,213,307 vertebra,216,258 vertebra,243,123 vertebra,233,168 vertebra,246,83
+VOCdevkit\Test\JPEGImages/study238_image25.jpg disc,213,357 disc,245,23 disc,236,144 disc,245,67 disc,217,236 disc,227,191 disc,211,282 disc,242,104 disc,213,327 disc,235,145 vertebra,213,357 vertebra,242,126 vertebra,245,46 vertebra,231,172 vertebra,221,213 vertebra,241,124 vertebra,214,346 vertebra,212,262 vertebra,232,168 vertebra,212,307 vertebra,243,83
+VOCdevkit\Test\JPEGImages/study238_image26.jpg disc,245,23 disc,236,145 disc,244,63 disc,226,191 disc,210,282 disc,241,104 disc,212,327 disc,235,145 disc,214,235 vertebra,241,122 vertebra,207,307 vertebra,245,45 vertebra,215,346 vertebra,241,124 vertebra,212,259 vertebra,211,307 vertebra,220,213 vertebra,232,168 vertebra,243,83
+VOCdevkit\Test\JPEGImages/study238_image27.jpg disc,231,368 disc,272,327 disc,235,145 disc,247,23 disc,245,63 disc,207,281 disc,211,326 disc,242,104 disc,227,191 disc,215,235 disc,235,145 vertebra,230,172 vertebra,218,219 vertebra,215,347 vertebra,245,83 vertebra,246,45 vertebra,210,307 vertebra,241,123 vertebra,221,213 vertebra,213,258 vertebra,232,169 vertebra,244,83
+VOCdevkit\Test\JPEGImages/study238_image33.jpg disc,247,88 disc,215,314 disc,215,267 disc,229,208 disc,235,176 disc,246,130 vertebra,214,295 vertebra,232,193 vertebra,243,149 vertebra,227,223 vertebra,247,104
+VOCdevkit\Test\JPEGImages/study238_image34.jpg disc,217,347 disc,219,252 disc,231,192 disc,260,61 disc,213,298 disc,251,103 disc,243,147 disc,257,104 vertebra,226,223 vertebra,215,327 vertebra,214,282 vertebra,241,165 vertebra,246,130 vertebra,216,269 vertebra,259,83
+VOCdevkit\Test\JPEGImages/study238_image35.jpg disc,217,253 disc,238,146 disc,250,63 disc,216,330 disc,218,240 disc,213,285 disc,241,146 disc,230,192 disc,247,103 vertebra,227,212 vertebra,249,46 vertebra,232,177 vertebra,221,221 vertebra,212,310 vertebra,235,166 vertebra,242,129 vertebra,215,265 vertebra,248,85
+VOCdevkit\Test\JPEGImages/study238_image36.jpg disc,199,401 disc,211,297 disc,213,253 disc,213,329 disc,214,343 disc,243,25 disc,216,239 disc,226,190 disc,245,64 disc,235,147 disc,243,106 vertebra,211,284 vertebra,213,253 vertebra,221,211 vertebra,212,268 vertebra,211,312 vertebra,229,176 vertebra,245,45 vertebra,234,166 vertebra,221,213 vertebra,241,128 vertebra,244,84
+VOCdevkit\Test\JPEGImages/study238_image37.jpg disc,218,224 disc,214,253 disc,242,25 disc,216,239 disc,212,329 disc,206,285 disc,226,191 disc,243,63 disc,242,105 disc,235,148 vertebra,218,224 vertebra,220,209 vertebra,211,312 vertebra,243,45 vertebra,211,267 vertebra,233,166 vertebra,220,210 vertebra,237,130 vertebra,241,120 vertebra,228,175 vertebra,243,85
+VOCdevkit\Test\JPEGImages/study238_image38.jpg disc,218,223 disc,214,253 disc,248,24 disc,215,238 disc,215,326 disc,211,284 disc,227,192 disc,248,68 disc,236,147 disc,243,105 vertebra,217,341 vertebra,214,253 vertebra,218,223 vertebra,237,130 vertebra,221,210 vertebra,212,312 vertebra,247,45 vertebra,211,266 vertebra,234,166 vertebra,229,176 vertebra,242,122 vertebra,245,85
+VOCdevkit\Test\JPEGImages/study238_image44.jpg
+VOCdevkit\Test\JPEGImages/study238_image45.jpg disc,306,276
+VOCdevkit\Test\JPEGImages/study238_image46.jpg
+VOCdevkit\Test\JPEGImages/study238_image47.jpg disc,244,292
+VOCdevkit\Test\JPEGImages/study238_image48.jpg
+VOCdevkit\Test\JPEGImages/study238_image49.jpg
+VOCdevkit\Test\JPEGImages/study239_image25.jpg disc,255,275 disc,206,264 disc,219,58 disc,186,197 disc,194,233 disc,210,125 disc,197,156 disc,219,90 vertebra,218,79 vertebra,217,110 vertebra,194,174 vertebra,208,139 vertebra,197,249 vertebra,196,250 vertebra,187,216
+VOCdevkit\Test\JPEGImages/study239_image32.jpg disc,136,162 disc,131,212 vertebra,130,193
+VOCdevkit\Test\JPEGImages/study239_image33.jpg disc,129,206 disc,130,170 vertebra,129,188
+VOCdevkit\Test\JPEGImages/study239_image34.jpg disc,130,170 vertebra,130,196
+VOCdevkit\Test\JPEGImages/study239_image35.jpg disc,130,172
+VOCdevkit\Test\JPEGImages/study239_image36.jpg
+VOCdevkit\Test\JPEGImages/study239_image37.jpg disc,129,198
+VOCdevkit\Test\JPEGImages/study239_image41.jpg disc,236,72 disc,220,282 disc,206,206 disc,206,244 disc,232,98 disc,223,129 disc,209,166 vertebra,233,84 vertebra,226,114 vertebra,200,228 vertebra,210,265 vertebra,221,148 vertebra,208,185
+VOCdevkit\Test\JPEGImages/study239_image42.jpg disc,212,288 disc,206,247 disc,237,70 disc,223,130 disc,234,97 disc,198,207 disc,208,166 vertebra,238,52 vertebra,236,85 vertebra,206,185 vertebra,232,115 vertebra,220,148 vertebra,209,267 vertebra,197,227
+VOCdevkit\Test\JPEGImages/study239_image43.jpg disc,235,33 disc,201,163 disc,232,96 disc,205,248 disc,212,289 disc,232,71 disc,221,133 disc,196,207 disc,206,166 vertebra,205,176 vertebra,232,87 vertebra,234,53 vertebra,224,113 vertebra,199,185 vertebra,212,147 vertebra,209,267 vertebra,196,228
+VOCdevkit\Test\JPEGImages/study239_image44.jpg disc,226,87 disc,231,96 disc,234,33 disc,231,72 disc,200,163 disc,205,247 disc,219,133 disc,212,288 disc,196,207 disc,205,167 vertebra,209,318 vertebra,231,86 vertebra,233,54 vertebra,212,147 vertebra,199,185 vertebra,223,114 vertebra,209,267 vertebra,197,229
+VOCdevkit\Test\JPEGImages/study239_image45.jpg disc,236,33 disc,219,130 disc,231,96 disc,206,248 disc,212,287 disc,232,70 disc,197,207 disc,206,167 vertebra,231,84 vertebra,235,53 vertebra,199,185 vertebra,224,114 vertebra,212,147 vertebra,198,229 vertebra,209,267
+VOCdevkit\Test\JPEGImages/study239_image46.jpg disc,236,66 disc,212,287 disc,201,207 disc,224,133 disc,206,248 disc,232,96 disc,209,167 vertebra,212,148 vertebra,237,50 vertebra,233,83 vertebra,231,117 vertebra,199,230 vertebra,206,185 vertebra,220,148 vertebra,208,267
+VOCdevkit\Test\JPEGImages/study240_image13.jpg disc,208,83 disc,198,122 disc,185,247 disc,189,162 disc,187,204 vertebra,189,144 vertebra,208,102 vertebra,188,181 vertebra,194,142 vertebra,185,226 vertebra,185,226
+VOCdevkit\Test\JPEGImages/study240_image14.jpg disc,212,46 disc,189,161 disc,188,246 disc,195,123 disc,205,83 disc,188,162 disc,187,204 vertebra,187,186 vertebra,208,66 vertebra,187,225 vertebra,199,102 vertebra,189,142 vertebra,186,183 vertebra,187,225
+VOCdevkit\Test\JPEGImages/study240_image15.jpg disc,189,246 disc,98,107 disc,211,46 disc,189,246 disc,193,123 disc,201,82 disc,186,162 disc,185,204 vertebra,185,185 vertebra,206,66 vertebra,187,225 vertebra,197,102 vertebra,187,142 vertebra,185,183 vertebra,186,226
+VOCdevkit\Test\JPEGImages/study240_image16.jpg disc,189,247 disc,210,46 disc,193,123 disc,184,205 disc,200,82 disc,185,162 vertebra,184,186 vertebra,205,66 vertebra,196,102 vertebra,184,183 vertebra,185,226 vertebra,187,142
+VOCdevkit\Test\JPEGImages/study240_image17.jpg disc,188,247 disc,210,47 disc,193,123 disc,185,162 disc,184,205 disc,200,82 vertebra,205,66 vertebra,184,183 vertebra,196,102 vertebra,185,226 vertebra,187,142
+VOCdevkit\Test\JPEGImages/study240_image18.jpg disc,187,247 disc,211,47 disc,187,247 disc,194,123 disc,187,161 disc,204,84 disc,185,204 vertebra,199,99 vertebra,206,66 vertebra,186,225 vertebra,199,102 vertebra,188,141 vertebra,185,183 vertebra,185,225
+VOCdevkit\Test\JPEGImages/study240_image35.jpg disc,188,201 vertebra,186,224
+VOCdevkit\Test\JPEGImages/study240_image36.jpg disc,201,81 disc,186,163 disc,185,203 disc,195,118 vertebra,199,103 vertebra,186,179 vertebra,185,225
+VOCdevkit\Test\JPEGImages/study240_image37.jpg disc,211,43 disc,193,118 disc,200,81 disc,186,248 disc,185,161 disc,186,202 vertebra,206,67 vertebra,198,95 vertebra,187,140 vertebra,186,225 vertebra,185,180
+VOCdevkit\Test\JPEGImages/study240_image38.jpg disc,194,249 disc,194,238 disc,210,45 disc,188,119 disc,199,81 disc,183,203 disc,183,161 vertebra,207,61 vertebra,194,102 vertebra,187,224 vertebra,183,181 vertebra,187,140
+VOCdevkit\Test\JPEGImages/study240_image39.jpg disc,187,250 disc,208,45 disc,193,119 disc,185,162 disc,185,203 disc,201,80 vertebra,206,60 vertebra,185,186 vertebra,199,97 vertebra,185,223 vertebra,186,140
+VOCdevkit\Test\JPEGImages/study240_image40.jpg disc,196,238 disc,193,118 disc,184,162 disc,186,201 disc,211,46 disc,201,82 vertebra,197,103 vertebra,206,67 vertebra,187,140 vertebra,185,180
+VOCdevkit\Test\JPEGImages/study240_image47.jpg disc,25,242
+VOCdevkit\Test\JPEGImages/study240_image48.jpg disc,25,241
+VOCdevkit\Test\JPEGImages/study240_image49.jpg disc,237,184 disc,105,183
+VOCdevkit\Test\JPEGImages/study240_image50.jpg
+VOCdevkit\Test\JPEGImages/study240_image51.jpg disc,165,259
+VOCdevkit\Test\JPEGImages/study240_image52.jpg
+VOCdevkit\Test\JPEGImages/study241_image2.jpg disc,204,342
+VOCdevkit\Test\JPEGImages/study241_image21.jpg disc,394,55 disc,381,116 disc,355,169 disc,350,237 disc,363,173 disc,344,303 disc,345,430 disc,374,112 disc,343,366 vertebra,405,29 vertebra,350,273 vertebra,387,83 vertebra,363,203 vertebra,344,397 vertebra,344,335 vertebra,371,142 vertebra,347,274 vertebra,353,204
+VOCdevkit\Test\JPEGImages/study241_image22.jpg disc,384,54 disc,344,431 disc,354,167 disc,351,235 disc,343,301 disc,342,367 disc,371,110 vertebra,389,28 vertebra,375,83 vertebra,343,401 vertebra,354,202 vertebra,348,269 vertebra,342,401 vertebra,364,141 vertebra,353,202 vertebra,343,335 vertebra,347,270
+VOCdevkit\Test\JPEGImages/study241_image23.jpg disc,342,301 disc,382,54 disc,343,432 disc,341,368 disc,352,166 disc,348,235 disc,341,302 disc,368,110 vertebra,335,341 vertebra,387,28 vertebra,335,402 vertebra,373,83 vertebra,350,202 vertebra,345,269 vertebra,341,401 vertebra,362,141 vertebra,341,337 vertebra,349,202 vertebra,344,270
+VOCdevkit\Test\JPEGImages/study241_image24.jpg disc,341,301 disc,383,54 disc,344,433 disc,341,301 disc,341,369 disc,352,166 disc,344,235 disc,367,110 vertebra,335,341 vertebra,388,28 vertebra,343,402 vertebra,373,83 vertebra,348,201 vertebra,361,141 vertebra,342,402 vertebra,335,336 vertebra,346,201 vertebra,342,269
+VOCdevkit\Test\JPEGImages/study241_image25.jpg disc,383,54 disc,344,433 disc,340,302 disc,341,369 disc,342,235 disc,370,110 disc,354,166 vertebra,374,82 vertebra,389,27 vertebra,336,335 vertebra,374,82 vertebra,342,401 vertebra,362,141 vertebra,341,337 vertebra,342,402 vertebra,347,201 vertebra,341,269
+VOCdevkit\Test\JPEGImages/study241_image26.jpg disc,341,301 disc,386,53 disc,373,109 disc,343,435 disc,340,302 disc,372,109 disc,341,371 disc,355,166 disc,344,234 vertebra,336,341 vertebra,381,83 vertebra,362,141 vertebra,335,336 vertebra,348,202 vertebra,341,403 vertebra,341,268
+VOCdevkit\Test\JPEGImages/study241_image3.jpg disc,48,117
+VOCdevkit\Test\JPEGImages/study241_image31.jpg disc,154,91 disc,155,84 disc,148,163 disc,158,68 disc,147,139 disc,164,50 disc,148,179 vertebra,148,131 vertebra,149,172 vertebra,153,100 vertebra,157,76 vertebra,162,60
+VOCdevkit\Test\JPEGImages/study241_image32.jpg disc,161,66 disc,148,116
+VOCdevkit\Test\JPEGImages/study241_image36.jpg disc,122,217 disc,131,50 disc,182,123 disc,81,125 disc,132,67 vertebra,133,75 vertebra,131,58
+VOCdevkit\Test\JPEGImages/study241_image4.jpg
+VOCdevkit\Test\JPEGImages/study241_image5.jpg
+VOCdevkit\Test\JPEGImages/study241_image6.jpg
+VOCdevkit\Test\JPEGImages/study241_image7.jpg
+VOCdevkit\Test\JPEGImages/study242_image10.jpg disc,166,137 disc,163,177 vertebra,177,232 vertebra,164,197 vertebra,164,157
+VOCdevkit\Test\JPEGImages/study242_image11.jpg disc,178,100 disc,169,254 disc,175,136 disc,169,136 disc,167,213 disc,165,174 vertebra,169,153 vertebra,178,121 vertebra,166,193 vertebra,167,157 vertebra,168,232 vertebra,165,194 vertebra,168,233
+VOCdevkit\Test\JPEGImages/study242_image12.jpg disc,169,254 disc,177,31 disc,171,98 disc,165,214 disc,175,65 disc,163,174 disc,170,98 disc,165,135 vertebra,175,85 vertebra,179,16 vertebra,168,120 vertebra,164,156 vertebra,175,49 vertebra,174,82 vertebra,164,193 vertebra,164,154 vertebra,167,233 vertebra,168,118 vertebra,163,193 vertebra,166,234
+VOCdevkit\Test\JPEGImages/study242_image29.jpg
+VOCdevkit\Test\JPEGImages/study242_image30.jpg
+VOCdevkit\Test\JPEGImages/study242_image31.jpg disc,166,137 disc,164,177 vertebra,177,231 vertebra,165,197 vertebra,164,157
+VOCdevkit\Test\JPEGImages/study242_image32.jpg disc,177,100 disc,169,254 disc,175,136 disc,169,136 disc,167,213 disc,165,174 vertebra,169,153 vertebra,178,121 vertebra,167,157 vertebra,166,193 vertebra,168,232 vertebra,165,194 vertebra,168,233
+VOCdevkit\Test\JPEGImages/study242_image33.jpg disc,178,30 disc,169,255 disc,170,99 disc,175,65 disc,164,213 disc,163,174 disc,169,98 disc,166,135 vertebra,176,50 vertebra,175,85 vertebra,168,121 vertebra,174,84 vertebra,164,156 vertebra,167,232 vertebra,165,154 vertebra,163,194 vertebra,168,118 vertebra,167,233
+VOCdevkit\Test\JPEGImages/study242_image34.jpg disc,172,65 disc,169,254 disc,177,32 disc,171,98 disc,175,66 disc,165,214 disc,163,174 disc,170,98 disc,165,135 vertebra,175,84 vertebra,179,16 vertebra,168,121 vertebra,164,156 vertebra,174,82 vertebra,176,49 vertebra,164,193 vertebra,167,233 vertebra,164,154 vertebra,168,118 vertebra,163,193 vertebra,166,234
+VOCdevkit\Test\JPEGImages/study242_image40.jpg
+VOCdevkit\Test\JPEGImages/study242_image41.jpg disc,196,17
+VOCdevkit\Test\JPEGImages/study242_image42.jpg
+VOCdevkit\Test\JPEGImages/study242_image43.jpg
+VOCdevkit\Test\JPEGImages/study242_image44.jpg
+VOCdevkit\Test\JPEGImages/study242_image45.jpg disc,18,120
+VOCdevkit\Test\JPEGImages/study242_image67.jpg disc,178,30 disc,169,255 disc,175,65 disc,165,213 disc,163,174 disc,170,98 disc,165,135 vertebra,175,85 vertebra,168,121 vertebra,174,84 vertebra,164,156 vertebra,167,233 vertebra,165,154 vertebra,168,118 vertebra,163,194 vertebra,166,233
+VOCdevkit\Test\JPEGImages/study242_image70.jpg disc,117,207 vertebra,116,223
+VOCdevkit\Test\JPEGImages/study242_image71.jpg
+VOCdevkit\Test\JPEGImages/study242_image72.jpg
+VOCdevkit\Test\JPEGImages/study242_image73.jpg
+VOCdevkit\Test\JPEGImages/study242_image74.jpg
+VOCdevkit\Test\JPEGImages/study242_image75.jpg
+VOCdevkit\Test\JPEGImages/study242_image8.jpg disc,214,318
+VOCdevkit\Test\JPEGImages/study242_image9.jpg disc,218,316 disc,178,138
+VOCdevkit\Test\JPEGImages/study243_image11.jpg disc,211,108 disc,206,258 disc,196,222 disc,197,181 disc,205,143 vertebra,195,213 vertebra,208,126 vertebra,198,241 vertebra,195,203 vertebra,200,163
+VOCdevkit\Test\JPEGImages/study243_image12.jpg disc,204,180 disc,199,259 disc,217,107 disc,212,106 disc,195,222 disc,205,143 disc,199,260 disc,198,180 vertebra,200,162 vertebra,220,90 vertebra,197,200 vertebra,197,241 vertebra,208,126 vertebra,200,162 vertebra,197,241 vertebra,195,200
+VOCdevkit\Test\JPEGImages/study243_image13.jpg disc,216,105 disc,194,221 disc,197,260 disc,220,73 disc,204,142 disc,193,221 disc,197,260 disc,195,180 disc,212,104 vertebra,224,57 vertebra,208,126 vertebra,194,241 vertebra,198,162 vertebra,217,90 vertebra,209,123 vertebra,198,162 vertebra,194,242 vertebra,194,200
+VOCdevkit\Test\JPEGImages/study243_image14.jpg disc,193,191 disc,193,221 disc,202,139 disc,218,72 disc,192,221 disc,196,261 disc,201,140 disc,194,180 disc,209,105 vertebra,204,159 vertebra,206,126 vertebra,197,162 vertebra,212,90 vertebra,196,162 vertebra,207,124 vertebra,193,242 vertebra,193,200
+VOCdevkit\Test\JPEGImages/study243_image15.jpg disc,192,221 disc,211,105 disc,202,139 disc,219,70 disc,192,221 disc,197,261 disc,201,140 disc,193,181 disc,210,105 vertebra,206,125 vertebra,197,162 vertebra,217,87 vertebra,207,124 vertebra,196,162 vertebra,193,242 vertebra,193,199
+VOCdevkit\Test\JPEGImages/study243_image16.jpg disc,193,221 disc,212,104 disc,221,71 disc,204,141 disc,197,261 disc,193,221 disc,212,104 disc,195,181 vertebra,208,123 vertebra,199,162 vertebra,194,241 vertebra,217,90 vertebra,208,123 vertebra,199,162 vertebra,194,242 vertebra,193,201
+VOCdevkit\Test\JPEGImages/study243_image29.jpg disc,115,256 disc,137,212
+VOCdevkit\Test\JPEGImages/study243_image30.jpg
+VOCdevkit\Test\JPEGImages/study243_image31.jpg disc,138,220
+VOCdevkit\Test\JPEGImages/study243_image32.jpg vertebra,138,231
+VOCdevkit\Test\JPEGImages/study243_image33.jpg
+VOCdevkit\Test\JPEGImages/study243_image34.jpg
+VOCdevkit\Test\JPEGImages/study243_image41.jpg disc,206,143 disc,199,179 disc,200,259 disc,194,223 vertebra,205,276 vertebra,194,212 vertebra,201,165 vertebra,195,202 vertebra,196,240
+VOCdevkit\Test\JPEGImages/study243_image42.jpg disc,197,190 disc,199,259 disc,196,220 disc,224,70 disc,217,104 disc,205,140 disc,195,221 disc,198,179 disc,199,259 vertebra,201,157 vertebra,219,90 vertebra,197,240 vertebra,211,122 vertebra,201,158 vertebra,196,241 vertebra,196,200
+VOCdevkit\Test\JPEGImages/study243_image43.jpg disc,194,221 disc,198,260 disc,212,104 disc,218,67 disc,193,221 disc,204,140 disc,198,261 disc,212,104 disc,196,179 vertebra,205,283 vertebra,199,161 vertebra,195,241 vertebra,217,87 vertebra,198,161 vertebra,208,123 vertebra,195,241 vertebra,194,198
+VOCdevkit\Test\JPEGImages/study243_image44.jpg disc,192,221 disc,202,138 disc,217,68 disc,192,221 disc,196,261 disc,201,138 disc,193,179 disc,209,103 vertebra,190,241 vertebra,212,90 vertebra,206,123 vertebra,199,158 vertebra,193,242 vertebra,192,198
+VOCdevkit\Test\JPEGImages/study243_image45.jpg disc,193,221 disc,202,138 disc,218,67 disc,192,221 disc,196,261 disc,201,139 disc,209,103 disc,193,180 vertebra,190,241 vertebra,197,161 vertebra,217,86 vertebra,206,123 vertebra,199,159 vertebra,193,242 vertebra,193,199
+VOCdevkit\Test\JPEGImages/study243_image46.jpg disc,212,103 disc,193,221 disc,222,68 disc,197,261 disc,193,221 disc,204,139 disc,212,103 disc,197,180 vertebra,196,189 vertebra,200,161 vertebra,216,89 vertebra,199,161 vertebra,208,123 vertebra,194,242 vertebra,194,200
+VOCdevkit\Test\JPEGImages/study243_image52.jpg
+VOCdevkit\Test\JPEGImages/study243_image54.jpg disc,246,211
+VOCdevkit\Test\JPEGImages/study243_image55.jpg disc,234,258
+VOCdevkit\Test\JPEGImages/study244_image23.jpg disc,145,178 disc,147,50 disc,144,69 disc,133,110 disc,137,153 disc,139,89 disc,131,132 vertebra,133,145 vertebra,140,81 vertebra,140,81 vertebra,133,145 vertebra,146,60 vertebra,131,121 vertebra,137,100 vertebra,139,166
+VOCdevkit\Test\JPEGImages/study244_image24.jpg disc,146,177 disc,146,49 disc,144,68 disc,138,88 disc,136,155 disc,132,109 disc,131,132 vertebra,138,83 vertebra,145,59 vertebra,132,121 vertebra,133,144 vertebra,141,78 vertebra,139,166 vertebra,136,98 vertebra,132,144 vertebra,131,120
+VOCdevkit\Test\JPEGImages/study244_image25.jpg disc,141,66 disc,145,178 disc,145,50 disc,141,66 disc,136,156 disc,137,88 disc,132,110 disc,130,133 vertebra,140,78 vertebra,145,42 vertebra,137,84 vertebra,142,59 vertebra,139,169 vertebra,136,98 vertebra,140,78 vertebra,131,145 vertebra,130,121
+VOCdevkit\Test\JPEGImages/study244_image26.jpg disc,148,34 disc,145,50 disc,145,178 disc,137,88 disc,141,66 disc,137,156 disc,132,109 disc,129,133 vertebra,147,42 vertebra,137,84 vertebra,142,58 vertebra,140,168 vertebra,140,169 vertebra,136,98 vertebra,140,78 vertebra,130,121 vertebra,131,145
+VOCdevkit\Test\JPEGImages/study244_image27.jpg disc,145,50 disc,145,178 disc,137,88 disc,141,66 disc,137,156 disc,132,109 disc,131,133 vertebra,144,58 vertebra,140,169 vertebra,139,169 vertebra,140,78 vertebra,132,144 vertebra,137,97 vertebra,131,120
+VOCdevkit\Test\JPEGImages/study244_image28.jpg disc,146,49 disc,142,66 disc,145,179 disc,138,88 disc,133,109 disc,132,133 disc,137,155 vertebra,145,58 vertebra,140,169 vertebra,141,77 vertebra,132,144 vertebra,139,169 vertebra,137,98 vertebra,132,120
+VOCdevkit\Test\JPEGImages/study244_image3.jpg disc,142,178 disc,146,177 disc,146,48 disc,142,68 disc,137,110 disc,141,68 disc,140,88 disc,133,110 disc,136,154 disc,131,132 vertebra,133,99 vertebra,132,144 vertebra,141,79 vertebra,145,59 vertebra,132,144 vertebra,132,120 vertebra,139,166 vertebra,138,98
+VOCdevkit\Test\JPEGImages/study244_image33.jpg
+VOCdevkit\Test\JPEGImages/study244_image34.jpg disc,147,146
+VOCdevkit\Test\JPEGImages/study244_image35.jpg disc,204,188 disc,140,195
+VOCdevkit\Test\JPEGImages/study244_image36.jpg
+VOCdevkit\Test\JPEGImages/study244_image37.jpg
+VOCdevkit\Test\JPEGImages/study244_image38.jpg
+VOCdevkit\Test\JPEGImages/study244_image4.jpg disc,146,177 disc,141,67 disc,146,49 disc,141,67 disc,137,88 disc,137,155 disc,132,109 disc,130,132 vertebra,137,85 vertebra,146,42 vertebra,131,120 vertebra,132,144 vertebra,145,58 vertebra,139,166 vertebra,131,144 vertebra,140,78 vertebra,136,97 vertebra,130,120
+VOCdevkit\Test\JPEGImages/study244_image5.jpg disc,173,75 disc,148,33 disc,145,177 disc,141,67 disc,136,88 disc,145,49 disc,137,156 disc,141,67 disc,131,108 disc,129,132 vertebra,146,41 vertebra,139,77 vertebra,140,165 vertebra,130,120 vertebra,144,58 vertebra,131,144 vertebra,133,97 vertebra,140,78 vertebra,129,120
+VOCdevkit\Test\JPEGImages/study244_image6.jpg disc,148,29 disc,145,178 disc,136,88 disc,145,49 disc,137,156 disc,141,67 disc,130,133 disc,131,108 vertebra,146,41 vertebra,140,168 vertebra,139,168 vertebra,130,120 vertebra,144,57 vertebra,133,97 vertebra,131,145 vertebra,130,120 vertebra,139,78
+VOCdevkit\Test\JPEGImages/study244_image7.jpg disc,145,177 disc,137,88 disc,146,49 disc,141,66 disc,137,156 disc,130,133 disc,131,108 vertebra,147,42 vertebra,140,168 vertebra,139,169 vertebra,145,58 vertebra,131,120 vertebra,136,97 vertebra,131,145 vertebra,140,78 vertebra,130,121
+VOCdevkit\Test\JPEGImages/study244_image8.jpg disc,147,49 disc,146,179 disc,138,87 disc,141,66 disc,133,109 disc,132,133 disc,137,155 vertebra,136,120 vertebra,140,166 vertebra,134,97 vertebra,145,58 vertebra,140,169 vertebra,140,78 vertebra,132,145 vertebra,132,120 vertebra,137,97
+VOCdevkit\Test\JPEGImages/study245_image13.jpg disc,196,240 disc,206,92 disc,194,205 disc,205,128 disc,198,167 vertebra,200,150 vertebra,208,79 vertebra,206,110 vertebra,196,186 vertebra,205,111 vertebra,199,150 vertebra,194,225 vertebra,195,186
+VOCdevkit\Test\JPEGImages/study245_image14.jpg disc,197,240 disc,211,58 disc,201,128 disc,206,91 disc,193,204 disc,201,128 disc,196,166 vertebra,195,222 vertebra,206,111 vertebra,210,75 vertebra,198,150 vertebra,195,185 vertebra,199,147 vertebra,205,111 vertebra,194,223 vertebra,193,186
+VOCdevkit\Test\JPEGImages/study245_image15.jpg disc,201,127 disc,197,240 disc,209,58 disc,205,91 disc,193,204 disc,195,166 disc,200,128 vertebra,210,43 vertebra,207,78 vertebra,195,222 vertebra,197,150 vertebra,207,75 vertebra,201,111 vertebra,198,147 vertebra,193,186 vertebra,194,222
+VOCdevkit\Test\JPEGImages/study245_image16.jpg disc,211,31 disc,202,91 disc,200,127 disc,194,241 disc,206,58 disc,193,204 disc,204,91 disc,194,166 disc,199,128 vertebra,205,75 vertebra,208,43 vertebra,200,110 vertebra,197,150 vertebra,194,186 vertebra,206,76 vertebra,197,147 vertebra,193,186 vertebra,201,111 vertebra,193,223
+VOCdevkit\Test\JPEGImages/study245_image17.jpg disc,211,30 disc,203,91 disc,197,240 disc,200,128 disc,207,59 disc,194,204 disc,194,166 disc,204,91 disc,200,128 vertebra,201,110 vertebra,209,43 vertebra,197,149 vertebra,194,185 vertebra,193,185 vertebra,197,147 vertebra,206,76 vertebra,195,223 vertebra,201,111
+VOCdevkit\Test\JPEGImages/study245_image18.jpg disc,211,31 disc,203,91 disc,198,240 disc,201,127 disc,209,60 disc,195,166 disc,194,204 disc,205,91 disc,200,128 vertebra,207,78 vertebra,201,110 vertebra,210,43 vertebra,198,150 vertebra,194,185 vertebra,207,75 vertebra,198,147 vertebra,193,185 vertebra,204,112 vertebra,195,223
+VOCdevkit\Test\JPEGImages/study245_image36.jpg
+VOCdevkit\Test\JPEGImages/study245_image37.jpg
+VOCdevkit\Test\JPEGImages/study245_image38.jpg
+VOCdevkit\Test\JPEGImages/study245_image39.jpg disc,166,231
+VOCdevkit\Test\JPEGImages/study245_image40.jpg
+VOCdevkit\Test\JPEGImages/study245_image41.jpg
+VOCdevkit\Test\JPEGImages/study245_image47.jpg disc,198,204 disc,196,240 disc,199,167 disc,204,128 disc,206,91 vertebra,200,150 vertebra,207,78 vertebra,206,109 vertebra,198,187 vertebra,194,224
+VOCdevkit\Test\JPEGImages/study245_image49.jpg disc,211,57 disc,193,204 disc,197,238 disc,205,90 disc,200,126 disc,196,166 vertebra,210,43 vertebra,201,109 vertebra,194,221 vertebra,209,74 vertebra,205,110 vertebra,193,222 vertebra,194,185 vertebra,199,146
+VOCdevkit\Test\JPEGImages/study245_image50.jpg disc,202,89 disc,199,126 disc,194,241 disc,202,90 disc,193,203 disc,208,56 disc,194,164 disc,199,126 vertebra,208,42 vertebra,206,74 vertebra,200,109 vertebra,193,185 vertebra,193,223 vertebra,206,75 vertebra,197,146 vertebra,200,109
+VOCdevkit\Test\JPEGImages/study245_image51.jpg disc,202,90 disc,199,127 disc,197,240 disc,208,58 disc,204,91 disc,194,204 disc,196,164 disc,199,127 vertebra,200,109 vertebra,209,44 vertebra,206,74 vertebra,195,182 vertebra,201,109 vertebra,197,146 vertebra,195,222
+VOCdevkit\Test\JPEGImages/study245_image52.jpg disc,201,126 disc,197,241 disc,210,57 disc,194,204 disc,197,165 disc,200,126 disc,205,90 vertebra,194,212 vertebra,210,43 vertebra,202,109 vertebra,199,149 vertebra,194,185 vertebra,208,74 vertebra,199,146 vertebra,205,110 vertebra,195,224
+VOCdevkit\Test\JPEGImages/study246_image122.jpg disc,134,115 disc,132,200 disc,134,237 disc,133,157 vertebra,133,135 vertebra,134,216 vertebra,134,177
+VOCdevkit\Test\JPEGImages/study246_image123.jpg disc,133,198 disc,137,115 disc,134,157 disc,133,237 vertebra,133,254 vertebra,135,134 vertebra,132,217 vertebra,133,177
+VOCdevkit\Test\JPEGImages/study246_image124.jpg disc,145,72 disc,133,198 disc,133,157 disc,137,115 disc,135,237 vertebra,146,56 vertebra,144,93 vertebra,134,134 vertebra,133,177 vertebra,134,217
+VOCdevkit\Test\JPEGImages/study246_image125.jpg disc,194,204 disc,154,34 disc,133,198 disc,134,157 disc,145,72 disc,137,114 disc,136,237 vertebra,152,51 vertebra,142,92 vertebra,136,135 vertebra,133,177 vertebra,133,217
+VOCdevkit\Test\JPEGImages/study246_image126.jpg disc,152,32 disc,133,198 disc,135,158 disc,137,238 disc,143,72 disc,137,114 vertebra,145,52 vertebra,141,92 vertebra,133,177 vertebra,134,217 vertebra,135,135
+VOCdevkit\Test\JPEGImages/study246_image127.jpg disc,137,237 disc,146,32 disc,135,198 disc,136,158 disc,137,115 disc,143,71 vertebra,144,51 vertebra,142,92 vertebra,136,217 vertebra,135,177 vertebra,136,136
+VOCdevkit\Test\JPEGImages/study246_image152.jpg disc,218,181 disc,212,250 disc,214,315 vertebra,214,227 vertebra,215,343 vertebra,214,283
+VOCdevkit\Test\JPEGImages/study246_image153.jpg disc,212,317 disc,226,181 disc,214,379 disc,214,251 vertebra,218,214 vertebra,213,348 vertebra,213,283
+VOCdevkit\Test\JPEGImages/study246_image154.jpg disc,232,115 disc,212,316 disc,220,182 disc,214,252 disc,217,379 vertebra,229,147 vertebra,218,216 vertebra,213,283 vertebra,213,348
+VOCdevkit\Test\JPEGImages/study246_image155.jpg disc,243,54 disc,213,316 disc,215,252 disc,219,379 disc,231,114 disc,219,182 vertebra,234,84 vertebra,227,147 vertebra,213,283 vertebra,215,347 vertebra,216,215
+VOCdevkit\Test\JPEGImages/study246_image156.jpg disc,243,51 disc,219,380 disc,213,316 disc,216,253 disc,227,114 disc,219,182 vertebra,231,84 vertebra,226,147 vertebra,214,347 vertebra,214,283 vertebra,216,216
+VOCdevkit\Test\JPEGImages/study246_image157.jpg disc,225,378 disc,233,51 disc,216,317 disc,226,115 disc,217,252 disc,219,183 vertebra,231,25 vertebra,230,83 vertebra,217,283 vertebra,226,148 vertebra,218,347 vertebra,216,216
+VOCdevkit\Test\JPEGImages/study246_image167.jpg
+VOCdevkit\Test\JPEGImages/study246_image168.jpg disc,212,124 disc,94,201
+VOCdevkit\Test\JPEGImages/study246_image169.jpg
+VOCdevkit\Test\JPEGImages/study246_image170.jpg
+VOCdevkit\Test\JPEGImages/study246_image171.jpg
+VOCdevkit\Test\JPEGImages/study246_image172.jpg
+VOCdevkit\Test\JPEGImages/study247_image13.jpg disc,221,42 disc,195,235 disc,211,75 disc,205,114 disc,188,198 disc,194,154 vertebra,198,252 vertebra,219,61 vertebra,189,218 vertebra,188,177 vertebra,208,94 vertebra,198,135
+VOCdevkit\Test\JPEGImages/study247_image14.jpg disc,223,42 disc,207,270 disc,194,235 disc,211,75 disc,188,197 disc,204,114 disc,193,155 vertebra,198,254 vertebra,219,59 vertebra,187,217 vertebra,192,177 vertebra,198,134 vertebra,207,96
+VOCdevkit\Test\JPEGImages/study247_image15.jpg disc,188,197 disc,219,42 disc,207,271 disc,200,113 disc,193,236 disc,187,197 disc,209,75 disc,192,154 disc,199,114 vertebra,213,58 vertebra,196,254 vertebra,187,218 vertebra,188,176 vertebra,196,135 vertebra,205,95
+VOCdevkit\Test\JPEGImages/study247_image16.jpg disc,205,272 disc,218,42 disc,200,113 disc,201,273 disc,207,77 disc,193,234 disc,186,195 disc,189,152 disc,198,113 vertebra,212,59 vertebra,196,254 vertebra,212,59 vertebra,196,254 vertebra,187,174 vertebra,187,216 vertebra,194,135 vertebra,204,95
+VOCdevkit\Test\JPEGImages/study247_image17.jpg disc,199,273 disc,200,113 disc,218,42 disc,186,195 disc,193,234 disc,199,274 disc,207,77 disc,189,153 disc,199,113 vertebra,212,59 vertebra,213,60 vertebra,195,255 vertebra,186,217 vertebra,186,174 vertebra,195,134 vertebra,205,95
+VOCdevkit\Test\JPEGImages/study247_image18.jpg disc,201,114 disc,219,43 disc,198,274 disc,186,195 disc,192,234 disc,209,77 disc,189,152 disc,200,114 vertebra,217,59 vertebra,213,61 vertebra,195,255 vertebra,187,174 vertebra,195,133 vertebra,187,175 vertebra,195,135 vertebra,187,217 vertebra,205,97
+VOCdevkit\Test\JPEGImages/study247_image37.jpg disc,220,36 disc,199,274 disc,199,274 disc,187,197 disc,200,109 disc,193,152 disc,187,235 disc,210,72 vertebra,193,141 vertebra,195,257 vertebra,216,54 vertebra,194,258 vertebra,188,175 vertebra,186,217 vertebra,197,132 vertebra,206,90
+VOCdevkit\Test\JPEGImages/study247_image38.jpg disc,219,36 disc,199,275 disc,186,194 disc,188,235 disc,189,150 disc,199,110 disc,209,72 vertebra,217,54 vertebra,213,54 vertebra,194,258 vertebra,186,174 vertebra,205,90 vertebra,186,216 vertebra,195,131
+VOCdevkit\Test\JPEGImages/study247_image39.jpg disc,219,37 disc,199,274 disc,188,234 disc,185,194 disc,199,110 disc,189,150 disc,210,73 vertebra,217,54 vertebra,213,55 vertebra,195,254 vertebra,187,174 vertebra,185,216 vertebra,205,91 vertebra,194,132
+VOCdevkit\Test\JPEGImages/study247_image40.jpg disc,221,43 disc,197,274 disc,188,234 disc,200,110 disc,186,194 disc,189,150 disc,211,73 vertebra,217,56 vertebra,194,253 vertebra,186,174 vertebra,187,215 vertebra,206,91 vertebra,196,131
+VOCdevkit\Test\JPEGImages/study247_image50.jpg disc,144,209
+VOCdevkit\Test\JPEGImages/study247_image51.jpg disc,296,207
+VOCdevkit\Test\JPEGImages/study247_image52.jpg
+VOCdevkit\Test\JPEGImages/study247_image53.jpg
+VOCdevkit\Test\JPEGImages/study247_image54.jpg
+VOCdevkit\Test\JPEGImages/study247_image55.jpg
+VOCdevkit\Test\JPEGImages/study248_image15.jpg disc,215,393 disc,214,292 disc,312,391 disc,213,355 disc,210,440 vertebra,327,326 vertebra,211,418 vertebra,213,323
+VOCdevkit\Test\JPEGImages/study248_image16.jpg disc,280,339
+VOCdevkit\Test\JPEGImages/study248_image17.jpg disc,277,308 disc,282,196 disc,266,250 vertebra,264,278
+VOCdevkit\Test\JPEGImages/study248_image18.jpg disc,289,194 disc,302,146 disc,259,356 disc,258,299 disc,283,194 disc,314,103 disc,265,245 disc,305,146 vertebra,316,88 vertebra,311,124 vertebra,296,170 vertebra,277,220 vertebra,260,273 vertebra,295,172 vertebra,258,327 vertebra,310,125
+VOCdevkit\Test\JPEGImages/study248_image19.jpg disc,258,354 disc,305,146 disc,265,245 disc,313,100 disc,289,195 disc,256,297 vertebra,253,325 vertebra,261,267 vertebra,279,219 vertebra,298,172 vertebra,310,126 vertebra,258,273 vertebra,296,173 vertebra,278,221 vertebra,257,324
+VOCdevkit\Test\JPEGImages/study248_image20.jpg disc,313,22 disc,305,146 disc,314,58 disc,258,354 disc,284,194 disc,300,145 disc,264,244 disc,283,194 disc,252,298 disc,311,99 vertebra,313,81 vertebra,314,39 vertebra,252,324 vertebra,277,220 vertebra,312,81 vertebra,308,125 vertebra,257,273 vertebra,294,172 vertebra,278,222 vertebra,308,126 vertebra,294,173 vertebra,256,325
+VOCdevkit\Test\JPEGImages/study248_image30.jpg disc,281,339
+VOCdevkit\Test\JPEGImages/study248_image31.jpg disc,262,259
+VOCdevkit\Test\JPEGImages/study248_image32.jpg disc,312,119 disc,314,104 disc,260,296 disc,266,248 disc,283,194 disc,305,153 vertebra,290,183 vertebra,279,220 vertebra,297,171 vertebra,263,274 vertebra,309,131
+VOCdevkit\Test\JPEGImages/study248_image33.jpg disc,312,108 disc,289,199 disc,267,248 disc,282,197 disc,258,347 disc,305,153 disc,257,295 vertebra,297,177 vertebra,294,178 vertebra,277,225 vertebra,259,274 vertebra,256,322 vertebra,309,131
+VOCdevkit\Test\JPEGImages/study248_image34.jpg disc,314,67 disc,283,199 disc,310,108 disc,298,152 disc,257,347 disc,266,246 disc,252,297 vertebra,313,91 vertebra,252,323 vertebra,276,226 vertebra,258,273 vertebra,307,129 vertebra,294,178 vertebra,252,324
+VOCdevkit\Test\JPEGImages/study248_image43.jpg disc,215,393 disc,214,292 disc,312,391 disc,213,355 disc,210,440 vertebra,327,326 vertebra,211,418 vertebra,213,323
+VOCdevkit\Test\JPEGImages/study248_image44.jpg
+VOCdevkit\Test\JPEGImages/study248_image45.jpg
+VOCdevkit\Test\JPEGImages/study248_image46.jpg disc,172,186 disc,182,126 disc,196,72 disc,192,96 vertebra,196,63 vertebra,165,205 vertebra,186,112 vertebra,194,84
+VOCdevkit\Test\JPEGImages/study248_image47.jpg disc,197,43 disc,196,70 disc,167,155 disc,161,188 disc,162,222 disc,181,124 disc,192,96 vertebra,200,57 vertebra,158,205 vertebra,191,108 vertebra,197,58 vertebra,185,111 vertebra,173,141 vertebra,163,172 vertebra,193,82 vertebra,161,206
+VOCdevkit\Test\JPEGImages/study248_image48.jpg disc,197,21 disc,193,68 disc,163,221 disc,197,43 disc,161,188 disc,190,96 disc,180,125 disc,167,155 vertebra,197,33 vertebra,158,204 vertebra,184,111 vertebra,196,58 vertebra,173,141 vertebra,192,81 vertebra,163,171 vertebra,161,205
+VOCdevkit\Test\JPEGImages/study248_image57.jpg disc,342,357
+VOCdevkit\Test\JPEGImages/study248_image58.jpg
+VOCdevkit\Test\JPEGImages/study248_image59.jpg
+VOCdevkit\Test\JPEGImages/study248_image60.jpg disc,262,299 vertebra,260,325 vertebra,263,281
+VOCdevkit\Test\JPEGImages/study248_image61.jpg disc,181,283 disc,72,278
+VOCdevkit\Test\JPEGImages/study248_image62.jpg disc,231,360
+VOCdevkit\Test\JPEGImages/study249_image10.jpg disc,261,327 disc,259,274 disc,253,276 disc,258,225 disc,261,170 vertebra,263,196 vertebra,260,248 vertebra,258,250 vertebra,264,148 vertebra,261,197
+VOCdevkit\Test\JPEGImages/study249_image11.jpg disc,252,273 disc,282,73 disc,252,220 disc,274,121 disc,252,273 disc,262,328 disc,264,169 vertebra,291,22 vertebra,258,299 vertebra,277,97 vertebra,251,247 vertebra,273,145 vertebra,259,193 vertebra,258,300 vertebra,251,248
+VOCdevkit\Test\JPEGImages/study249_image12.jpg disc,281,36 disc,278,72 disc,263,327 disc,252,273 disc,252,219 disc,268,118 disc,261,170 vertebra,282,21 vertebra,275,97 vertebra,259,300 vertebra,251,246 vertebra,265,145 vertebra,274,97 vertebra,258,300 vertebra,264,145 vertebra,258,194 vertebra,251,247
+VOCdevkit\Test\JPEGImages/study249_image13.jpg disc,252,273 disc,281,35 disc,252,273 disc,251,219 disc,275,74 disc,262,327 disc,267,119 disc,260,169 vertebra,274,96 vertebra,282,21 vertebra,278,52 vertebra,264,145 vertebra,273,97 vertebra,257,300 vertebra,262,145 vertebra,258,193 vertebra,250,247
+VOCdevkit\Test\JPEGImages/study249_image23.jpg disc,263,179 disc,258,226 vertebra,260,202
+VOCdevkit\Test\JPEGImages/study249_image24.jpg disc,273,134 disc,263,177 disc,260,323 disc,260,274 disc,261,226 vertebra,260,299 vertebra,261,248 vertebra,261,202
+VOCdevkit\Test\JPEGImages/study249_image25.jpg disc,291,37 disc,280,122 disc,257,225 disc,265,177 disc,284,83 disc,252,273 disc,262,323 vertebra,267,153 vertebra,283,105 vertebra,258,298 vertebra,276,152 vertebra,262,199 vertebra,251,250 vertebra,258,299
+VOCdevkit\Test\JPEGImages/study249_image26.jpg disc,269,128 disc,251,273 disc,283,37 disc,251,225 disc,268,128 disc,251,273 disc,262,176 disc,262,324 disc,277,81 vertebra,253,298 vertebra,283,21 vertebra,281,60 vertebra,266,152 vertebra,257,300 vertebra,249,250 vertebra,274,106 vertebra,259,201 vertebra,265,153
+VOCdevkit\Test\JPEGImages/study249_image27.jpg disc,253,273 disc,252,224 disc,262,173 disc,283,37 disc,267,129 disc,253,274 disc,262,327 disc,277,81 vertebra,284,21 vertebra,280,60 vertebra,259,300 vertebra,275,107 vertebra,275,108 vertebra,258,301 vertebra,259,200 vertebra,251,250 vertebra,264,153
+VOCdevkit\Test\JPEGImages/study249_image36.jpg
+VOCdevkit\Test\JPEGImages/study249_image37.jpg
+VOCdevkit\Test\JPEGImages/study249_image38.jpg disc,163,125 disc,165,202 disc,171,84 disc,165,114 disc,161,144 vertebra,168,95 vertebra,173,64 vertebra,166,103 vertebra,162,131
+VOCdevkit\Test\JPEGImages/study249_image39.jpg disc,165,204 disc,177,52 disc,160,172 disc,166,110 disc,161,141 disc,172,81 vertebra,177,42 vertebra,162,135 vertebra,161,156 vertebra,175,68 vertebra,162,192 vertebra,161,157 vertebra,171,97 vertebra,175,68 vertebra,164,127
+VOCdevkit\Test\JPEGImages/study249_image40.jpg disc,161,140 disc,176,24 disc,160,141 disc,170,81 disc,165,203 disc,172,52 disc,160,171 disc,164,110 vertebra,163,106 vertebra,160,164 vertebra,160,136 vertebra,174,41 vertebra,158,155 vertebra,161,188 vertebra,172,68 vertebra,158,156 vertebra,166,96 vertebra,162,127
+VOCdevkit\Test\JPEGImages/study249_image41.jpg disc,158,172 disc,175,24 disc,165,205 disc,160,140 disc,160,172 disc,167,80 disc,172,51 disc,163,111 vertebra,160,135 vertebra,173,41 vertebra,158,156 vertebra,168,67 vertebra,161,191 vertebra,170,67 vertebra,157,156 vertebra,161,127 vertebra,165,97
+VOCdevkit\Test\JPEGImages/study249_image50.jpg disc,279,217
+VOCdevkit\Test\JPEGImages/study249_image51.jpg
+VOCdevkit\Test\JPEGImages/study249_image52.jpg
+VOCdevkit\Test\JPEGImages/study249_image53.jpg disc,263,307
+VOCdevkit\Test\JPEGImages/study249_image54.jpg
+VOCdevkit\Test\JPEGImages/study249_image55.jpg disc,262,312
+VOCdevkit\Test\JPEGImages/study249_image8.jpg
+VOCdevkit\Test\JPEGImages/study249_image9.jpg disc,262,167 disc,259,220 vertebra,261,249 vertebra,260,196
+VOCdevkit\Test\JPEGImages/study250_image14.jpg disc,243,72 disc,206,326 disc,211,381 disc,248,118 disc,216,271 disc,234,214 disc,247,170 vertebra,235,200 vertebra,243,188 vertebra,206,354 vertebra,229,242 vertebra,248,145 vertebra,244,93 vertebra,215,295
+VOCdevkit\Test\JPEGImages/study250_image15.jpg disc,226,32 disc,206,326 disc,206,384 disc,234,75 disc,215,271 disc,241,118 disc,231,214 disc,244,169 vertebra,233,201 vertebra,229,55 vertebra,235,189 vertebra,220,243 vertebra,205,355 vertebra,214,295 vertebra,234,97 vertebra,243,145
+VOCdevkit\Test\JPEGImages/study250_image16.jpg disc,226,33 disc,211,382 disc,206,327 disc,240,118 disc,214,270 disc,231,76 disc,231,213 disc,244,167 vertebra,219,20 vertebra,206,355 vertebra,227,56 vertebra,235,191 vertebra,219,242 vertebra,212,297 vertebra,242,145 vertebra,234,96
+VOCdevkit\Test\JPEGImages/study250_image17.jpg disc,226,33 disc,211,382 disc,235,117 disc,213,270 disc,205,328 disc,232,75 disc,230,213 disc,244,166 vertebra,220,21 vertebra,227,55 vertebra,205,301 vertebra,203,361 vertebra,219,242 vertebra,227,56 vertebra,242,190 vertebra,241,145 vertebra,234,96
+VOCdevkit\Test\JPEGImages/study250_image18.jpg disc,213,271 disc,211,382 disc,226,33 disc,203,331 disc,240,117 disc,233,75 disc,230,212 disc,244,167 vertebra,226,20 vertebra,218,242 vertebra,228,55 vertebra,204,301 vertebra,203,361 vertebra,242,189 vertebra,242,145 vertebra,235,95
+VOCdevkit\Test\JPEGImages/study250_image19.jpg disc,231,33 disc,234,71 disc,211,383 disc,204,331 disc,214,271 disc,241,117 disc,231,212 disc,246,166 vertebra,212,409 vertebra,234,189 vertebra,232,51 vertebra,231,19 vertebra,241,94 vertebra,206,301 vertebra,219,242 vertebra,203,361 vertebra,244,144 vertebra,243,188 vertebra,243,144
+VOCdevkit\Test\JPEGImages/study250_image29.jpg disc,230,278 disc,181,27 disc,169,306 disc,170,216 disc,162,262 disc,189,97 disc,186,61 disc,184,173 disc,195,134 vertebra,231,258 vertebra,181,17 vertebra,229,294 vertebra,182,44 vertebra,194,152 vertebra,162,289 vertebra,194,117 vertebra,163,241 vertebra,175,193 vertebra,187,80
+VOCdevkit\Test\JPEGImages/study250_image57.jpg disc,183,207 vertebra,184,219
+VOCdevkit\Test\JPEGImages/study250_image58.jpg
+VOCdevkit\Test\JPEGImages/study250_image59.jpg
+VOCdevkit\Test\JPEGImages/study250_image60.jpg
+VOCdevkit\Test\JPEGImages/study250_image61.jpg disc,183,210
+VOCdevkit\Test\JPEGImages/study250_image62.jpg disc,183,174
+VOCdevkit\Test\JPEGImages/study250_image70.jpg disc,189,61 disc,210,278 disc,170,306 disc,169,260 disc,181,27 disc,173,212 disc,186,172 disc,193,93 disc,196,135 disc,188,61 vertebra,187,161 vertebra,176,15 vertebra,183,186 vertebra,176,195 vertebra,194,150 vertebra,169,282 vertebra,169,283 vertebra,189,78 vertebra,171,235 vertebra,184,44 vertebra,194,116
+VOCdevkit\Test\JPEGImages/study250_image71.jpg disc,170,308 disc,165,261 disc,192,92 disc,170,217 disc,181,26 disc,185,171 disc,197,134 disc,186,61 vertebra,176,16 vertebra,165,284 vertebra,194,150 vertebra,175,194 vertebra,187,78 vertebra,170,236 vertebra,182,44 vertebra,194,116
+VOCdevkit\Test\JPEGImages/study250_image72.jpg disc,170,308 disc,177,25 disc,189,92 disc,173,214 disc,163,261 disc,184,171 disc,195,134 disc,186,61 vertebra,176,16 vertebra,189,115 vertebra,165,237 vertebra,162,289 vertebra,188,151 vertebra,194,116 vertebra,176,194 vertebra,188,77 vertebra,182,44
+VOCdevkit\Test\JPEGImages/study250_image73.jpg disc,189,61 disc,169,308 disc,162,265 disc,193,92 disc,173,217 disc,181,26 disc,185,170 disc,188,61 disc,196,133 vertebra,177,15 vertebra,171,237 vertebra,181,194 vertebra,189,77 vertebra,162,290 vertebra,183,43 vertebra,194,115 vertebra,194,149
+VOCdevkit\Test\JPEGImages/study250_image74.jpg disc,189,62 disc,186,27 disc,180,218 disc,174,217 disc,164,260 disc,170,307 disc,194,92 disc,188,170 disc,197,133 vertebra,189,150 vertebra,193,75 vertebra,186,16 vertebra,186,189 vertebra,169,290 vertebra,165,290 vertebra,188,43 vertebra,164,241 vertebra,183,194 vertebra,195,150 vertebra,195,115
+VOCdevkit\Test\JPEGImages/study297_image10.jpg disc,139,210 disc,143,281 disc,141,245 disc,145,183 disc,135,209 vertebra,140,229 vertebra,141,195 vertebra,141,265
+VOCdevkit\Test\JPEGImages/study297_image11.jpg disc,165,39 disc,169,68 disc,152,181 disc,157,153 disc,171,98 disc,135,210 disc,140,212 disc,144,283 disc,139,245 disc,167,122 vertebra,155,161 vertebra,169,85 vertebra,155,171 vertebra,139,229 vertebra,152,194 vertebra,168,111 vertebra,140,265 vertebra,164,140
+VOCdevkit\Test\JPEGImages/study297_image12.jpg disc,168,65 disc,170,98 disc,140,282 disc,134,246 disc,146,181 disc,166,121 disc,139,213 disc,155,149 vertebra,168,112 vertebra,134,265 vertebra,169,87 vertebra,135,229 vertebra,168,112 vertebra,139,265 vertebra,142,195 vertebra,138,228 vertebra,152,166 vertebra,162,135 vertebra,142,195
+VOCdevkit\Test\JPEGImages/study297_image18.jpg
+VOCdevkit\Test\JPEGImages/study297_image19.jpg
+VOCdevkit\Test\JPEGImages/study297_image20.jpg disc,139,210 disc,143,281 disc,141,245 disc,145,183 disc,135,208 vertebra,144,260 vertebra,139,229 vertebra,141,195 vertebra,141,265
+VOCdevkit\Test\JPEGImages/study297_image21.jpg disc,166,39 disc,169,68 disc,152,181 disc,157,153 disc,170,98 disc,135,210 disc,140,212 disc,144,283 disc,139,245 disc,167,122 vertebra,155,161 vertebra,169,85 vertebra,155,171 vertebra,139,229 vertebra,145,194 vertebra,168,111 vertebra,140,265 vertebra,164,140
+VOCdevkit\Test\JPEGImages/study297_image22.jpg disc,135,211 disc,164,39 disc,163,121 disc,134,246 disc,144,282 disc,145,181 disc,134,211 disc,166,98 disc,166,68 disc,153,152 vertebra,165,53 vertebra,157,136 vertebra,150,170 vertebra,134,229 vertebra,164,112 vertebra,140,265 vertebra,166,85 vertebra,141,196 vertebra,157,136
+VOCdevkit\Test\JPEGImages/study297_image23.jpg disc,168,65 disc,170,98 disc,140,281 disc,145,181 disc,165,121 disc,134,246 disc,139,213 disc,155,149 vertebra,168,112 vertebra,134,265 vertebra,169,87 vertebra,168,112 vertebra,138,265 vertebra,142,195 vertebra,138,228 vertebra,152,166 vertebra,162,135 vertebra,142,195
+VOCdevkit\Test\JPEGImages/study297_image52.jpg
+VOCdevkit\Test\JPEGImages/study297_image53.jpg
+VOCdevkit\Test\JPEGImages/study297_image54.jpg
+VOCdevkit\Test\JPEGImages/study297_image55.jpg
+VOCdevkit\Test\JPEGImages/study297_image56.jpg disc,207,256 disc,106,228 vertebra,107,218
+VOCdevkit\Test\JPEGImages/study297_image57.jpg
+VOCdevkit\Test\JPEGImages/study297_image67.jpg disc,135,211 disc,164,39 disc,163,121 disc,134,246 disc,143,282 disc,134,211 disc,145,181 disc,166,98 disc,166,68 disc,153,152 vertebra,165,54 vertebra,157,136 vertebra,150,170 vertebra,134,229 vertebra,164,111 vertebra,140,265 vertebra,166,85 vertebra,141,196 vertebra,157,136
+VOCdevkit\Test\JPEGImages/study297_image70.jpg
+VOCdevkit\Test\JPEGImages/study297_image71.jpg
+VOCdevkit\Test\JPEGImages/study297_image72.jpg
+VOCdevkit\Test\JPEGImages/study297_image73.jpg
+VOCdevkit\Test\JPEGImages/study297_image74.jpg disc,207,256 disc,106,228 vertebra,107,218
+VOCdevkit\Test\JPEGImages/study297_image75.jpg
+VOCdevkit\Test\JPEGImages/study297_image8.jpg
+VOCdevkit\Test\JPEGImages/study297_image9.jpg
