@@ -8,7 +8,7 @@ import os
 import re
 import cv2
 from timeit import default_timer as timer
-import readyData
+from readyData import dealImg
 
 import numpy as np
 from keras import backend as K
@@ -171,8 +171,8 @@ class YOLO(object):
             xCenter,yCenter = int((left+right)/2),int((top+bottom)/2)
             points.append([label.split(' ')[0],xCenter,yCenter])
 
-            draw.point(xy=(xCenter,yCenter), fill="red")
-            draw.text(text_origin, label, fill="green", font=font) #[0,0,0]
+            # draw.point(xy=(xCenter,yCenter), fill="red")
+            # draw.text(text_origin, label, fill="green", font=font) #[0,0,0]
             del draw
 
         end = timer()
@@ -426,13 +426,12 @@ def metric_json(metricjson,truejson):
     recall = TP/(TP+FN)
     print("TP/(TP+FP):",precision,"TP/总定位:",TP/mmc,recall)
 
-def metricDetect(yolo,truejson,testFile):
+def metricDetect(yolo,truejson,testFile,sliceResize):
     with open(truejson,"r",encoding="utf-8") as f:
         truejsonTarge = json.loads(f.read())
 
     from classifycation import CNN
 
-    sliceResize = [48, 32]
     cnn_disc = CNN(sliceResize)
     model_disc = cnn_disc.loadTestdisc()
     cnn_discv5 = CNN(sliceResize)
@@ -449,8 +448,6 @@ def metricDetect(yolo,truejson,testFile):
     vertebraFP = 0
     discTP = 0
     discFP = 0
-
-
 
     mm6c = 0
     mmc = 0
@@ -475,9 +472,9 @@ def metricDetect(yolo,truejson,testFile):
                         r_image, points = yolo.detect_image(image)
                         #判断检测点与真实点
 
-                        # mean = np.mean(image)
-                        # std = np.mean(np.square(image - mean))
-                        # image = (image - mean) / np.sqrt(std)
+                        mean = np.mean(image)
+                        std = np.mean(np.square(image - mean))
+                        image = (image - mean) / np.sqrt(std)
 
                         image = np.asarray(image)
                         m, n, _ = image.shape
@@ -491,6 +488,14 @@ def metricDetect(yolo,truejson,testFile):
                                 ct = tag["disc"]
                             else:
                                 ct = tag["vertebra"]
+
+                            xy = sorted(points, key=lambda x: x[2])
+                            deta = []
+                            for i in range(len(xy) - 1):
+                                deta.append(xy[i + 1][2] - xy[i][2])
+                            deta = np.mean(deta)
+                            print("deta:",deta)
+
                             for index, metricpoint in enumerate(points):
                                 c, x, y = metricpoint
 
@@ -504,20 +509,22 @@ def metricDetect(yolo,truejson,testFile):
                                     w1, h1 = m / 5, n / 20  # 椎间盘要求更长而不是更高  n控制高度
                                     offset = 5
 
-                                    miny = y - h1
-                                    maxy = y + h1
+                                    miny = y - deta
+                                    maxy = y + deta
                                     minx = x + offset - w1 / 2
                                     maxx = x + offset + w1 / 2
 
-                                    nimg_x = image[int(miny):int(maxy), int(minx):int(maxx)]
-                                    xlen2 = int(w1 / 2)
-                                    nimg_x_r = nimg_x[:, int(xlen2):]
-                                    # nimg_x_r = np.where(nimg_x_r > 0, nimg_x_r, 0)
+                                    # nimg_x = image[int(miny):int(maxy), int(minx):int(maxx)]
 
-                                    nimg_x_r = cv2.resize(nimg_x_r, (sliceResize[0], sliceResize[1]))
-                                    X = nimg_x_r[:, :, 1].reshape([1] + sliceResize + [1])
 
                                     if "disc" in tag.keys():
+                                        xlen2 = int(w1 / 2)
+                                        X = dealImg(image,
+                                                    int(miny), int(maxy), int(minx) + int(xlen2), int(maxx),
+                                                    sliceResize)
+
+                                        X = X.reshape([1] + sliceResize + [1])
+
                                         p = model_disc.predict(X)
                                         pre = np.argmax(p, axis=1)
                                         pc = cnn_disc.disc_label[int(pre)]
@@ -528,16 +535,24 @@ def metricDetect(yolo,truejson,testFile):
                                             FP += 1
                                             discFP += 1
                                     else:
-                                        w1, h1 = m / 5, n / 10  # 识别框的宽度和高度 更大
-                                        miny = y - h1
-                                        maxy = y + h1
-                                        minx = x - w1 / 2
-                                        maxx = x + w1 / 2
+                                        w1, h1 = m / 5, n / 20  # 识别框的宽度和高度 更大
+                                        offset = 5
+                                        miny = y  - h1#- deta - offset
+                                        maxy = y  + h1#+ deta + offset
+                                        minx = x + offset - w1 / 2
+                                        maxx = x + offset + w1 / 2
 
-                                        nimg_x = image[int(miny):int(maxy), int(minx):int(maxx)]
-                                        nimg_x = cv2.resize(nimg_x, (sliceResize[0], sliceResize[1]))[:, :, 1]
+                                        # nimg_x = image[int(miny):int(maxy), int(minx):int(maxx)]
+                                        # nimg_x = cv2.resize(nimg_x, (sliceResize[1], sliceResize[0]))[:, :, 1]
+                                        X = dealImg(image,
+                                                    int(miny), int(maxy), int(minx), int(maxx),
+                                                    sliceResize)
 
-                                        X = nimg_x.reshape([1] + sliceResize + [1])
+                                        # plt.subplot(4, 5, int(1 + 5 * 1))
+                                        # plt.imshow(X[:,:,0])
+                                        # plt.show()
+
+                                        X = X.reshape([1] + sliceResize + [1])
                                         p = model_vertebra.predict(X)
                                         pre = np.argmax(p, axis=1)
                                         pc = cnn_vertebra.vertebra_label[int(pre)]
@@ -569,6 +584,6 @@ if __name__ == "__main__":
     jsonPath = r"reslut.json"
     truejsonPath = r'H:\dataBase\tianchi_spinal\lumbar_train51_annotation.json'
 
-    metricDetect(YOLO(),truejsonPath,metric_dataTestPath)
+    metricDetect(YOLO(),truejsonPath,metric_dataTestPath,sliceResize = [48, 48])
     watchTest(dataPath,r"reslut_.json")
     # watchTest1(dataPath, jsonPath=r"reslut_.json" ,truejsonPath=r"reslut_2.json")

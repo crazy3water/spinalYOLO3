@@ -439,8 +439,10 @@ def dealImg(image,y1,y2,x1,x2,sliceResize):
     if x1<=0:
         x1 = 0
     img = image[y1:y2,x1:x2]
-    nimg_x = cv2.resize(img, (sliceResize[0], sliceResize[1]))
-    return nimg_x[:, :, 1].reshape(sliceResize + [1])
+    nimg_x = cv2.resize(img, (sliceResize[1], sliceResize[0]))
+    # nimg_x = np.array(np.log(nimg_x + 1))  # log处理
+    nimg_x = nimg_x[:, :, 1].reshape(sliceResize + [1])
+    return nimg_x #[:,:,0][:,:,np.newaxis]
 
 def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
     f = open(dataTxt,'r')
@@ -469,7 +471,7 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
 
         mean = np.mean(img)
         var = np.mean(np.square(img - mean))
-        imgNorm = (img - mean) / np.sqrt(var)
+        img = (img - mean) / np.sqrt(var)
 
         xy = np.array(list(map(lambda x:list(map(int,x.split(',')[2:])), d[1:]))) #从小到大
         xy = sorted(xy,key=lambda x:x[1])
@@ -504,8 +506,8 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 w1, h1 = m / 5, n / 20  # 椎间盘要求更长而不是更高  n控制高度
                 offset = 5
 
-                miny = y - h1
-                maxy = y + h1
+                miny = y - deta
+                maxy = y + deta
                 minx = x + offset - w1/2
                 maxx = x + offset + w1/2
                 if miny < 0:
@@ -557,17 +559,24 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
 
                     rx1 = np.random.randint(1, 20, 1)[0]
                     rx2 = np.random.randint(1, 20, 1)[0]
+
                     X = dealImg(img,
                                 int(miny) - ry1, int(maxy) + ry2, int(minx) + int(xlen2) - rx1, int(maxx) + rx2,
                                 sliceResize)
-
                     imgesSlice_disc.append(X)
                     ySlice_disc.append(v14)
                     v14count[v14] += 1
 
-                #     plt.subplot(4, 5, int(i+5*1))
-                #     plt.title(v14)
-                #     plt.imshow(img[int(miny)-ry1: int(maxy)+ry2, int(minx)+ int(xlen2)-rx1:int(maxx)+rx2])
+                #     soble = img[int(miny) - ry1: int(maxy) + ry2, int(minx) + int(xlen2) - rx1:int(maxx) + rx2]
+                #     soble = cv2.resize(soble, (sliceResize[0], sliceResize[1]))
+                #
+                #     soble = np.array(np.log(soble+1),dtype=np.int)
+                #     print(np.max(soble),np.min(soble))
+                #
+
+                # plt.subplot(4, 5, int(1 + 5 * 1))
+                # plt.title(v14)
+                # plt.imshow(X[:, :, 0])
                 # plt.show()
 
                 # nimg_x_r_zero = np.concatenate([zero_left,nimg_x_r],axis=1)
@@ -608,7 +617,7 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 #椎间盘要做一个三块的切片：保留 右半部，上半部，下半部
 
                 nimg_x = img[int(miny):int(maxy), int(minx):int(maxx)]
-                nimg_x = cv2.resize(nimg_x, (sliceResize[0], sliceResize[1]))
+                nimg_x = cv2.resize(nimg_x, (sliceResize[1], sliceResize[0]))
                 if v5 == "v5": #如果等于v5 做数据增强
 
                     print("v5 数据增强~~")
@@ -671,7 +680,7 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 labels = target[0].split('_')
                 v12 = labels[0]
                 v5 = labels[1]
-                w1, h1 = m / 5, n / 10  # 识别框的宽度和高度 更大
+                w1, h1 = m / 5, n / 20  # 识别框的宽度和高度 更大
                 miny = y - h1
                 maxy = y + h1
                 minx = x - w1 / 2
@@ -689,7 +698,12 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 # nimg_x_d = cv2.resize(nimg_x_d, (sliceResize[0], sliceResize[1]))
 
                 # 椎柱要做一个两块的切片：保留 上半部，下半部,由于识别率比较高，所以先暂时不做处理
-                nimg_x = cv2.resize(nimg_x, (sliceResize[0], sliceResize[1]))
+                nimg_x = cv2.resize(nimg_x, (sliceResize[1], sliceResize[0]))
+
+                # plt.subplot(4, 5, int(1 + 5 * 1))
+                # plt.title(v12)
+                # plt.imshow(nimg_x[:, :, 1])
+                # plt.show()
 
                 if v12 == "v1":
                     imgesSlice_vertebra.append(nimg_x[:, :, 1].reshape(sliceResize + [1]))
@@ -732,16 +746,16 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
         imgesSlice_discv5_train.append(imgesSlice_discv5)
         ySlice_discv5_train.append(ySlice_discv5)
 
-    plt.subplot(1,3,1)
-    plt.title("vertebra")
-    plt.bar(list(vertebracount.keys()),list(vertebracount.values()))
-    plt.subplot(1,3,2)
-    plt.title("v14count")
-    plt.bar(list(v14count.keys()),list(v14count.values()))
-    plt.subplot(1,3,3)
-    plt.title("v1v5")
-    plt.bar(list(v15count.keys()),list(v15count.values()))
-    plt.show()
+    # plt.subplot(1,3,1)
+    # plt.title("vertebra")
+    # plt.bar(list(vertebracount.keys()),list(vertebracount.values()))
+    # plt.subplot(1,3,2)
+    # plt.title("v14count")
+    # plt.bar(list(v14count.keys()),list(v14count.values()))
+    # plt.subplot(1,3,3)
+    # plt.title("v1v5")
+    # plt.bar(list(v15count.keys()),list(v15count.values()))
+    # plt.show()
 
     np.save(r"data2class2/imgesSlice_vertebra_{}.npy".format(flag),np.array(imgesSlice_vertebra_train)) # v12
     np.save(r"data2class2/ySlice_vertebra_{}.npy".format(flag), np.array(ySlice_vertebra_train))

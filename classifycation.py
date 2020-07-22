@@ -11,6 +11,7 @@ from yolo3 import densenet,Resnet
 from keras.callbacks import ModelCheckpoint,ReduceLROnPlateau,EarlyStopping
 from keras import backend as K
 import tensorflow as tf
+from readyData import dealImg
 
 class CNN(object):
     def __init__(self,sliceResize,fileName=None):
@@ -265,10 +266,10 @@ class CNN(object):
     def clear(self):
         K.clear_session()
 
-def _main():
-    cnn = CNN(fileName=r"data2class2",sliceResize=[48, 32])
-    # cnn.train_discv5()
-    # cnn.train_vertebra()
+def _main(sliceResize):
+    cnn = CNN(fileName=r"data2class2",sliceResize=sliceResize)
+    cnn.train_discv5()
+    cnn.train_vertebra()
     cnn.train_disc() #v1-v4
 
 
@@ -323,6 +324,59 @@ def ReadySlice2class(dataTxt=r"resultStep2.txt",resultTxt=r"resultStep3.txt",sli
                 w1, h1 = m / 5, n / 20  # 椎间盘要求更长而不是更高  n控制高度
                 offset = 5
 
+                miny = y - deta
+                maxy = y + deta
+                minx = x + offset - w1 / 2
+                maxx = x + offset + w1 / 2
+                if miny < 0:
+                    miny = 0
+                if maxy > m:
+                    maxy = m
+                if minx < 0 :
+                    minx = 0
+                if maxx > n:
+                    maxx = n
+                if miny > m-10 or minx > n-10:
+                    break
+                f1.write(" " + str(x) + "," + str(y) + "," + target[0])
+
+
+                xlen2 = int((maxx-minx)/2)
+
+                nimg_x = img[int(miny):int(maxy), int(minx):int(maxx)]
+                # nimg_x_r = nimg_x[:, int(xlen2):]
+                # nimg_x_r = cv2.resize(nimg_x_r, (sliceResize[1], sliceResize[0]))
+                # X = nimg_x_r[:, :, 1].reshape([1] + sliceResize + [1])
+
+                X = dealImg(img,
+                            int(miny), int(maxy), int(minx) + int(xlen2), int(maxx),
+                            sliceResize)
+
+                # plt.subplot(4, 5, int(1 + 5 * 1))
+                # plt.imshow(X[:,:,0])
+                # plt.show()
+
+                X = X.reshape([1] + sliceResize + [1])
+
+                p = model_disc.predict(X)
+                #v1-v4
+                # pm = np.max(p)
+                pre = np.argmax(p, axis=1)
+
+                # v1,v5
+                nimg_x = cv2.resize(nimg_x, (sliceResize[1], sliceResize[0]))
+
+                # 预测
+                X = nimg_x[:, :, 1].reshape([1] + sliceResize + [1])
+                p = model_discv5.predict(X)
+                pre1 = np.argmax(p, axis=1)[0]
+                f1.write(","+cnn_disc.disc_label[int(pre)]+","+str(pre1))
+                # print("dics 类别(正常,膨出,突出,脱出,椎体内疝出{}):{}".format(cnn_disc.disc_label,cnn_disc.disc_label[int(pre)]))
+                prex = x
+                prey = y
+            else:
+                w1, h1 = m / 5, n / 20  # 识别框的宽度和高度 更大
+                offset = 5
                 miny = y - h1
                 maxy = y + h1
                 minx = x + offset - w1 / 2
@@ -338,58 +392,19 @@ def ReadySlice2class(dataTxt=r"resultStep2.txt",resultTxt=r"resultStep3.txt",sli
                 if miny > m-10 or minx > n-10:
                     break
                 f1.write(" " + str(x) + "," + str(y) + "," + target[0])
-                nimg_x = img[int(miny):int(maxy), int(minx):int(maxx)]
 
-                xlen2 = int((maxx-minx)/2)
-                ylen2 = int((maxy - miny) / 2)
+                X = dealImg(img,
+                            int(miny), int(maxy), int(minx), int(maxx),
+                            sliceResize)
 
-                nimg_x_r = nimg_x[:, int(xlen2):]
-                print(imgPath, "---", xlen2, "--img",img.shape, "--nimg_x",nimg_x.shape,"--nimg_x_r",nimg_x_r.shape,"--",deta,"--x",(int(minx),int(maxx)),"--",(int(miny),int(maxy)))
-                nimg_x_r = cv2.resize(nimg_x_r, (sliceResize[0], sliceResize[1]))
-
-                # plt.figure(1)
-                # plt.imshow(nimg_x_r)
+                # plt.subplot(4, 5, int(1 + 5 * 1))
+                # plt.imshow(X[:,:,0])
                 # plt.show()
 
-                X = nimg_x_r[:, :, 1].reshape([1] + sliceResize + [1])
-                p = model_disc.predict(X)
-                #v1-v4
-                # pm = np.max(p)
-                pre = np.argmax(p, axis=1)
-
-                # v1,v5
-                nimg_x = cv2.resize(nimg_x, (sliceResize[0], sliceResize[1]), interpolation=cv2.INTER_CUBIC)
-
-                # 预测
-                X = nimg_x[:, :, 1].reshape([1] + sliceResize + [1])
-                p = model_discv5.predict(X)
-                pre1 = np.argmax(p, axis=1)[0]
-                f1.write(","+cnn_disc.disc_label[int(pre)]+","+str(pre1))
-                # print("dics 类别(正常,膨出,突出,脱出,椎体内疝出{}):{}".format(cnn_disc.disc_label,cnn_disc.disc_label[int(pre)]))
-                prex = x
-                prey = y
-            else:
-                w1, h1 = m / 5, n / 10  # 识别框的宽度和高度 更大
-                miny = y - h1
-                maxy = y + h1
-                minx = x - w1 / 2
-                maxx = x + w1 / 2
-                if miny < 0:
-                    miny = 0
-                if maxy > m:
-                    maxy = m
-                if minx < 0 :
-                    minx = 0
-                if maxx > n:
-                    maxx = n
-                if miny > m-10 or minx > n-10:
-                    break
-                f1.write(" " + str(x) + "," + str(y) + "," + target[0])
-                nimg_x = img[int(miny):int(maxy), int(minx):int(maxx)]
-                nimg_x = cv2.resize(nimg_x, (sliceResize[0], sliceResize[1]))[:, :, 1]
-
-                X = nimg_x.reshape([1] + sliceResize + [1])
+                X = X.reshape([1] + sliceResize + [1])
                 p = model_vertebra.predict(X)
+
+
 
                 # p = cnn_vertebra.test_vertebra(nimg_x)
                 pm = np.max(p)
