@@ -352,15 +352,10 @@ def ReadySlice2class(dataTxt=r"resultStep2.txt",resultTxt=r"resultStep3.txt",sli
                             int(miny), int(maxy), int(minx) + int(xlen2), int(maxx),
                             sliceResize)
 
-                # plt.subplot(4, 5, int(1 + 5 * 1))
-                # plt.imshow(X[:,:,0])
-                # plt.show()
-
                 X = X.reshape([1] + sliceResize + [1])
 
                 p = model_disc.predict(X)
                 #v1-v4
-                # pm = np.max(p)
                 pre = np.argmax(p, axis=1)
 
                 # v1,v5
@@ -376,7 +371,7 @@ def ReadySlice2class(dataTxt=r"resultStep2.txt",resultTxt=r"resultStep3.txt",sli
                 prey = y
             else:
                 w1, h1 = m / 5, n / 20  # 识别框的宽度和高度 更大
-                offset = 5
+                offset = 0
                 miny = y - h1
                 maxy = y + h1
                 minx = x + offset - w1 / 2
@@ -397,14 +392,8 @@ def ReadySlice2class(dataTxt=r"resultStep2.txt",resultTxt=r"resultStep3.txt",sli
                             int(miny), int(maxy), int(minx), int(maxx),
                             sliceResize)
 
-                # plt.subplot(4, 5, int(1 + 5 * 1))
-                # plt.imshow(X[:,:,0])
-                # plt.show()
-
                 X = X.reshape([1] + sliceResize + [1])
                 p = model_vertebra.predict(X)
-
-
 
                 # p = cnn_vertebra.test_vertebra(nimg_x)
                 pm = np.max(p)

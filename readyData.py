@@ -440,7 +440,10 @@ def dealImg(image,y1,y2,x1,x2,sliceResize):
         x1 = 0
     img = image[y1:y2,x1:x2]
     nimg_x = cv2.resize(img, (sliceResize[1], sliceResize[0]))
-    # nimg_x = np.array(np.log(nimg_x + 1))  # log处理
+
+    nimg_x =255 * (nimg_x - np.min(nimg_x)) / (np.max(nimg_x) - np.min(nimg_x))
+
+    nimg_x = np.array(np.log(nimg_x + 1))  # log处理
     nimg_x = nimg_x[:, :, 1].reshape(sliceResize + [1])
     return nimg_x #[:,:,0][:,:,np.newaxis]
 
@@ -619,47 +622,6 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 nimg_x = img[int(miny):int(maxy), int(minx):int(maxx)]
                 nimg_x = cv2.resize(nimg_x, (sliceResize[1], sliceResize[0]))
                 if v5 == "v5": #如果等于v5 做数据增强
-
-                    print("v5 数据增强~~")
-                    # plt.figure(1)
-                    j = 1
-                    # for ii in range(10,20,20):
-                    #     contrast = 1  # 对比度
-                    #     brightness = ii  # 亮度
-                    #     nimg_x_brightness = cv2.addWeighted(nimg_x, contrast, nimg_x, 0, brightness)
-                    #     X = nimg_x_brightness[:, :, 1].reshape(sliceResize + [1])
-                    #     imgesSlice_discv5.append(X)
-                    #     ySlice_discv5.append(v5)  # 0:非椎体疝出 1：椎体疝出
-                    #     v15count['v5'] += 1
-                    #
-                    #     # 变亮 水平垂直
-                    #     nimg_x_flip = cv2.flip(nimg_x_brightness, -1)
-                    #     X = nimg_x_flip[:, :, 1].reshape(sliceResize + [1])
-                    #     imgesSlice_discv5.append(X)
-                    #     ySlice_discv5.append(v5)  # 0:非椎体疝出 1：椎体疝出
-                    #     v15count['v5'] += 1
-                    #
-                    #     nimg_x_flip = cv2.flip(nimg_x_brightness, 0)
-                    #     X = nimg_x_flip[:, :, 1].reshape(sliceResize + [1])
-                    #     imgesSlice_discv5.append(X)
-                    #     ySlice_discv5.append(v5)  # 0:非椎体疝出 1：椎体疝出
-                    #     v15count['v5'] += 1
-                    #     plt.subplot(3,2,j)
-                    #     plt.title(v5)
-                    #     plt.imshow(nimg_x_flip)
-                    #     j += 1
-                    # plt.show()
-                    height, width, c = nimg_x.shape
-
-                    # for ii in range(-15,15,4):
-                    #     angle = ii
-                    #     M = cv2.getRotationMatrix2D((width / 2, height / 2), angle, 1.0)
-                    #     nimg_x_rotation = cv2.warpAffine(nimg_x, M, (height, width))
-                    #     X = nimg_x_rotation[:, :, 1].reshape(sliceResize + [1])
-                    #     imgesSlice_discv5.append(X)
-                    #     ySlice_discv5.append(v5)  # 0:非椎体疝出 1：椎体疝出
-                    #     v15count['v5'] += 1
-
                     nimg_x_flip = cv2.flip(nimg_x, 1)
                     X = nimg_x_flip[:, :, 1].reshape(sliceResize + [1])
                     imgesSlice_discv5.append(X)
@@ -690,7 +652,7 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                     miny = 0
                 if minx < 0:
                     minx = 0
-                nimg_x = img[int(miny):int(maxy), int(minx):int(maxx)]
+
 
                 # nimg_x_u = nimg_x[:ylen2, :]
                 # nimg_x_u = cv2.resize(nimg_x_u, (sliceResize[0], sliceResize[1]))
@@ -698,7 +660,7 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 # nimg_x_d = cv2.resize(nimg_x_d, (sliceResize[0], sliceResize[1]))
 
                 # 椎柱要做一个两块的切片：保留 上半部，下半部,由于识别率比较高，所以先暂时不做处理
-                nimg_x = cv2.resize(nimg_x, (sliceResize[1], sliceResize[0]))
+
 
                 # plt.subplot(4, 5, int(1 + 5 * 1))
                 # plt.title(v12)
@@ -706,19 +668,26 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 # plt.show()
 
                 if v12 == "v1":
-                    imgesSlice_vertebra.append(nimg_x[:, :, 1].reshape(sliceResize + [1]))
+                    X = dealImg(img,
+                                int(miny), int(maxy), int(minx), int(maxx),
+                                sliceResize)
+                    imgesSlice_vertebra.append(X)
                     ySlice_vertebra.append(v12)  # 0:非椎体疝出 1：椎体疝出
                     vertebracount[v12] += 1
 
-                    nimg_x_flip = cv2.flip(nimg_x, 1)
-                    X = nimg_x_flip[:, :, 1].reshape(sliceResize + [1])
+                    X = dealImg(img,
+                                int(miny), int(maxy), int(minx), int(maxx),
+                                sliceResize)
+                    nimg_x_flip = cv2.flip(X[:,:,0], 1)
+                    X = nimg_x_flip.reshape(sliceResize + [1])
                     imgesSlice_vertebra.append(X)
                     ySlice_vertebra.append(v12)  # 0:非椎体疝出 1：椎体疝出
                     vertebracount[v12] += 1
 
                 if v12 == "v2":
-                    ri = np.random.randint(1,4)
-                    X = nimg_x[:, :, 1].reshape(sliceResize + [1])
+                    X = dealImg(img,
+                                int(miny), int(maxy), int(minx), int(maxx),
+                                sliceResize)
                     imgesSlice_vertebra.append(X)
                     ySlice_vertebra.append(v12)
                     vertebracount[v12] += 1

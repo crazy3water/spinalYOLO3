@@ -536,7 +536,7 @@ def metricDetect(yolo,truejson,testFile,sliceResize):
                                             discFP += 1
                                     else:
                                         w1, h1 = m / 5, n / 20  # 识别框的宽度和高度 更大
-                                        offset = 5
+                                        offset = 0
                                         miny = y  - h1#- deta - offset
                                         maxy = y  + h1#+ deta + offset
                                         minx = x + offset - w1 / 2
