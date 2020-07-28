@@ -135,38 +135,50 @@ def dicom2array1(dcm_path,cnnModel=None):
     if image.GetNumberOfComponentsPerPixel() == 1:
         image = sitk.RescaleIntensity(image, 0, 255)
         inde = int(image_file_reader.GetMetaData('0020|0013'))
-        try:
-            description = image_file_reader.GetMetaData('0008|103e')
-        except:
-            description = "T1"
-        if inde >=2 and inde <=7: #只取 zindex :2-6
-            if re.match(r"(.*)[tT]2(.*)[sS][aA][gG]",description,flags=0) or re.match(r"(.*)[sS][aA][gG](.*)[tT]2(.*)",description,0):
-
-                if image_file_reader.GetMetaData('0028|0004').strip() == 'MONOCHROME1':
-                    image = sitk.InvertIntensity(image, maximum=255)
-                image = sitk.Cast(image, sitk.sitkUInt8)
-            elif  re.match(r"(.*)[tT]2(.*)",description,0):
-                if inde >=4 and inde <=8:
-                    if image_file_reader.GetMetaData('0028|0004').strip() == 'MONOCHROME1':
-                        image = sitk.InvertIntensity(image, maximum=255)
-                    image = sitk.Cast(image, sitk.sitkUInt8)
-            else:
-                if re.match(r"(.*)[sS][cC][oO][uU][tT](.*)", description, 0):
-                    flag = False
-                elif image_file_reader.GetMetaData('0028|0004').strip() == 'MONOCHROME1':
-                    image = sitk.InvertIntensity(image, maximum=255)
-                image = sitk.Cast(image, sitk.sitkUInt8)
-                img_x = sitk.GetArrayFromImage(image)[0]
-                img = cv2.resize(img_x,(256,256))
-                pre = cnnModel.test_(img)[0]
-                if np.argmax(pre) != 0:
-                    flag = False
-        else:
-            flag = False
-    if flag:
+        if image_file_reader.GetMetaData('0028|0004').strip() == 'MONOCHROME1':
+            image = sitk.InvertIntensity(image, maximum=255)
+        image = sitk.Cast(image, sitk.sitkUInt8)
         img_x = sitk.GetArrayFromImage(image)[0]
-    else:
-        img_x = "None"
+    #     img = cv2.resize(img_x,(256,256))
+    #     pre = cnnModel.test_(img)[0]
+    #     if np.argmax(pre) != 0:
+    #         flag = False
+    # if flag:
+    #     return img
+    # else:
+    #     return "None"
+    #     try:
+    #         description = image_file_reader.GetMetaData('0008|103e')
+    #     except:
+    #         description = "T1"
+    #     if inde >=2 and inde <=9: #只取 zindex :2-6
+    #         if re.match(r"(.*)[tT]2(.*)[sS][aA][gG]",description,flags=0) or re.match(r"(.*)[sS][aA][gG](.*)[tT]2(.*)",description,0):
+    #
+    #             if image_file_reader.GetMetaData('0028|0004').strip() == 'MONOCHROME1':
+    #                 image = sitk.InvertIntensity(image, maximum=255)
+    #             image = sitk.Cast(image, sitk.sitkUInt8)
+    #         elif  re.match(r"(.*)[tT]2(.*)",description,0):
+    #             if inde >=4 and inde <=8:
+    #                 if image_file_reader.GetMetaData('0028|0004').strip() == 'MONOCHROME1':
+    #                     image = sitk.InvertIntensity(image, maximum=255)
+    #                 image = sitk.Cast(image, sitk.sitkUInt8)
+    #         else:
+    #             if re.match(r"(.*)[sS][cC][oO][uU][tT](.*)", description, 0):
+    #                 flag = False
+    #             elif image_file_reader.GetMetaData('0028|0004').strip() == 'MONOCHROME1':
+    #                 image = sitk.InvertIntensity(image, maximum=255)
+    #             image = sitk.Cast(image, sitk.sitkUInt8)
+    #             img_x = sitk.GetArrayFromImage(image)[0]
+    #             img = cv2.resize(img_x,(256,256))
+    #             pre = cnnModel.test_(img)[0]
+    #             if np.argmax(pre) == 2:
+    #                 flag = False
+    #     else:
+    #         flag = False
+    # if flag:
+    #     img_x = sitk.GetArrayFromImage(image)[0]
+    # else:
+    #     img_x = "None"
     return img_x
 
 def totarget(datas,img_x,ratex,ratey):
@@ -248,6 +260,11 @@ def saveclassName():
         f.write(name+"\n")
     f.close()
 
+def parse_position(data):
+    o2 = []
+    for i in data.split("\\"):
+        o2.append(float(i))
+    return np.array(o2)
 
 def step1Test(dataPath,Totxt = r"test.txt"):
     '''
@@ -256,6 +273,50 @@ def step1Test(dataPath,Totxt = r"test.txt"):
     :param dataPath:
     :return:
     '''
+    #使用坐标来判断
+    imgPath = r"VOCdevkit\Test\JPEGImages"
+    study = os.listdir(dataPath)
+    jpgs = []
+    study2image = {}
+    for studyI in study:
+        Impath = os.listdir(os.path.join(dataPath, studyI))
+        print("study:", studyI)
+        studyPos = []
+        imgPathes = []
+        describes2pos = {}
+        describes2imgPathes = {}
+        for Impathi in Impath:
+            pos = dicom_metainfo(os.path.join(os.path.join(dataPath, studyI), Impathi), ['0020|0032'])[0]
+            describ = dicom_metainfo(os.path.join(os.path.join(dataPath, studyI), Impathi), ['0008|103e'])[0]
+            seriesNumber = dicom_metainfo(os.path.join(os.path.join(dataPath, studyI), Impathi), ['0020|0011'])[0]
+            describ += seriesNumber
+
+            if re.match(r"(.*)[sS][cC][oO][uU][tT](.*)", describ, 0): #不加入
+                continue
+            elif re.match(r"(.*)[tT][rR][aA](.*)",describ,flags=0):
+                continue
+            elif re.match(r"(.*)[tT]1(.*)",describ,flags=0):
+                continue
+            else:
+                if describ not in describes2pos.keys():
+                    describes2pos[describ] = []
+                else:
+                    describes2pos[describ].append(parse_position(pos)[0])
+                if describ not in describes2imgPathes.keys():
+                    describes2imgPathes[describ] = []
+                else:
+                    describes2imgPathes[describ].append(Impathi)
+        study2image[studyI] = []
+        for key,value in describes2pos.items():
+            if np.std(np.array(value)) < 1 :
+                continue
+            else:
+                index = np.array(value).argsort()[int(len(value) / 2) - 2:int(len(value) / 2) + 2] #取每个描述的中间帧
+                for i in index:
+                    study2image[studyI].append(describes2imgPathes[key][i])
+
+    ###############
+
     image = {}
     count = 0
     imgPath = r"VOCdevkit\Test\JPEGImages"
@@ -265,7 +326,7 @@ def step1Test(dataPath,Totxt = r"test.txt"):
     cnn.loadModel() #logs/003/xx.h5
 
     for studyI in study:
-        Impath = os.listdir(os.path.join(dataPath, studyI))
+        Impath = study2image[studyI]#os.listdir(os.path.join(dataPath, studyI))
         print("study:", studyI)
         for Impathi in Impath:
             studyUid, seriesUid, instanceUid = dicom_metainfo(os.path.join(os.path.join(dataPath, studyI), Impathi),
@@ -290,9 +351,6 @@ def step1Test(dataPath,Totxt = r"test.txt"):
         f.write(jpgs[i])
         f.write("\n")
     f.close()
-
-    del cnn
-    pass
 
 def img2jpgTest():
     #读取保存图片的名字，然后返回所有图片的名字

@@ -156,7 +156,7 @@ if __name__ == "__main__":
     if trainFlag:
         # ------------------训练---------------------
             #------------------定位数据准备---------------------
-        # readyData.ready(dataPath,jsonPath)
+        readyData.ready(dataPath,jsonPath)
         # train._main()
         #     ------------------分类数据准备---------------------
         trainClf = r"trainClf1.txt"
@@ -168,26 +168,18 @@ if __name__ == "__main__":
         #------------------测试---------------------
             #------------------测试数据准备---------------------
         # print("准备：jpg test.txt 在测试准备数据时还存在一个cnn网络分类t1 t2")
-        # readyData.step1Test(dataPath=dataTestPath,Totxt=r"test.txt")
+        readyData.step1Test(dataPath=dataTestPath,Totxt=r"test.txt")
 
-        # print("检测")
-        # yolo.detect_imgs(yolo.YOLO(),testpath=r"test.txt")   #得到结果---->resultStep1.txt
+        print("检测")
+        yolo.detect_imgs(yolo.YOLO(),testpath=r"test.txt")   #得到结果---->resultStep1.txt
 
-        # print("优化 resultStep1.txt")
-        # optimise.clearTxt(r"resultStep1.txt",optxt =r'resultStep_clear.txt',dataTestPath=dataTestPath)
-        # optimise.train_regression2test(train=False, getResultPath=r"resultStep_clear.txt",
-        #                                  toFile="resultStep_regression.txt")
-        #
-        #
-        # optimise.optimiseTxt1(r"resultStep_regression.txt", optxt=r'resultStep_optimise1.txt', dataTestPath=dataTestPath)
-        #
-        # optimise.train_regression2test(train=False, getResultPath=r"resultStep_optimise1.txt",
-        #                                  toFile="resultStep_regression.txt")
-        #
-        # optimise.optimiseTxt2(r"resultStep_regression.txt", optxt=r'resultStep_optimise2.txt',
-        #                       dataTestPath=dataTestPath)
+        print("优化 resultStep1.txt")
+        optimise.clearTxt(r"resultStep1.txt",optxt =r'resultStep_clear.txt',dataTestPath=dataTestPath)
+        optimise.train_regression2test(train=False, getResultPath=r"resultStep_clear.txt",
+                                         toFile="resultStep_regression.txt")
 
-        # optimise.optimiseTxt(r"resultStep_regression.txt",optxt =r'resultStep_optimise.txt',dataTestPath=dataTestPath)
+        optimise.optimiseTxt2(r"resultStep_regression.txt", optxt=r'resultStep_optimise2.txt',
+                              dataTestPath=dataTestPath)
 
         print("准备切片分类")
         classifycation.ReadySlice2class(dataTxt=r"resultStep_optimise2.txt",resultTxt=r"resultStep3_.txt",sliceResize=[48, 48])                   #得到结果---->resultStep3.txt

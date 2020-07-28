@@ -62,13 +62,48 @@ def anchorFlag(sl):
 
     return np.std(np.array(de))
 
+def parse_position(data):
+    o2 = []
+    for i in data.split("\\"):
+        o2.append(float(i))
+    return np.array(o2)
+
+def chooseBestAchorForPos(k,ki,locNum,dataTestPath,SAGFlag = True):
+    poses = []
+    kjs = []
+    kjlens = []
+    for kj in k:
+        study, imgN = kj[0].split('/')[-1].split('.')[0].split('_')
+        dcmPath = dataTestPath + '/' + study + '/' + imgN + '.dcm'
+        try:
+            a = readyData.dicom_metainfo(dcmPath, ['0008|103e'])[0]
+        except:
+            a = "t2"
+        if re.match(r"(.*)[sS][cC][oO][uU][tT](.*)", a, 0):
+            continue
+        else:
+            pos = readyData.dicom_metainfo(dcmPath, ['0020|0032'])[0]
+            pos = parse_position(pos)[0]
+            poses.append(pos)
+            kjs.append(kj)
+            kjlens.append(len(kj))
+    km = np.array(kjs)[np.array(poses).argsort()[int(len(poses)/2)-1:int(len(poses)/2)+1]]
+    kjlens = np.array(kjlens)[np.array(poses).argsort()[int(len(poses)/2)-1:int(len(poses)/2)+1]]
+    km = [km[np.array(kjlens).argsort()[-1]]]
+    ki = [0]
+    return km,ki
+
 def chooseBestAchor(k,ki,locNum,dataTestPath,SAGFlag = True):
     km = []
+
     for kj in k:
         if len(kj) >= locNum or len(kj) >= 9:
             study, imgN = kj[0].split('/')[-1].split('.')[0].split('_')
             dcmPath = dataTestPath + '/' + study + '/' + imgN + '.dcm'
             inde = readyData.dicom_metainfo(dcmPath, ['0020|0013'])[0]
+
+            pos = readyData.dicom_metainfo(dcmPath, ['0020|0032'])[0]
+            pos = parse_position(pos)[0]
             try:
                 a = readyData.dicom_metainfo(dcmPath, ['0008|103e'])[0]
             except:
@@ -188,11 +223,12 @@ def optimiseTxt2(resultStep1,optxt =r'resultStep1_op.txt',dataTestPath=None):
         if studyName != newName:
             if len(k) > 0:
                 if len(ki) == 0:
-                    km, ki = chooseBestAchor(k, ki, locNum - 1, dataTestPath, SAGFlag=True)
-
+                    # km, ki = chooseBestAchor(k, ki, locNum - 1, dataTestPath, SAGFlag=True)
+                    km, ki = chooseBestAchorForPos(k, ki, locNum - 1, dataTestPath, SAGFlag=True)
                 if len(ki) == 0:
                     print("--第二长定位没有t2tag,采用最长定位中位数")
-                    km, ki = chooseBestAchor(k, ki, 5, dataTestPath, SAGFlag=False)
+                    # km, ki = chooseBestAchor(k, ki, 5, dataTestPath, SAGFlag=False)
+                    km, ki = chooseBestAchorForPos(k, ki, 5, dataTestPath, SAGFlag=False)
 
                 isort = np.array(ki).reshape([-1]).argsort()
                 k = np.array(km)[isort]
