@@ -268,9 +268,10 @@ class CNN(object):
 
 def _main(sliceResize):
     cnn = CNN(fileName=r"data2class2",sliceResize=sliceResize)
+    cnn.train_disc()  # v1-v4
     cnn.train_discv5()
     cnn.train_vertebra()
-    cnn.train_disc() #v1-v4
+
 
 
 def ReadySlice2class(dataTxt=r"resultStep2.txt",resultTxt=r"resultStep3.txt",sliceResize =  None):

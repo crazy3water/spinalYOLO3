@@ -601,7 +601,7 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 r = np.random.randint(0,10,1)[0]
 
                 if v14 == "v1":
-                    if r > 7:
+                    if r > 0:
                         ry1 = np.random.randint(1,10,1)[0]
                         ry2 = np.random.randint(1,10,1)[0]
 
@@ -643,15 +643,18 @@ def getTrinClf(dataTxt,flag=None,sliceResize=None): #train val
                 # nimg_x_r_zero = np.concatenate([zero_left,nimg_x_r],axis=1)
 
                 # print("对右侧做数据增强")
-                # if v14 in ["v2","v3","v4"]:
-                #     for ii in range(10,40,20):
-                #         contrast = 1  # 对比度
-                #         brightness = ii  # 亮度
-                #         nimg_x_brightness = cv2.addWeighted(nimg_x_r, contrast, nimg_x_r, 0, brightness)
-                #         X = nimg_x_brightness[:, :, 1].reshape(sliceResize + [1])
-                #         imgesSlice_disc.append(X)
-                #         ySlice_disc.append(v14)
-                #         v14count[v14] += 1
+                if v14 in ["v2","v3","v4"]:
+                    for ii in range(10,40,20):
+                        contrast = 1  # 对比度
+                        brightness = ii  # 亮度
+                        X = dealImg(img,
+                                    int(miny), int(maxy) , int(minx) + int(xlen2) , int(maxx) ,
+                                    sliceResize)
+                        nimg_x_brightness = cv2.addWeighted(X[:,:,0], contrast, X[:,:,0], 0, brightness)
+                        X = nimg_x_brightness.reshape(sliceResize + [1])
+                        imgesSlice_disc.append(X)
+                        ySlice_disc.append(v14)
+                        v14count[v14] += 1
 
 
                 # scanFeature(img[int(x-6):int(x+6), int(y-6):int(y+6)])

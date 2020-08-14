@@ -139,7 +139,7 @@ if __name__ == "__main__":
     '''
 
 
-    trainFlag = False
+    trainFlag = True
     trainAndTest = False
 
     dataPath = r"H:\dataBase\tianchi_spinal\lumbar_train150"
@@ -182,5 +182,7 @@ if __name__ == "__main__":
                               dataTestPath=dataTestPath)
 
         print("准备切片分类")
-        classifycation.ReadySlice2class(dataTxt=r"resultStep_optimise2.txt",resultTxt=r"resultStep3_.txt",sliceResize=[48, 48])                   #得到结果---->resultStep3.txt
+        classifycation.ReadySlice2class(dataTxt=r"resultStep_optimise2.txt",resultTxt=r"resultStep3_.txt",sliceResize=[48, 48])
+        #得到结果---->resultStep3.txt
+
         to_Json(r"resultStep3_.txt",dataTestPath,Tojson=r"reslut_.json")
